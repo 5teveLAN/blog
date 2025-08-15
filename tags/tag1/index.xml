@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag1 on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/tag1/</link>
+    <description>Recent content in Tag1 on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Aug 2025 03:17:57 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pixel 6 變磚</title>
+      <link>http://localhost:1313/posts/pixel-6-%E8%AE%8A%E7%A3%9A/</link>
+      <pubDate>Thu, 14 Aug 2025 03:17:57 +0800</pubDate>
+      <guid>http://localhost:1313/posts/pixel-6-%E8%AE%8A%E7%A3%9A/</guid>
+      <description>&lt;p&gt;一個 Pixel 6 變磚的故事。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

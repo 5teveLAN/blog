@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="zh-tw"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>了解Android分區 | Ahsiao blog</title>
+
+    
+
+<link rel="canonical" href="http://localhost:1313/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/" />
+
+
+
+<meta name="author" content="ggd" />
+<meta name="description" content="Android Partitions Info
+Android 的分區實際上超級多個，但刷機只會動到那幾個而已
+就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：
+" />
+
+
+<meta name="keywords" content="">
+
+
+
+<meta name="generator" content="Hugo 0.148.2">
+
+
+<meta property="og:url" content="http://localhost:1313/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/">
+  <meta property="og:site_name" content="Ahsiao blog">
+  <meta property="og:title" content="了解Android分區">
+  <meta property="og:description" content="Android Partitions Info
+Android 的分區實際上超級多個，但刷機只會動到那幾個而已
+就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-08-14T15:43:38+00:00">
+    <meta property="article:modified_time" content="2025-08-14T21:04:31+00:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="了解Android分區">
+  <meta name="twitter:description" content="Android Partitions Info
+Android 的分區實際上超級多個，但刷機只會動到那幾個而已
+就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：">
+
+
+
+
+<link rel="stylesheet" href="/blog/css/output.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/blog/img/avatar.JPG" alt="Ahsiao&#39;s Blog" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/blog/" class="text-lg font-semibold cursor-pointer">
+          Ahsiao&#39;s Blog
+        </a>
+        
+        
+      </div>
+      
+    </section>
+
+    
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/blog/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/blog/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+
+
+
+
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/blog/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/blog/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="了解Android分區">
+  <meta itemprop="description" content="Android Partitions Info
+Android 的分區實際上超級多個，但刷機只會動到那幾個而已
+就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：">
+  <meta itemprop="datePublished" content="2025-08-14T15:43:38+00:00">
+  <meta itemprop="dateModified" content="2025-08-14T21:04:31+00:00">
+  <meta itemprop="wordCount" content="79">
+
+      <header>
+        <h1 itemprop="headline">了解Android分區</h1>
+        <p class="text-sm">
+          
+            Thursday, Aug 14, 2025
+          
+
+          | <span>1 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Thursday, Aug 14, 2025
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">ggd</span>
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=%e4%ba%86%e8%a7%a3Android%e5%88%86%e5%8d%80&amp;url=http://localhost:1313/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://wa.me/?text=%e4%ba%86%e8%a7%a3Android%e5%88%86%e5%8d%80%20http://localhost:1313/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/" target="_blank" rel="noopener noreferrer"
+      title="Share on WhatsApp">
+      <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <h4 id="android-partitions">Android Partitions</h4>
+
+
+
+  <blockquote class="dream-alert info">
+    <p class="heading">
+      <ion-icon name=""></ion-icon>Info</p>
+    <p>Android 的分區實際上超級多個，但刷機只會動到那幾個而已</p>
+  </blockquote>
+
+<p>就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：</p>
+<p><img src="/ob/Excalidraw/partitions.excalidraw.md" alt="partitions.excalidraw"><br>
+<strong>金字塔架構</strong></p>
+<ul>
+<li>
+<p><strong>Cache</strong>, Dalvik/ART Cache</p>
+</li>
+<li>
+<p><strong>Data</strong></p>
+</li>
+<li>
+<p><strong>Vendor/System</strong></p>
+</li>
+<li>
+<p><strong>Boot</strong><br>
+<strong>雙清(dual wipe):</strong><br>
+將Cache, Data刪掉，相當於重設出廠設置</p>
+</li>
+<li>
+<p><strong>Recovery</strong></p>
+<ul>
+<li><strong>官方recovery</strong> - 功能較少。近年手機比較沒有這個分區（合併至boot裡），安裝第三方recovery卡刷變得不方便</li>
+<li><strong>第三方recovery</strong> - 可以刷任何東西，刷root (Magisk)，還能備份分區救磚</li>
+<li><strong>Sideload</strong> - flash zip via computer (rom, OTA, microG, mods.)</li>
+</ul>
+</li>
+</ul>
+<h4 id="bootloader---biosuefi-in-android">Bootloader - bios/uefi in Android</h4>
+<p>寫死在某個地方的</p>
+<ul>
+<li><strong>fastboot(刷機模式)</strong> - flash img via computer. (boot, recvoery )</li>
+</ul>
+<h4 id="取得root權限">取得root權限</h4>
+<ul>
+<li><strong>卡刷</strong> - 透過twrp修改boot分區</li>
+<li><strong>線刷</strong>
+<ol>
+<li><strong>提取boot.img</strong> - 去rom包找，丟到手機裡</li>
+<li><strong>修補boot.img</strong> - 先在手機安裝magisk，操作app灌進去</li>
+<li><strong>放回去boot分區</strong> - 進入fastboot刷boot.img</li>
+</ol>
+</li>
+</ul>
+<p><strong>參考資料</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=wz-ErdDf8AM" target="_blank"># 玩机必看！带你入坑Android刷机, 極客灣</a>
+<br>
+其實我對刷機也不太熟，看這影片做的筆記</li>
+<li><a href="Pixel%206%20%E5%88%B7LineageOS%2022%20for%20microG">Pixel 6 刷LineageOS 22 for microG</a>
+</li>
+<li><a href="Pixel%20%E8%AE%8A%E7%A3%9A">Pixel 變磚</a>
+<br>
+刷舊版本ROM導致Bootloader不給你開機(防回滾)</li>
+</ul>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div
+    x-data="tocHighlighter()"
+    @scroll.window="debouncedScroll"
+    class="hidden lg:flex lg:flex-col lg:items-end lg:self-start"
+  >
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Ahsiao blog
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Me</div>
+
+        <div class="prose dark:prose-invert">
+          <p>歡迎來到阿蕭的部落格,這裡會有一些電腦教學。</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Ahsiao blog
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/blog/js/grid.js"></script>
+
+
+
+
+<script src="/blog/js/main.js"></script>
+
+    
+
+
+
+
+
+
+
+<script src="/blog/js/toc.js"></script>
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>

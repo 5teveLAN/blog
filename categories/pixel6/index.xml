@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pixel6 on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/pixel6/</link>
+    <description>Recent content in Pixel6 on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Aug 2025 03:17:57 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/pixel6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pixel 6 刷 LineageOS 22 for microG</title>
+      <link>http://localhost:1313/posts/pixel-6-%E5%88%B7lineageos-22-for-microg/</link>
+      <pubDate>Thu, 14 Aug 2025 03:17:57 +0800</pubDate>
+      <guid>http://localhost:1313/posts/pixel-6-%E5%88%B7lineageos-22-for-microg/</guid>
+      <description>&lt;h3 id=&#34;前言&#34;&gt;前言&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[!info]&#xA;Lineage叫拎age不叫賴age&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

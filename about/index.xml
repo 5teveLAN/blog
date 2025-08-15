@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Ahsiao blog</title>
+    <link>http://localhost:1313/blog/about/</link>
+    <description>Recent content in Abouts on Ahsiao blog</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 15 Aug 2025 05:29:47 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Me</title>
+      <link>http://localhost:1313/blog/about/me/</link>
+      <pubDate>Fri, 15 Aug 2025 05:29:47 +0800</pubDate>
+      <guid>http://localhost:1313/blog/about/me/</guid>
+      <description>歡迎來到阿蕭的部落格,這裡會有一些電腦教學。</description>
+    </item>
+  </channel>
+</rss>
