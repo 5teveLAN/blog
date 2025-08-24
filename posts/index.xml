@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Ahsiao blog</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 24 Aug 2025 00:56:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Aug 2025 01:22:37 +0000</lastBuildDate>
     <atom:link href="https://5tevelan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何自訂 Brave 開啟的新分頁</title>
       <link>https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/</link>
       <pubDate>Sat, 23 Aug 2025 03:20:54 +0000</pubDate>
       <guid>https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/</guid>
-      <description>&lt;p&gt;由於Brave的 Dashboard 不能用 Vimium&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，這當每次按&lt;code&gt;t&lt;/code&gt;開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。&lt;br&gt;&#xA;Brave把 homepage 設定藏很深&lt;br&gt;&#xA;去 &lt;code&gt;brave://settings&lt;/code&gt; 找（可以用搜尋的）：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;show &lt;strong&gt;home button&lt;/strong&gt; -&amp;gt; set homepage - 設定主頁面&lt;/li&gt;&#xA;&lt;li&gt;new &lt;strong&gt;tab&lt;/strong&gt; -&amp;gt; homepage - 將新分頁設定開啟主頁面&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/brave&#34; target=&#34;_blank&#34;&gt;https://www.reddit.com/r/brave&lt;/a&gt;&#xA;_browser/comments/igxo25/vimium_on_braves_start_page/&lt;/p&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;貌似是出於安全因素，有些Extenstions會進行攻擊&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
+      <description>&lt;p&gt;由於Brave的 Dashboard 不能用 Vimium&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，這當每次按&lt;code&gt;t&lt;/code&gt;開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。&lt;br&gt;&#xA;Brave把 homepage 設定藏很深&lt;br&gt;&#xA;去 &lt;code&gt;brave://settings&lt;/code&gt; 找（可以用搜尋的）：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;show &lt;strong&gt;home button&lt;/strong&gt; -&amp;gt; set homepage - 設定主頁面&lt;/li&gt;&#xA;&lt;li&gt;new &lt;strong&gt;tab&lt;/strong&gt; -&amp;gt; homepage - 將新分頁設定開啟主頁面&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;貌似是出於安全因素，有些Extenstions會進行攻擊https://www.reddit.com/r/brave_browser/comments/igxo25/vimium_on_braves_start_page/&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Pixel 6 刷 LineageOS 22 for microG</title>
