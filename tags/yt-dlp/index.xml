@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yt-Dlp on Ahsiao blog</title>
-    <link>http://localhost:1313/blog/tags/yt-dlp/</link>
+    <link>https://5tevelan.github.io/blog/tags/yt-dlp/</link>
     <description>Recent content in Yt-Dlp on Ahsiao blog</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 15 Aug 2025 00:18:42 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/yt-dlp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://5tevelan.github.io/blog/tags/yt-dlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>yt-dlp 音樂發行時間不對</title>
-      <link>http://localhost:1313/blog/posts/problems/yt-dlp-%E9%9F%B3%E6%A8%82%E7%99%BC%E8%A1%8C%E6%99%82%E9%96%93%E4%B8%8D%E5%B0%8D/</link>
-      <pubDate>Thu, 14 Aug 2025 23:44:06 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/problems/yt-dlp-%E9%9F%B3%E6%A8%82%E7%99%BC%E8%A1%8C%E6%99%82%E9%96%93%E4%B8%8D%E5%B0%8D/</guid>
+      <link>https://5tevelan.github.io/blog/posts/liunx/5.apps/yt-dlp-%E9%9F%B3%E6%A8%82%E7%99%BC%E8%A1%8C%E6%99%82%E9%96%93%E4%B8%8D%E5%B0%8D/</link>
+      <pubDate>Fri, 15 Aug 2025 00:18:42 +0000</pubDate>
+      <guid>https://5tevelan.github.io/blog/posts/liunx/5.apps/yt-dlp-%E9%9F%B3%E6%A8%82%E7%99%BC%E8%A1%8C%E6%99%82%E9%96%93%E4%B8%8D%E5%B0%8D/</guid>
       <description>&lt;p&gt;當我輸入這串指令時，發現音檔中的年份不是音樂發行年份。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,46 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ahsiao blog</title>
-    <link>http://localhost:1313/blog/posts/</link>
+    <link>https://5tevelan.github.io/blog/posts/</link>
     <description>Recent content in Posts on Ahsiao blog</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 15 Aug 2025 00:18:42 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 00:56:40 +0000</lastBuildDate>
+    <atom:link href="https://5tevelan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>yt-dlp 音樂發行時間不對</title>
-      <link>http://localhost:1313/blog/posts/problems/yt-dlp-%E9%9F%B3%E6%A8%82%E7%99%BC%E8%A1%8C%E6%99%82%E9%96%93%E4%B8%8D%E5%B0%8D/</link>
-      <pubDate>Thu, 14 Aug 2025 23:44:06 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/problems/yt-dlp-%E9%9F%B3%E6%A8%82%E7%99%BC%E8%A1%8C%E6%99%82%E9%96%93%E4%B8%8D%E5%B0%8D/</guid>
-      <description>&lt;p&gt;當我輸入這串指令時，發現音檔中的年份不是音樂發行年份。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>了解Android分區</title>
-      <link>http://localhost:1313/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/</link>
-      <pubDate>Thu, 14 Aug 2025 15:43:38 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/</guid>
-      <description>&lt;h4 id=&#34;android-partitions&#34;&gt;Android Partitions&lt;/h4&gt;&#xA;&#xA;&#xA;&#xA;  &lt;blockquote class=&#34;dream-alert info&#34;&gt;&#xA;    &lt;p class=&#34;heading&#34;&gt;&#xA;      &lt;ion-icon name=&#34;&#34;&gt;&lt;/ion-icon&gt;Info&lt;/p&gt;&#xA;    &lt;p&gt;Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt;/p&gt;&#xA;  &lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Pixel 6 變磚</title>
-      <link>http://localhost:1313/blog/posts/pixel/pixel-6-%E8%AE%8A%E7%A3%9A/</link>
-      <pubDate>Sat, 02 Aug 2025 08:21:50 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/pixel/pixel-6-%E8%AE%8A%E7%A3%9A/</guid>
-      <description>&lt;h4 id=&#34;刷成磚了&#34;&gt;刷成磚了&lt;/h4&gt;&#xA;&lt;p&gt;按什麼都黑屏，無法開機。接上USB只短暫顯示Pixel Recovery，但畫面上根本沒有進入Bootloader，Fastboot也抓不到裝置。&lt;/p&gt;</description>
+      <title>如何自訂 Brave 開啟的新分頁</title>
+      <link>https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/</link>
+      <pubDate>Sat, 23 Aug 2025 03:20:54 +0000</pubDate>
+      <guid>https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/</guid>
+      <description>&lt;p&gt;由於Brave的 Dashboard 不能用 Vimium&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，這當每次按&lt;code&gt;t&lt;/code&gt;開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。&lt;br&gt;&#xA;Brave把 homepage 設定藏很深&lt;br&gt;&#xA;去 &lt;code&gt;brave://settings&lt;/code&gt; 找（可以用搜尋的）：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;show &lt;strong&gt;home button&lt;/strong&gt; -&amp;gt; set homepage - 設定主頁面&lt;/li&gt;&#xA;&lt;li&gt;new &lt;strong&gt;tab&lt;/strong&gt; -&amp;gt; homepage - 將新分頁設定開啟主頁面&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/brave&#34; target=&#34;_blank&#34;&gt;https://www.reddit.com/r/brave&lt;/a&gt;&#xA;_browser/comments/igxo25/vimium_on_braves_start_page/&lt;/p&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;貌似是出於安全因素，有些Extenstions會進行攻擊&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Pixel 6 刷 LineageOS 22 for microG</title>
-      <link>http://localhost:1313/blog/posts/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/</link>
-      <pubDate>Thu, 31 Jul 2025 14:50:56 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/</guid>
+      <link>https://5tevelan.github.io/blog/posts/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/</link>
+      <pubDate>Mon, 18 Aug 2025 06:42:54 +0000</pubDate>
+      <guid>https://5tevelan.github.io/blog/posts/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/</guid>
       <description>&lt;h3 id=&#34;前言&#34;&gt;前言&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;  &lt;blockquote class=&#34;dream-alert info&#34;&gt;&#xA;    &lt;p class=&#34;heading&#34;&gt;&#xA;      &lt;ion-icon name=&#34;&#34;&gt;&lt;/ion-icon&gt;Info&lt;/p&gt;&#xA;    &lt;p&gt;Lineage叫拎age不叫賴age&lt;/p&gt;&#xA;  &lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>yt-dlp 音樂發行時間不對</title>
+      <link>https://5tevelan.github.io/blog/posts/liunx/5.apps/yt-dlp-%E9%9F%B3%E6%A8%82%E7%99%BC%E8%A1%8C%E6%99%82%E9%96%93%E4%B8%8D%E5%B0%8D/</link>
+      <pubDate>Fri, 15 Aug 2025 00:18:42 +0000</pubDate>
+      <guid>https://5tevelan.github.io/blog/posts/liunx/5.apps/yt-dlp-%E9%9F%B3%E6%A8%82%E7%99%BC%E8%A1%8C%E6%99%82%E9%96%93%E4%B8%8D%E5%B0%8D/</guid>
+      <description>&lt;p&gt;當我輸入這串指令時，發現音檔中的年份不是音樂發行年份。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pixel 6 變磚</title>
+      <link>https://5tevelan.github.io/blog/posts/pixel/pixel-6-%E8%AE%8A%E7%A3%9A/</link>
+      <pubDate>Thu, 14 Aug 2025 21:15:51 +0000</pubDate>
+      <guid>https://5tevelan.github.io/blog/posts/pixel/pixel-6-%E8%AE%8A%E7%A3%9A/</guid>
+      <description>&lt;h4 id=&#34;刷成磚了&#34;&gt;刷成磚了&lt;/h4&gt;&#xA;&lt;p&gt;按什麼都黑屏，無法開機。接上USB只短暫顯示Pixel Recovery，但畫面上根本沒有進入Bootloader，Fastboot也抓不到裝置。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Android 降級</title>
-      <link>http://localhost:1313/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/</link>
-      <pubDate>Mon, 28 Jul 2025 14:06:08 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/</guid>
+      <link>https://5tevelan.github.io/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/</link>
+      <pubDate>Thu, 14 Aug 2025 21:14:20 +0000</pubDate>
+      <guid>https://5tevelan.github.io/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/</guid>
       <description>&lt;h4 id=&#34;請使用-factory-image&#34;&gt;請使用 Factory image&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;Factory image&lt;/strong&gt;: 刷回原廠 非原廠rom,手機完全壞掉用&lt;br&gt;&#xA;&lt;strong&gt;OTA image&lt;/strong&gt;: 原廠系統更新包（only升級） 資料不會不見(over the air)&lt;/p&gt;&#xA;&lt;p&gt;OTA image and installation: &lt;a href=&#34;https://developers.google.com/android/ota&#34; target=&#34;_blank&#34;&gt;https://developers.google.com/android/ota&lt;/a&gt;&#xA;&lt;br&gt;&#xA;There has an online flash tool for factory image: &lt;a href=&#34;https://developers.google.com/android/images&#34; target=&#34;_blank&#34;&gt;https://developers.google.com/android/images&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>了解Android分區</title>
+      <link>https://5tevelan.github.io/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/</link>
+      <pubDate>Thu, 14 Aug 2025 21:04:31 +0000</pubDate>
+      <guid>https://5tevelan.github.io/blog/posts/pixel/%E4%BA%86%E8%A7%A3android%E5%88%86%E5%8D%80/</guid>
+      <description>&lt;h4 id=&#34;android-partitions&#34;&gt;Android Partitions&lt;/h4&gt;&#xA;&#xA;&#xA;&#xA;  &lt;blockquote class=&#34;dream-alert info&#34;&gt;&#xA;    &lt;p class=&#34;heading&#34;&gt;&#xA;      &lt;ion-icon name=&#34;&#34;&gt;&lt;/ion-icon&gt;Info&lt;/p&gt;&#xA;    &lt;p&gt;Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt;/p&gt;&#xA;  &lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

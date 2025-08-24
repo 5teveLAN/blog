@@ -3,14 +3,14 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 Not Found | Ahsiao blog</title>
 
     
 
-<link rel="canonical" href="http://localhost:1313/blog/404.html" />
+<link rel="canonical" href="https://5tevelan.github.io/blog/404.html" />
 
 
 
@@ -22,7 +22,7 @@
 <meta name="generator" content="Hugo 0.148.2">
 
 
-<meta property="og:url" content="http://localhost:1313/blog/404.html">
+<meta property="og:url" content="https://5tevelan.github.io/blog/404.html">
   <meta property="og:site_name" content="Ahsiao blog">
   <meta property="og:title" content="404 Page not found">
   <meta property="og:locale" content="zh_tw">
@@ -37,7 +37,9 @@
 
 
 
-<link rel="stylesheet" href="/blog/css/output.css" />
+  
+
+<link rel="stylesheet" href="/blog/css/output.min.css" />
 
 
 
@@ -71,7 +73,7 @@
       
       <div>
         
-        <a href="http://localhost:1313/blog/" class="text-lg font-semibold cursor-pointer">
+        <a href="https://5tevelan.github.io/blog/" class="text-lg font-semibold cursor-pointer">
           Ahsiao&#39;s Blog
         </a>
         
@@ -220,7 +222,7 @@
 <div class="h-[60vh] mx-auto px-4 flex flex-col justify-center items-center prose dark:prose-invert">
   <h1>Oops...You are lost in dream.</h1>
   <p>Don't worry though, click the button below to wake up.</p>
-  <button class="btn my-5" @click="window.location.href = 'http://localhost:1313/blog/'">Back to home</button>
+  <button class="btn my-5" @click="window.location.href = 'https://5tevelan.github.io/blog/'">Back to home</button>
 </div>
 
 
@@ -282,6 +284,31 @@
             <div class="dream-grid dream-grid-about">
   
   
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">我的去Google化運動</div>
+
+        <div class="prose dark:prose-invert">
+          <p>我承認我是看了<a href="https://wiwi.blog/blog/degoogled-phone" target="_blank">去Google化的手機|Wiwi</a>
+
+中提到的各種好處（省電、比較能掌握自己手機，有趣技術⋯⋯）後，衝動買的Pixel 6，但沒有試想到自身情況。</p>
+<h3 id="google">Google</h3>
+<ul>
+<li><del>Google Drive</del> 已由NextCloud取代</li>
+<li><del>Google Photos</del> 已由immich取代</li>
+<li>Google Search: 失敗</li>
+<li>Google Maps: 失敗,看公車路線用</li>
+<li>Gboard: 失敗</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
@@ -373,12 +400,16 @@
 
   
   
-  <script src="/blog/js/grid.js"></script>
+    
+  
+  <script src="/blog/js/grid.min.js"></script>
 
 
 
 
-<script src="/blog/js/main.js"></script>
+  
+
+<script src="/blog/js/main.min.js"></script>
 
      
 

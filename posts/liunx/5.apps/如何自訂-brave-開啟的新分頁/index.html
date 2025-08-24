@@ -6,18 +6,21 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Android 降級 | Ahsiao blog</title>
+    <title>如何自訂 Brave 開啟的新分頁 | Ahsiao blog</title>
 
     
 
-<link rel="canonical" href="https://5tevelan.github.io/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/" />
+<link rel="canonical" href="https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/" />
 
 
 
 <meta name="author" content="ggd" />
-<meta name="description" content="請使用 Factory image Factory image: 刷回原廠 非原廠rom,手機完全壞掉用
-OTA image: 原廠系統更新包（only升級） 資料不會不見(over the air)
-OTA image and installation: https://developers.google.com/android/ota There has an online flash tool for factory image: https://developers.google.com/android/images " />
+<meta name="description" content="由於Brave的 Dashboard 不能用 Vimium1，這當每次按t開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。
+Brave把 homepage 設定藏很深
+去 brave://settings 找（可以用搜尋的）：
+show home button -&gt; set homepage - 設定主頁面 new tab -&gt; homepage - 將新分頁設定開啟主頁面 https://www.reddit.com/r/brave _browser/comments/igxo25/vimium_on_braves_start_page/
+貌似是出於安全因素，有些Extenstions會進行攻擊&#160;&#x21a9;&#xfe0e;
+" />
 
 
 <meta name="keywords" content="">
@@ -27,26 +30,30 @@ OTA image and installation: https://developers.google.com/android/ota There has 
 <meta name="generator" content="Hugo 0.148.2">
 
 
-<meta property="og:url" content="https://5tevelan.github.io/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/">
+<meta property="og:url" content="https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/">
   <meta property="og:site_name" content="Ahsiao blog">
-  <meta property="og:title" content="Android 降級">
-  <meta property="og:description" content="請使用 Factory image Factory image: 刷回原廠 非原廠rom,手機完全壞掉用
-OTA image: 原廠系統更新包（only升級） 資料不會不見(over the air)
-OTA image and installation: https://developers.google.com/android/ota There has an online flash tool for factory image: https://developers.google.com/android/images">
+  <meta property="og:title" content="如何自訂 Brave 開啟的新分頁">
+  <meta property="og:description" content="由於Brave的 Dashboard 不能用 Vimium1，這當每次按t開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。
+Brave把 homepage 設定藏很深
+去 brave://settings 找（可以用搜尋的）：
+show home button -&gt; set homepage - 設定主頁面 new tab -&gt; homepage - 將新分頁設定開啟主頁面 https://www.reddit.com/r/brave _browser/comments/igxo25/vimium_on_braves_start_page/
+貌似是出於安全因素，有些Extenstions會進行攻擊 ↩︎">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-08-14T21:14:20+00:00">
-    <meta property="article:modified_time" content="2025-08-14T21:14:20+00:00">
+    <meta property="article:published_time" content="2025-08-23T03:20:54+00:00">
+    <meta property="article:modified_time" content="2025-08-24T00:56:40+00:00">
 
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Android 降級">
-  <meta name="twitter:description" content="請使用 Factory image Factory image: 刷回原廠 非原廠rom,手機完全壞掉用
-OTA image: 原廠系統更新包（only升級） 資料不會不見(over the air)
-OTA image and installation: https://developers.google.com/android/ota There has an online flash tool for factory image: https://developers.google.com/android/images">
+  <meta name="twitter:title" content="如何自訂 Brave 開啟的新分頁">
+  <meta name="twitter:description" content="由於Brave的 Dashboard 不能用 Vimium1，這當每次按t開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。
+Brave把 homepage 設定藏很深
+去 brave://settings 找（可以用搜尋的）：
+show home button -&gt; set homepage - 設定主頁面 new tab -&gt; homepage - 將新分頁設定開啟主頁面 https://www.reddit.com/r/brave _browser/comments/igxo25/vimium_on_braves_start_page/
+貌似是出於安全因素，有些Extenstions會進行攻擊 ↩︎">
 
 
 
@@ -257,19 +264,21 @@ OTA image and installation: https://developers.google.com/android/ota There has 
   <div class="lg:col-span-2">
     <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
       
-  <meta itemprop="name" content="Android 降級">
-  <meta itemprop="description" content="請使用 Factory image Factory image: 刷回原廠 非原廠rom,手機完全壞掉用
-OTA image: 原廠系統更新包（only升級） 資料不會不見(over the air)
-OTA image and installation: https://developers.google.com/android/ota There has an online flash tool for factory image: https://developers.google.com/android/images">
-  <meta itemprop="datePublished" content="2025-08-14T21:14:20+00:00">
-  <meta itemprop="dateModified" content="2025-08-14T21:14:20+00:00">
-  <meta itemprop="wordCount" content="28">
+  <meta itemprop="name" content="如何自訂 Brave 開啟的新分頁">
+  <meta itemprop="description" content="由於Brave的 Dashboard 不能用 Vimium1，這當每次按t開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。
+Brave把 homepage 設定藏很深
+去 brave://settings 找（可以用搜尋的）：
+show home button -&gt; set homepage - 設定主頁面 new tab -&gt; homepage - 將新分頁設定開啟主頁面 https://www.reddit.com/r/brave _browser/comments/igxo25/vimium_on_braves_start_page/
+貌似是出於安全因素，有些Extenstions會進行攻擊 ↩︎">
+  <meta itemprop="datePublished" content="2025-08-23T03:20:54+00:00">
+  <meta itemprop="dateModified" content="2025-08-24T00:56:40+00:00">
+  <meta itemprop="wordCount" content="29">
 
       <header>
-        <h1 itemprop="headline">Android 降級</h1>
+        <h1 itemprop="headline">如何自訂 Brave 開啟的新分頁</h1>
         <p class="text-sm">
           
-            Thursday, Aug 14, 2025
+            Saturday, Aug 23, 2025
           
 
           | <span>1 minute read</span>
@@ -277,7 +286,7 @@ OTA image and installation: https://developers.google.com/android/ota There has 
           
           | <span>Updated at
             
-              Thursday, Aug 14, 2025
+              Sunday, Aug 24, 2025
             </span>
           
         </p>
@@ -309,19 +318,19 @@ OTA image and installation: https://developers.google.com/android/ota There has 
   
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://x.com/intent/post?text=Android%20%e9%99%8d%e7%b4%9a&amp;url=https://5tevelan.github.io/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/" target="_blank" rel="noopener noreferrer"
+      href="https://x.com/intent/post?text=%e5%a6%82%e4%bd%95%e8%87%aa%e8%a8%82%20Brave%20%e9%96%8b%e5%95%9f%e7%9a%84%e6%96%b0%e5%88%86%e9%a0%81&amp;url=https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/" target="_blank" rel="noopener noreferrer"
       title="Share on X">
       <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
     </a>
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://facebook.com/sharer/sharer.php?u=https://5tevelan.github.io/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/" target="_blank" rel="noopener noreferrer"
+      href="https://facebook.com/sharer/sharer.php?u=https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/" target="_blank" rel="noopener noreferrer"
       title="Share on Facebook">
       <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
     </a>
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://wa.me/?text=Android%20%e9%99%8d%e7%b4%9a%20https://5tevelan.github.io/blog/posts/pixel/android-%E9%99%8D%E7%B4%9A/" target="_blank" rel="noopener noreferrer"
+      href="https://wa.me/?text=%e5%a6%82%e4%bd%95%e8%87%aa%e8%a8%82%20Brave%20%e9%96%8b%e5%95%9f%e7%9a%84%e6%96%b0%e5%88%86%e9%a0%81%20https://5tevelan.github.io/blog/posts/liunx/5.apps/%E5%A6%82%E4%BD%95%E8%87%AA%E8%A8%82-brave-%E9%96%8B%E5%95%9F%E7%9A%84%E6%96%B0%E5%88%86%E9%A0%81/" target="_blank" rel="noopener noreferrer"
       title="Share on WhatsApp">
       <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
     </a>
@@ -337,13 +346,23 @@ OTA image and installation: https://developers.google.com/android/ota There has 
       <section id="dream-single-post-content" itemprop="articleBody">
         
 
-        <h4 id="請使用-factory-image">請使用 Factory image</h4>
-<p><strong>Factory image</strong>: 刷回原廠 非原廠rom,手機完全壞掉用<br>
-<strong>OTA image</strong>: 原廠系統更新包（only升級） 資料不會不見(over the air)</p>
-<p>OTA image and installation: <a href="https://developers.google.com/android/ota" target="_blank">https://developers.google.com/android/ota</a>
-<br>
-There has an online flash tool for factory image: <a href="https://developers.google.com/android/images" target="_blank">https://developers.google.com/android/images</a>
-</p>
+        <p>由於Brave的 Dashboard 不能用 Vimium<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，這當每次按<code>t</code>開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。<br>
+Brave把 homepage 設定藏很深<br>
+去 <code>brave://settings</code> 找（可以用搜尋的）：</p>
+<ol>
+<li>show <strong>home button</strong> -&gt; set homepage - 設定主頁面</li>
+<li>new <strong>tab</strong> -&gt; homepage - 將新分頁設定開啟主頁面</li>
+</ol>
+<p><a href="https://www.reddit.com/r/brave" target="_blank">https://www.reddit.com/r/brave</a>
+_browser/comments/igxo25/vimium_on_braves_start_page/</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>貌似是出於安全因素，有些Extenstions會進行攻擊&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
 
         
