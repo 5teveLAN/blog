@@ -2,8 +2,8 @@
 tags:
   - blog
 title: 如何在 Linux 使用 System Builder
-date: 2026-06-09T05:58:08.000Z
-lastmod: 2026-05-24T19:28:50.000Z
+date: 2026-07-02T05:55:59.403Z
+lastmod: 2026-07-02T05:55:59.403Z
 ---
 <!--more-->
 

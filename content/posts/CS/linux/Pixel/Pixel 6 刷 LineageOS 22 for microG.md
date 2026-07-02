@@ -2,8 +2,8 @@
 tags:
   - blog
 title: Pixel 6 刷 LineageOS 22 for microG
-date: 2026-06-09T05:58:34.000Z
-lastmod: 2026-02-18T04:02:56.000Z
+date: 2026-07-02T05:55:59.360Z
+lastmod: 2026-07-02T05:55:59.360Z
 ---
 ### 前言
 
