@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="zh-tw"
+  x-data
+  :class="$store.darkMode.isDark() ? 'dark' : 'light'"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel 6 刷 LineageOS 22 for microG | Ahsiao&#39;s Blog</title>
+
+    
+
+<link rel="canonical" href="http://localhost:1313/posts/cs/linux/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/" />
+
+
+
+<meta name="author" content="map[description: intro:Ahsiao&#39;s Blog name:ggd]" />
+<meta name="description" content="前言 Info
+Lineage叫拎age不叫賴age
+我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。
+" />
+
+
+<meta name="keywords" content="Blog">
+
+
+
+<meta name="generator" content="Hugo 0.148.2">
+
+
+<meta property="og:url" content="http://localhost:1313/posts/cs/linux/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/">
+  <meta property="og:site_name" content="Ahsiao&#39;s Blog">
+  <meta property="og:title" content="Pixel 6 刷 LineageOS 22 for microG">
+  <meta property="og:description" content="前言 Info
+Lineage叫拎age不叫賴age
+我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-06-09T05:58:34+00:00">
+    <meta property="article:modified_time" content="2026-02-18T04:02:56+00:00">
+    <meta property="article:tag" content="Blog">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pixel 6 刷 LineageOS 22 for microG">
+  <meta name="twitter:description" content="前言 Info
+Lineage叫拎age不叫賴age
+我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。">
+
+
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script>
+      window.lightTheme = ''
+      window.darkTheme = ''
+
+      ;(function() {
+        const isDark = ('hugo-theme-dream-is-dark' in localStorage)
+          ? window.localStorage.getItem('hugo-theme-dream-is-dark') === 'y'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches
+        const theme = isDark ? window.darkTheme : window.lightTheme
+
+        document.documentElement.setAttribute('data-theme', theme)
+      })()
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.1/dist/cdn.min.js" integrity="sha256-Rmqrc5SKeSLTSnQ9shSKWmJco1ks8c1hLI8UG2Np03M=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-2">
+      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="翻轉一下！">
+        <div class="w-12 h-12 rounded-full select-none">
+          <img src="/" alt="" />
+        </div>
+      </div>
+
+      
+    </section>
+
+    
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="歸檔">
+    <ion-icon name="archive"></ion-icon>
+    歸檔
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+
+
+      
+      
+
+
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="歸檔">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="所有標籤">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Pixel 6 刷 LineageOS 22 for microG">
+  <meta itemprop="description" content="前言 Info
+Lineage叫拎age不叫賴age
+我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。">
+  <meta itemprop="datePublished" content="2026-06-09T05:58:34+00:00">
+  <meta itemprop="dateModified" content="2026-02-18T04:02:56+00:00">
+  <meta itemprop="wordCount" content="198">
+  <meta itemprop="keywords" content="Blog">
+
+      <header>
+        <h1 itemprop="headline">Pixel 6 刷 LineageOS 22 for microG</h1>
+        <p class="text-sm">
+          
+            Tuesday, Jun 9, 2026
+          
+
+          | <span>1分鐘閱讀</span>
+
+          
+          | <span>更新於
+            
+              Wednesday, Feb 18, 2026
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=Pixel%206%20%e5%88%b7%20LineageOS%2022%20for%20microG&amp;url=http://localhost:1313/posts/cs/linux/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/cs/linux/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://wa.me/?text=Pixel%206%20%e5%88%b7%20LineageOS%2022%20for%20microG%20http://localhost:1313/posts/cs/linux/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/" target="_blank" rel="noopener noreferrer"
+      title="Share on WhatsApp">
+      <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <h3 id="前言">前言</h3>
+
+
+
+  <blockquote class="dream-alert info">
+    <p class="heading">
+      <ion-icon name=""></ion-icon>Info</p>
+    <p>Lineage叫拎age不叫賴age</p>
+  </blockquote>
+
+<p>我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。</p>
+<p>而多數 App 依賴 Google Play Service 才能正常開啟或推播通知，這時可以使用一個開源的替代方案——<strong>microG</strong>，可以維持這些 App 的正常運作。</p>
+<h3 id="目錄">目錄</h3>
+<ol>
+<li>下載 ROM 包
+<ul>
+<li>確認 Android 版本</li>
+</ul>
+</li>
+<li>安裝 ROM 包
+<ul>
+<li>下載 adb 與 fastboot 工具</li>
+<li>解鎖 Bootloader</li>
+<li>刷系統</li>
+</ul>
+</li>
+<li>安裝之後
+<ul>
+<li>設定 microG 推播功能</li>
+<li>安裝 Gcam</li>
+</ul>
+</li>
+</ol>
+<h3 id="1-下載-rom-包">1. 下載 ROM 包</h3>
+<p>我選擇的是 LineageOS 22 for microG，它是由 microG 社群提供的 ROM，裡面完全沒有預裝 GApps，還內建好 microG，省去我手動設定的麻煩。</p>
+<h4 id="確認-android-版本">確認 Android 版本</h4>
+<p>請先確認你的手機目前 Android 版本與欲刷入的 LineageOS 是否相符，例如 LineageOS 22 對應的是 Android 15。若版本不符，建議先從 <a href="https://developers.google.com/android/images" target="_blank"> Google 官方網站</a>
+下載 factory image，使用線上工具或 <code>fastboot</code> 重刷回對應版本。</p>
+<h3 id="2-安裝rom包">2. 安裝ROM包</h3>
+<h4 id="下載-adb-與-fastboot-工具">下載 adb 與 fastboot 工具</h4>
+<ul>
+<li>macOS<br>
+<code>brew install android-platform-tools</code></li>
+<li>Linux (Debian/Ubuntu)<br>
+<code>sudo apt install android-tools-adb android-tools-fastboot</code></li>
+</ul>
+<h4 id="解鎖-bootloader">解鎖 Bootloader</h4>
+<p>Bootloader 就像電腦的 BIOS/UEFI，預設是鎖定的。 Pixel 系列手機的解鎖方式相當簡單：</p>
+<ol>
+<li>用 USB 連接手機後，進入 bootloader 模式：<br>
+<code>adb reboot bootloader</code></li>
+<li>解鎖 bootloader (注意會清除資料)：<br>
+<code>fastboot flash unlock</code></li>
+<li>使用音量鍵選擇「Yes」確認，按電源鍵執行。</li>
+</ol>
+<h4 id="刷系統">刷系統</h4>
+<ol>
+<li>刷入 boot.img<br>
+<code>fastboot flash boot boot.img</code></li>
+<li>刷入 dtbo.img<br>
+<code>fastboot flash dtbo dtbo.img</code></li>
+<li>刷入 vendor_boot.img ( 包含 LineageOS 的客製化 Recovery)<br>
+<code>fastboot flash vendor_boot vendor_boot.img</code><br>
+接著用音量鍵在Bootloader中選擇Recovery，按下電源鍵進入。</li>
+<li>進入 Recovery 後，選擇「Factory Reset」來清除所有資料，以避免刷機衝突。</li>
+<li>選擇Apply Update，使用 adb 刷入 ROM 包<br>
+<code>adb -d sideload rom.zip</code><br>
+執行過程中約在 47% 時，手機畫面會顯示「需要重啟 Recovery 以安裝附加套件」，點選「Yes」，系統會自動重開進 Recovery，再繼續點選「Reboot system now」。</li>
+<li>完成安裝。</li>
+</ol>
+<h3 id="3-安裝之後">3. 安裝之後</h3>
+<h4 id="開啟microg推播功能">開啟microG推播功能</h4>
+<p>打開microG app，開啟Google device registraino, Cloud Messaging功能，之後再安裝LINE即可有通知。</p>
+<h4 id="開啟microg-gps定位功能">開啟microG GPS定位功能</h4>
+<p>打開microG app，開啟Location-&gt;勾選Request from online service（允許從網路服務抓GPS定位）,之後地圖App即可成功定位 。<br>
+#blog</p>
+
+        
+      </section>
+
+      
+
+      
+    </article>
+  </div>
+
+  <div
+    x-data="tocHighlighter()"
+    @scroll.window="debouncedScroll"
+    class="hidden lg:flex lg:flex-col lg:items-end"
+  >
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex flex-col md:flex-row justify-between items-center gap-4 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2016 - 2026 Ahsiao&#39;s Blog
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-8 px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        
+        <div class="back" data-nosnippet>
+        
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex flex-col md:flex-row justify-between items-center gap-4 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2016 - 2026 Ahsiao&#39;s Blog
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-8 px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/js/grid.js"></script>
+
+
+
+
+<script src="/js/main.js"></script>
+
+    
+
+
+
+
+
+
+
+<script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>

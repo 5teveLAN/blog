@@ -31,4 +31,3 @@ other = "{{ .Count }}分類"
 [tag]
 one = "1標籤"
 other = "{{ .Count }}標籤"
-

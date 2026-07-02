@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="zh-tw"
+  x-data
+  :class="$store.darkMode.isDark() ? 'dark' : 'light'"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+
+
+所有標籤 | Ahsiao&#39;s Blog</title>
+
+    
+
+<link rel="canonical" href="http://localhost:1313/tags/" />
+
+
+
+<meta name="author" content="map[description: intro:Ahsiao&#39;s Blog name:ggd]" />
+<meta name="description" content="" />
+
+
+
+<meta name="generator" content="Hugo 0.148.2">
+
+
+<meta property="og:url" content="http://localhost:1313/tags/">
+  <meta property="og:site_name" content="Ahsiao&#39;s Blog">
+  <meta property="og:title" content="Tags">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="website">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tags">
+
+
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+
+
+     
+
+    
+
+    <script>
+      window.lightTheme = ''
+      window.darkTheme = ''
+
+      ;(function() {
+        const isDark = ('hugo-theme-dream-is-dark' in localStorage)
+          ? window.localStorage.getItem('hugo-theme-dream-is-dark') === 'y'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches
+        const theme = isDark ? window.darkTheme : window.lightTheme
+
+        document.documentElement.setAttribute('data-theme', theme)
+      })()
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.1/dist/cdn.min.js" integrity="sha256-Rmqrc5SKeSLTSnQ9shSKWmJco1ks8c1hLI8UG2Np03M=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-2">
+      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="翻轉一下！">
+        <div class="w-12 h-12 rounded-full select-none">
+          <img src="/" alt="" />
+        </div>
+      </div>
+
+      
+    </section>
+
+    
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="歸檔">
+    <ion-icon name="archive"></ion-icon>
+    歸檔
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+
+
+      
+      
+
+
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="歸檔">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="所有標籤">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+
+
+<div class="flex flex-col md:flex-row mt-4">
+
+  <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
+    <h1 class="text-2xl">所有標籤</h1>
+    <p class="text-sm">2標籤</p>
+    <div class="flex flex-wrap gap-4 mt-6">
+      
+      <a href="/tags/blog/" class="badge h-6 no-underline hover:badge-primary">
+        Blog
+      </a>
+      
+      <a href="/tags/yt-dlp/" class="badge h-6 no-underline hover:badge-primary">
+        Yt-Dlp
+      </a>
+      
+    </div>
+  </div>
+  
+  <div class="divider divider-vertical md:divider-horizontal px-4 md:px-0"></div>
+  
+  <div class="flex-1">
+    
+
+    
+    <div class="dream-grid">
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/life/mcu-114-2/114-2-%E5%AD%B8%E6%9C%9F%E7%B8%BD%E7%B5%90-1/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">114-2 學期總結 1</h2>
+
+    <p class="date text-base-content/60">
+    
+      Wednesday, Jul 1, 2026
+    
+    </p>
+
+    <ul>
+<li><a href="https://github.com/5teveLAN/mqtime" target="_blank">GitHub 專案</a>
+</li>
+</ul>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/life/%E5%88%86%E7%B5%84%E9%82%A3%E4%BA%9B%E4%BA%8B/%E9%82%8A%E7%B7%A3%E9%81%8B%E7%AE%97/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">邊緣運算</h2>
+
+    <p class="date text-base-content/60">
+    
+      Tuesday, Jun 30, 2026
+    
+    </p>
+
+    <p>剛開學時正在上 jserv 的課，我很瞧不起我們學校的課。我問魏老師：「你這個課有沒有解決真實問題？」覺得我們的課強度不高，加上選這門課的人啥都不會，我就當場退選了。原因就是我好怕像<a href="/%E9%8A%98%E5%82%B3%E9%9B%BB%E6%A9%9F%E7%B3%BB%E7%9A%84%E8%AA%B2%E6%80%8E%E9%BA%BC%E6%A8%A3">電機系的課</a>
+一樣，沒學到東西。</p>
+<p>其實當時有認識的人一起上：一個靠譜的活人同學、一個搞很多專題的學長（程設助教）。唉，後來挺後悔退選這個課的。其實課堂上學不到什麼東西，能學到東西是在於分組做事的時侯。大多數人程度怎樣不是重點，重點是能找到程度差不多、甚至更強力的隊友，就一定能學到很多東西。</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/life/mcu-114-2/%E9%8A%98%E5%82%B3%E9%9B%BB%E6%A9%9F%E7%B3%BB%E7%9A%84%E8%AA%B2%E6%80%8E%E9%BA%BC%E6%A8%A3/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">銘傳電機系的課怎麼樣</h2>
+
+    <p class="date text-base-content/60">
+    
+      Tuesday, Jun 30, 2026
+    
+    </p>
+
+    <p>以下是電機系的課，每堂都是聽了 20 分鐘後退掉，最後都沒選。</p>
+<p><strong>微處理機系統</strong><br>
+用 Arduino 寫應用，呼叫函式庫操作感測器，不是我想學的。唯一好處是每週拍影片，可以督促我周更 YouTube。</p>
+<p><strong>進階微處理機系統</strong><br>
+如上，只是換成 mRobot （會動的機器人），這我高中就弄過了。老師還說這課也不會太進階、不會太難，受不了。<br>
+我真的受不了好幾堂課都是在寫讓感測器動（d1mini、樹梅派、Arduino、mRobot、ESP32 各一門課）。</p>
+<p><strong>計算機組織</strong><br>
+心心念念去隔壁系修這門課，只因為系主任兼院長說我們系的學生學不會而拒開，還排了候補，結果：</p>
+<ul>
+<li>老師上課一半時間都在講廢話，例如：「未來不需要寫程式，不用會 Java，不用會 C；未來會用核電和 AI 來對抗外星人。」</li>
+<li>上課還要強調英文單字怎麼拼，例如：中斷 = interrupt，CPU = central processing unit……</li>
+<li>教學方式：名詞解釋（例如：資料就是靠 bus 傳輸），一點都不深入也不精確。<br>
+一副把我們放棄、又當成智障的樣子。</li>
+</ul>
+<p>還是祝電機系的同學能持續學習吧。</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/life/mcu-114-2/%E6%8F%90%E6%97%A9%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">提早的重要性</h2>
+
+    <p class="date text-base-content/60">
+    
+      Tuesday, Jun 30, 2026
+    
+    </p>
+
+    <h3 id="慘痛的教訓">慘痛的教訓</h3>
+<pre tabindex="0"><code>- 報告遲交十秒
+- 寫信問老師 找尋機會
+- 先交爛版本，不要等完美版本做出來再交
+</code></pre>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/life/mcu-114-2/%E7%A8%8B%E8%A8%AD%E4%BA%8C%E4%B8%8A%E8%AA%B2%E5%BF%83%E5%BE%97/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">程設二上課心得</h2>
+
+    <p class="date text-base-content/60">
+    
+      Thursday, Jun 11, 2026
+    
+    </p>
+
+    <h2 id="相見歡">相見歡</h2>
+<p>我因為轉來資工系，尚未修滿兩門程式設計課，到了大三才去上大一的程設課。剛好這學年何祖鳳老師休假回來，網路上、同學間都有人推薦過老師的程設課。他的課是在一般教室而非電腦教室。我認為教程式理論是不需要電腦的，且一般教室更有助於師生互動。故特意選修他的課。</p>
+<p>但是我現在已經大三下，資料結構、演算法、作業系統的課都修完了，現在還要花時間學基本程式，難免會覺得太簡單。我也有問過老師：能不能不來上課？</p>
+<p>接著老師出了一些問題，我幾乎回答不出來，老師直接和我說：「不要好高騖遠。」這句話讓我感到很羞愧，並直接把我點醒，讓我知道我哪裡不足。我也不把學習當一回事，連教科書都沒有。我自知理虧，中堂下課就去把教科書借來看了。</p>
+<h2 id="推薦的理由">推薦的理由</h2>
+<p>首先，老師擅長把複雜的觀念講得淺顯易懂，甚至以「何祖鳳教得最好」自豪。例如：將資料型態解釋成 &ldquo;a set of value&rdquo;, &ldquo;a set of operator&rdquo;、物件是使用者自訂的資料型態、記憶體位址比喻為門牌號碼。讓原本艱深難懂的知識都有了簡單的解釋。</p>
+<p>再來，老師會利用進度之餘，準備資料介紹其他東西，共有 AI 時代因應措施與物件導向概論兩個主題。讓學生除了學習基本程設之外，還能知道為什麼要學這些東西。</p>
+<p>老師除了在課業方面，還會在乎學生的品行，落實銘傳「人之兒女、己之兒女」的教育宗旨。包括提醒學生：不要上課隨意進出教室、不要上課戴耳機、不要上課睡覺跟做自己的事。其實這些事情我自己也會做，因為我從沒換位思考過。我很感謝老師的提醒，讓我知道如何能更好。</p>
+<p>最後，何老師很嚴格、有原則，打成績全照規定。即使知道我有程度，但是沒去考 CPE 就是沒成績；有次上機考當天有事，為求公平還是沒辦法讓我補考。儘管老師在課堂上公正無私，但是平時見面還是會互相問候，是個很親切的老師。</p>
+<h2 id="上課狀況">上課狀況</h2>
+<p>平常上課<strong>我每一次都有去</strong>，因為我已經了解到自己對 C++、 物件導向並不熟。有時候老師重複講解觀念，我就會做自己的事 （也是課業上的），但是我能隨時進入狀況並回答老師問題，還能指出有疑慮的地方，和老師討論。</p>
+<p>有一次老師上課看錯，我花了幾天完成一份報告來討論這件事，並寄信給老師。我翻了兩本經典原文書，看了 C 語言標準，找出 C 語言中嚴謹的定義，包括 Lvalue、記憶體「物件」、運算式、敘述。老師也回信說我了解得很透徹。</p>
+<p>後來老師上課時和我說，我鑽得太深、太理論了！我後來舉程式錯誤造成空難的例子，說明每個細節不容馬乎，老師也表示認同。</p>
+<p>我們這學期唯一的程式作業是分組專案。不同於我不喜歡的解題、撰寫小程式，這次是分組合作，並製作出真正的軟體。在我過去的分組合作中，大部分人直接用 AI 工具來代寫作業，並隨意交差了事，這讓我不愉快。對我來說，AI 是個不得不面對的挑戰：因為一不小心就會全抄，失去對內容的掌握；有時提問會得到錯誤答案，自己很難去發掘。儘管和同學合作上不順利，又遭遇 AI 時代變遷，但我還是把握學習機會，並從做中學。</p>
+<h2 id="結語">結語</h2>
+<p>在學期的尾聲，我有一些遺憾：</p>
+<p>第一個，我比較少和同學討論。我自認我有一些程式底層的了解，我對鮮少拿出來和同學討論而感到遺憾。教人不只會得到成就感，也會讓自己的觀念更清楚。</p>
+<p>再來，我時常缺席助教課。我們的助教學長很願意教、也很有趣，幾乎每一週都有開課。其實這正是在課外補足知識、跟學長學弟交流的好時機，並一起帶動好的學習風氣。</p>
+<p>這學期課程除了把程式設計、物件導向學好，最大的收穫是認知到把打好基礎的重要性。有了這些基本知識後，才有辦法談論更深的內容，也能讓別人考不倒我，深深影響著後續課程與職場的表現。</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/study/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">如何做報告</h2>
+
+    <p class="date text-base-content/60">
+    
+      Wednesday, Jun 10, 2026
+    
+    </p>
+
+    <h3 id="報告">報告</h3>
+<p>有些人大一就台風穩健、口齒清晰，有些人就很讓人不想聽。可分為四種人：</p>
+<p><img src="/study/img/2026/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/Pasted%20image%2020260610104133.png" alt="Pasted image 20260610104133.png"></p>
+<ol>
+<li>記稿看人：最完美的報告。</li>
+<li>沒稿看人：講話沒邏輯、沒重點、用語聽不懂。</li>
+<li>看稿不看人：講的內容是 PPT 上的延伸，但是語氣平淡默默念稿。</li>
+<li>念 PPT 不看人：一大段文字全部放 PPT 上然後照念，沒救。</li>
+</ol>
+<p>第二和第三種都不是個好的狀態，我試著分析這兩種如何轉變為第一種：</p>
+<ul>
+<li>要從 看稿不看人 到 記稿看人：
+<ul>
+<li>不能背 AI 稿（不是自己的文字，背不起來）</li>
+<li>自己寫稿</li>
+</ul>
+</li>
+<li>要從 沒稿看人 到 記稿看人：
+<ul>
+<li>勤勞一點，寫口語稿</li>
+<li>掌握流程後再優化速度</li>
+</ul>
+</li>
+</ul>
+<h2 id="流程">流程</h2>
+<p>準備一場報告的流程：<br>
+<img src="/study/img/2026/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/Pasted%20image%2020260610112710.png" alt="Pasted image 20260610112710.png"></p>
+<ol>
+<li>讀資料：找尋<strong>可信來源</strong>，深入研究本專題。</li>
+<li>寫筆記：確保自己將蒐集到的資料吸收。</li>
+<li>寫文字報告：從筆記中抓取資料，寫成<strong>結構化</strong>的觀點。</li>
+<li>寫口語稿：將文字報告改編成口語版本。</li>
+<li>做簡報：僅作為口頭報告中的輔助資料。</li>
+</ol>
+<h3 id="我該找尋什麼當作主要來源">我該找尋什麼當作主要來源？</h3>
+<p>我現在只搜政府、學術網站，甚至可以去翻書。根據不同主題有不同的來源：</p>
+<ul>
+<li>健康：醫院、基金會。</li>
+<li>工程：官方文件、論文。</li>
+</ul>
+<p>不建議用（或僅作為參考用）：</p>
+<ul>
+<li>企業宣傳網站：通常會選擇自己有利的觀點，並導向產品宣傳。</li>
+<li>二手資訊網站：科普網站、新聞、維基百科</li>
+<li>可信度低的來源：網路論壇<br>
+這些平時自己閱讀即可，做報告還是需要比較完整的資訊。</li>
+</ul>
+<h3 id="為什麼不能用那些資料當作主要來源">為什麼不能用那些資料當作主要來源？</h3>
+<p>他們寫這些文章肯定要有憑有據，也就是說一定查得到第一手的資料。既然有第一手的資訊，為什麼要用二手、三手的？當然可信來源讀起來比較晦澀難懂，可將資料丟給 AI 協助閱讀。</p>
+<h3 id="其他佳句">其他佳句</h3>
+<ul>
+<li>沒準備一定爛，只講（準備）精華</li>
+<li>報告時可以提到前面的組</li>
+<li>講得夠好就不會有人滑手機</li>
+</ul>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/cs/linux/3.vim-tutorial/%E6%8E%A8%E5%9D%91%E6%8C%87%E5%8D%97%E5%BE%9E-ranger-%E5%88%B0-vim-%E7%9A%84%E6%93%8D%E4%BD%9C%E5%93%B2%E5%AD%B8/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">推坑指南：從 Ranger 到 Vim 的操作哲學</h2>
+
+    <p class="date text-base-content/60">
+    
+      Tuesday, Jun 9, 2026
+    
+    </p>
+
+    <h3 id="序">序</h3>
+<p>剛接觸 Linux 的人， 多少都聽過 Vim —— 一個純文字介面的編輯器。他可以高效地更改一些系統設定檔，幾乎所有的 Linux 都會內建 Vim，所以想玩 Linux ，遲早得學會他。</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/cs/linux/pixel/android-%E9%99%8D%E7%B4%9A/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">Android 降級</h2>
+
+    <p class="date text-base-content/60">
+    
+      Tuesday, Jun 9, 2026
+    
+    </p>
+
+    <h4 id="請使用-factory-image">請使用 Factory image</h4>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/cs/linux/pixel/pixel-6-%E5%88%B7-lineageos-22-for-microg/">
+  
+
+  <div class="card-body">
+    <h2 class="card-title">Pixel 6 刷 LineageOS 22 for microG</h2>
+
+    <p class="date text-base-content/60">
+    
+      Tuesday, Jun 9, 2026
+    
+    </p>
+
+    <h3 id="前言">前言</h3>
+
+
+
+  <blockquote class="dream-alert info">
+    <p class="heading">
+      <ion-icon name=""></ion-icon>Info</p>
+    <p>Lineage叫拎age不叫賴age</p>
+  </blockquote>
+
+<p>我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+        <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+          <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/cs/linux/pixel/pixel-6-%E8%AE%8A%E7%A3%9A/">
+  
+  <figure>
+    
+    <img src="ob/PXL_20250811_055915754.jpg" alt="Pixel 6 變磚" />
+    
+  </figure>
+  
+
+  <div class="card-body">
+    <h2 class="card-title">Pixel 6 變磚</h2>
+
+    <p class="date text-base-content/60">
+    
+      Tuesday, Jun 9, 2026
+    
+    </p>
+
+    <h4 id="刷成磚了">刷成磚了</h4>
+<p>按什麼都黑屏，無法開機。接上USB只短暫顯示Pixel Recovery，但畫面上根本沒有進入Bootloader，Fastboot也抓不到裝置。</p>
+
+    
+    <div class="card-actions justify-between items-center mt-4">
+      
+        <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    <span itemprop="name">map[description: intro:Ahsiao&#39;s Blog name:ggd]</span>
+  
+  </span>
+</div>
+
+      
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分鐘閱讀</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+        </div>
+      
+    </div>
+    
+
+    
+    <div class="flex justify-center pt-8">
+      <div class="join grid grid-cols-2">
+  
+  <button class="join-item btn btn-outline btn-sm" disabled>
+    上一頁
+  </button>
+  
+  
+  <a href="/tags/page/2/" title="下一頁" class="join-item btn btn-outline btn-sm">
+    下一頁
+  </a>
+  
+</div>
+
+    </div>
+    
+  </div>
+</div>
+
+
+
+            
+<footer class="flex flex-col md:flex-row justify-between items-center gap-4 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2016 - 2026 Ahsiao&#39;s Blog
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-8 px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        
+        <div class="back" data-nosnippet>
+        
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex flex-col md:flex-row justify-between items-center gap-4 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2016 - 2026 Ahsiao&#39;s Blog
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-8 px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/js/grid.js"></script>
+
+
+
+
+<script src="/js/main.js"></script>
+
+    
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>

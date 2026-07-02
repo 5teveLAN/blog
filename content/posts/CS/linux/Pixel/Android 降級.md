@@ -2,8 +2,8 @@
 tags:
   - blog
 title: Android 降級
-date: 2026-02-18T12:02:56.476Z
-lastmod: 2026-05-22T15:40:39.645Z
+date: 2026-06-09T05:58:34.000Z
+lastmod: 2026-05-22T07:40:38.000Z
 ---
 #### 請使用 Factory image
 
