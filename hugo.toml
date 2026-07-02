@@ -2,7 +2,7 @@ baseurl = "https://stevehsiao.com/"
 defaultContentLanguage = "zh-tw"
 locale = "zh-tw"
 title = "Ahsiao's Blog"
-theme = "dream"
+theme = "somestyleplease"
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"]
 
@@ -28,11 +28,7 @@ ignoreErrors = ["additional-script-loading-error"]
   rssFeedDescription = "summary"
   siteStartYear = 2016
   noDefaultSummaryCover = true
-
-  [params.author]
-    name = "ggd"
-    description = ""
-    intro = "Ahsiao's Blog"
+  author = "ggd"
 
 [[params.socialIcons]]
 name = "github"
