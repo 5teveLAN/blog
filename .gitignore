@@ -1,0 +1,5 @@
+themes/dream/
+themes/hugo-blog-awesome/
+.DS_Store
+resources/_gen/
+public/
