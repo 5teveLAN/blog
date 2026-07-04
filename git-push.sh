@@ -26,7 +26,6 @@ echo ""
 echo "🌳 切換到 gh-pages 分支（public/ 內容）..."
 cd public
 
-echo "📦 新增 public/ 的變更..."
 git add .
 if [[ -z $(git status --porcelain) ]]; then
   echo "✅ 沒有需要 commit 的變更"
