@@ -6,6 +6,9 @@ theme = "somestyleplease"
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"]
 
+[permalinks]
+  posts = "/posts/:contentbasename/"
+
 [markup]
   [markup.highlight]
     noClasses = false
@@ -40,4 +43,3 @@ url = "/index.xml"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
