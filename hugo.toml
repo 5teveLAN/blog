@@ -7,7 +7,7 @@ enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"]
 
 [permalinks]
-  posts = "/posts/:contentbasename/"
+  posts = "/posts/:filename/"
 
 [markup]
   [markup.highlight]
