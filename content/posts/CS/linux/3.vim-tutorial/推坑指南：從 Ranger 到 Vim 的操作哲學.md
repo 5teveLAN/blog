@@ -1,6 +1,5 @@
 ---
-tags:
-  - blog
+tags: []
 title: 推坑指南：從 Ranger 到 Vim 的操作哲學
 date: 2026-07-02T05:55:59.373Z
 lastmod: 2026-07-02T05:55:59.373Z

@@ -1,6 +1,5 @@
 ---
-tags:
-  - blog
+tags: []
 title: 了解Android分區
 date: 2026-07-02T05:55:59.335Z
 lastmod: 2026-07-02T05:55:59.335Z
@@ -14,7 +13,7 @@ lastmod: 2026-07-02T05:55:59.335Z
 
 <!--more-->
 
-![partitions.excalidraw](/CS/linux/Pixel/img/2026/%E4%BA%86%E8%A7%A3Android%E5%88%86%E5%8D%80/partitions.excalidraw.md)\
+![partitions.excalidraw](/images/CS/linux/Pixel/img/2026/%E4%BA%86%E8%A7%A3Android%E5%88%86%E5%8D%80/partitions.excalidraw.md)\
 **金字塔架構**
 
 * **Cache**, Dalvik/ART Cache

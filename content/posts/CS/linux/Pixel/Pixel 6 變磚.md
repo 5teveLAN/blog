@@ -1,6 +1,5 @@
 ---
-tags:
-  - blog
+tags: []
 cover: ob/PXL_20250811_055915754.jpg
 title: Pixel 6 變磚
 date: 2026-07-02T05:55:59.348Z
@@ -35,4 +34,4 @@ lastmod: 2026-07-02T05:55:59.348Z
 * 直接換主板
 
 所以我直接在淘寶上買拆機主板來換，已經可以成功開機了。\
-![PXL\_20250811\_055915754.jpg](/CS/linux/Pixel/img/2026/Pixel%206%20%E8%AE%8A%E7%A3%9A/PXL_20250811_055915754.jpg)
+![PXL\_20250811\_055915754.jpg](/images/CS/linux/Pixel/img/2026/Pixel%206%20%E8%AE%8A%E7%A3%9A/PXL_20250811_055915754.jpg)

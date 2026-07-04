@@ -1,6 +1,5 @@
 ---
-tags:
-  - blog
+tags: []
 title: 如何自訂 Brave 開啟的新分頁
 date: 2026-07-02T05:55:59.385Z
 lastmod: 2026-07-02T05:55:59.385Z
