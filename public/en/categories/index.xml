@@ -1,7 +1,7 @@
 <rss version="2.0">
     <channel>
         <title>My website name</title>
-        <link>https://stevehsiao.com/en/categories/</link>
+        <link>http://localhost:1313/en/categories/</link>
         <description>RSS description.</description>
         <language>en</language>
         

@@ -1,7 +1,7 @@
 <rss version="2.0">
     <channel>
         <title></title>
-        <link>https://stevehsiao.com/tags/yt-dlp/</link>
+        <link>http://localhost:1313/tags/yt-dlp/</link>
         <description></description>
         <language>zh-tw</language>
         
@@ -9,7 +9,7 @@
         
         <item>
             <title>為什麼要愛物</title>
-            <link>https://stevehsiao.com/posts/why-treasure-possessions/</link>
+            <link>http://localhost:1313/posts/why-treasure-possessions/</link>
             <description>&lt;p&gt;我在賣用不到的東西時，常常因為物品狀況不佳感到煩惱。比如說我的筆電總是坑坑疤疤，各種物品上也都是刮痕。&lt;/p&gt;
 &lt;p&gt;我之前很鄙視那些給相機貼膜，只為了有更好賣相的人。彷彿買了不是為了拍，而是更在意賣的時候。&lt;/p&gt;
 &lt;p&gt;東西就是要拿來用，不是拿來賣的。&lt;/p&gt;
@@ -17,12 +17,12 @@
 &lt;p&gt;如果這些東西因為狀況不佳而直接丟棄，反而更可惜。不如現在好好保存，將來有機會能夠脫手給別人。&lt;/p&gt;
 </description>
             <pubDate>Thu, 16 Jul 2026 00:00:00 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/why-treasure-possessions/</guid>
+            <guid>http://localhost:1313/posts/why-treasure-possessions/</guid>
         </item>
         
         <item>
             <title>銘傳一週與研習營心得</title>
-            <link>https://stevehsiao.com/posts/mingchuan-week-camp-experience/</link>
+            <link>http://localhost:1313/posts/mingchuan-week-camp-experience/</link>
             <description>&lt;p&gt;今年是我加入銘傳一週的第二年。因為我想變成「攝影大咖」，所以在我當初剛轉來銘傳的時候，便決定加入了。我想說的是，有些微小的念頭或決定，改變了我看事情的方式。這些改變讓我受益良多。&lt;/p&gt;
 &lt;p&gt;首先，在這裡可以認識到各個年級、各個科系，甚至是來自不同國家（或地區）的人。看到大家有著不同的興趣愛好、不同的工作經歷，都會讓我感到嘖嘖稱奇，大開眼界。而且不得不說，我見到的都是特別優秀、令我佩服的人。&lt;/p&gt;
 &lt;p&gt;再來，就讀資訊工程的我，參加銘傳一週的活動對我來說是個跨領域的挑戰。因為資工系的出路很明確，就是當工程師。我大可以不做大眾傳播這行，將時間 all in 至本科系的課業，也能得到普遍來說更好的收入。但是這樣的想法讓我每次拍照都是隨便拍拍，拍照技術沒什麼長進。我後來認為這種心態把我的人生侷限住了，讓我生活過得悶悶不樂的。其實對待其他事情也同樣認真，成為一個有豐富經歷的人，也是一種人生的選擇。&lt;/p&gt;
@@ -34,24 +34,24 @@
 &lt;p&gt;總之呢，這趟旅行很有感、很開心、很珍貴、很難忘。&lt;/p&gt;
 </description>
             <pubDate>Sat, 04 Jul 2026 00:00:00 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/mingchuan-week-camp-experience/</guid>
+            <guid>http://localhost:1313/posts/mingchuan-week-camp-experience/</guid>
         </item>
         
         <item>
             <title>Android 降級</title>
-            <link>https://stevehsiao.com/posts/android-downgrade/</link>
+            <link>http://localhost:1313/posts/android-downgrade/</link>
             <description>&lt;h4 id=&#34;請使用-factory-image&#34;&gt;請使用 Factory image&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Factory image&lt;/strong&gt;: 刷回原廠 非原廠rom,手機完全壞掉用&lt;br&gt;
 &lt;strong&gt;OTA image&lt;/strong&gt;: 原廠系統更新包（only升級） 資料不會不見(over the air)&lt;/p&gt;
 &lt;p&gt;OTA image and installation: &lt;a href=&#34;https://developers.google.com/android/ota&#34;&gt;https://developers.google.com/android/ota&lt;/a&gt;&lt;br&gt;
 There has an online flash tool for factory image: &lt;a href=&#34;https://developers.google.com/android/images&#34;&gt;https://developers.google.com/android/images&lt;/a&gt;&lt;/p&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/android-downgrade/</guid>
+            <guid>http://localhost:1313/posts/android-downgrade/</guid>
         </item>
         
         <item>
             <title>Pixel 6 刷 LineageOS 22 for microG</title>
-            <link>https://stevehsiao.com/posts/pixel6-lineageos-microg/</link>
+            <link>http://localhost:1313/posts/pixel6-lineageos-microg/</link>
             <description>&lt;h3 id=&#34;前言&#34;&gt;前言&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br&gt;
@@ -122,12 +122,12 @@ Lineage叫拎age不叫賴age&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;打開microG app，開啟Location-&gt;勾選Request from online service（允許從網路服務抓GPS定位）,之後地圖App即可成功定位 。&lt;br&gt;
 #blog&lt;/p&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/pixel6-lineageos-microg/</guid>
+            <guid>http://localhost:1313/posts/pixel6-lineageos-microg/</guid>
         </item>
         
         <item>
             <title>yt-dlp 音樂發行時間不對</title>
-            <link>https://stevehsiao.com/posts/yt-dlp-wrong-release-date/</link>
+            <link>http://localhost:1313/posts/yt-dlp-wrong-release-date/</link>
             <description>&lt;p&gt;當我輸入這串指令時，發現音檔中的年份不是音樂發行年份。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yt-dlp &lt;span class=&#34;se&#34;&gt;\ &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--output &lt;span class=&#34;s2&#34;&gt;&#34;%(artist,unknown_artist)s/%(album,unknown_album)s/%(playlist_index)s. %(title)s.%(ext)s&#34;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\ &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#輸出檔案&lt;/span&gt;
@@ -141,18 +141,18 @@ Lineage叫拎age不叫賴age&lt;/p&gt;&lt;/blockquote&gt;
 &lt;code&gt;--parse-metadata &#34;%(release_year)s0101:%(upload_date)s&#34;&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;應該是將 release_year/01/01 (YYYY/MM/DD) 填入到原本 upload_date 的位置，至於幾月幾日就不重要了就隨便填。&lt;/p&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/yt-dlp-wrong-release-date/</guid>
+            <guid>http://localhost:1313/posts/yt-dlp-wrong-release-date/</guid>
         </item>
         
         <item>
             <title>了解Android分區</title>
-            <link>https://stevehsiao.com/posts/android-partitions-guide/</link>
+            <link>http://localhost:1313/posts/android-partitions-guide/</link>
             <description>&lt;h4 id=&#34;android-partitions&#34;&gt;Android Partitions&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br&gt;
 Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://stevehsiao.com/images/CS/linux/Pixel/img/2026/%E4%BA%86%E8%A7%A3Android%E5%88%86%E5%8D%80/partitions.excalidraw.md&#34; alt=&#34;partitions.excalidraw&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/CS/linux/Pixel/img/2026/%E4%BA%86%E8%A7%A3Android%E5%88%86%E5%8D%80/partitions.excalidraw.md&#34; alt=&#34;partitions.excalidraw&#34;&gt;&lt;br&gt;
 &lt;strong&gt;金字塔架構&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -203,12 +203,12 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 刷舊版本ROM導致Bootloader不給你開機(防回滾)&lt;/li&gt;
 &lt;/ul&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/android-partitions-guide/</guid>
+            <guid>http://localhost:1313/posts/android-partitions-guide/</guid>
         </item>
         
         <item>
             <title>如何在 Linux 使用 System Builder</title>
-            <link>https://stevehsiao.com/posts/system-builder-linux/</link>
+            <link>http://localhost:1313/posts/system-builder-linux/</link>
             <description>&lt;p&gt;&lt;a href=&#34;https://download.terasic.com/downloads/cd-rom/de10-standard/&#34;&gt;https://download.terasic.com/downloads/cd-rom/de10-standard/&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;安裝 Bottle&lt;/li&gt;
@@ -216,12 +216,12 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;li&gt;使用 kron4ek-wine (soda 會無法開啟)&lt;/li&gt;
 &lt;/ol&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/system-builder-linux/</guid>
+            <guid>http://localhost:1313/posts/system-builder-linux/</guid>
         </item>
         
         <item>
             <title>如何自訂 Brave 開啟的新分頁</title>
-            <link>https://stevehsiao.com/posts/brave-custom-new-tab/</link>
+            <link>http://localhost:1313/posts/brave-custom-new-tab/</link>
             <description>&lt;p&gt;由於Brave的 Dashboard 不能用 Vimium&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，這當每次按&lt;code&gt;t&lt;/code&gt;開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。&lt;/p&gt;
 &lt;p&gt;Brave把 homepage 設定藏很深&lt;br&gt;
 去 &lt;code&gt;brave://settings&lt;/code&gt; 找（可以用搜尋的）：&lt;/p&gt;
@@ -238,15 +238,15 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ol&gt;
 &lt;/div&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/brave-custom-new-tab/</guid>
+            <guid>http://localhost:1313/posts/brave-custom-new-tab/</guid>
         </item>
         
         <item>
             <title>如何做報告</title>
-            <link>https://stevehsiao.com/posts/how-to-make-presentations/</link>
+            <link>http://localhost:1313/posts/how-to-make-presentations/</link>
             <description>&lt;h3 id=&#34;報告&#34;&gt;報告&lt;/h3&gt;
 &lt;p&gt;有些人大一就台風穩健、口齒清晰，有些人就很讓人不想聽。可分為四種人：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://stevehsiao.com/images/study/img/2026/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/Pasted%20image%2020260610104133.png&#34; alt=&#34;Pasted image 20260610104133.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/study/img/2026/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/Pasted%20image%2020260610104133.png&#34; alt=&#34;Pasted image 20260610104133.png&#34;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;記稿看人：最完美的報告。&lt;/li&gt;
 &lt;li&gt;沒稿看人：講話沒邏輯、沒重點、用語聽不懂。&lt;/li&gt;
@@ -270,7 +270,7 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ul&gt;
 &lt;h2 id=&#34;流程&#34;&gt;流程&lt;/h2&gt;
 &lt;p&gt;準備一場報告的流程：&lt;br&gt;
-&lt;img src=&#34;https://stevehsiao.com/images/study/img/2026/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/Pasted%20image%2020260610112710.png&#34; alt=&#34;Pasted image 20260610112710.png&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/images/study/img/2026/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/Pasted%20image%2020260610112710.png&#34; alt=&#34;Pasted image 20260610112710.png&#34;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;讀資料：找尋&lt;strong&gt;可信來源&lt;/strong&gt;，深入研究本專題。&lt;/li&gt;
 &lt;li&gt;寫筆記：確保自己將蒐集到的資料吸收。&lt;/li&gt;
@@ -301,12 +301,12 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ul&gt;
 </description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/how-to-make-presentations/</guid>
+            <guid>http://localhost:1313/posts/how-to-make-presentations/</guid>
         </item>
         
         <item>
             <title>推坑指南：從 Ranger 到 Vim 的操作哲學</title>
-            <link>https://stevehsiao.com/posts/from-ranger-to-vim/</link>
+            <link>http://localhost:1313/posts/from-ranger-to-vim/</link>
             <description>&lt;h3 id=&#34;序&#34;&gt;序&lt;/h3&gt;
 &lt;p&gt;剛接觸 Linux 的人， 多少都聽過 Vim —— 一個純文字介面的編輯器。他可以高效地更改一些系統設定檔，幾乎所有的 Linux 都會內建 Vim，所以想玩 Linux ，遲早得學會他。&lt;/p&gt;
 &lt;p&gt;然而，對習慣圖形介面的我們來說，沒辦法適應早期電腦的操作習慣，上面也沒有任何提示，連插入字符、離開 Vim都有困難。Vim 這個根本是地獄等級的軟體吧！於是我和大多數人一樣，開始上網查詢相關教學。&lt;/p&gt;
@@ -315,12 +315,12 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;p&gt;所以這系列文章並不會先馬上教你 Vim，而是先從這些好玩的工具切入，帶你漸漸習慣他的操作思維，進而對 Vim 感興趣。希望能在這個過程中，順便把你推坑進來。&lt;/p&gt;
 &lt;p&gt;ㄛ&lt;/p&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/from-ranger-to-vim/</guid>
+            <guid>http://localhost:1313/posts/from-ranger-to-vim/</guid>
         </item>
         
         <item>
             <title>提早的重要性</title>
-            <link>https://stevehsiao.com/posts/importance-of-being-early/</link>
+            <link>http://localhost:1313/posts/importance-of-being-early/</link>
             <description>&lt;h3 id=&#34;慘痛的教訓&#34;&gt;慘痛的教訓&lt;/h3&gt;
 &lt;p&gt;我的 TCP/IP 課程的自主學習作業因上課沒好好上，讓我很不想做、一再拖延，最後：&lt;/p&gt;
 &lt;ul&gt;
@@ -341,26 +341,26 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ul&gt;
 </description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/importance-of-being-early/</guid>
+            <guid>http://localhost:1313/posts/importance-of-being-early/</guid>
         </item>
         
         <item>
             <title>輔大遊記（繞了四分之一校園）</title>
-            <link>https://stevehsiao.com/posts/fju-campus-visit/</link>
+            <link>http://localhost:1313/posts/fju-campus-visit/</link>
             <description>&lt;p&gt;今天去考 CPE，但是我根本沒注意到 6:00 後無法入場的規定。我真的做事太粗心了。六點過後才到，還慢慢走到教室，以為 6:40 前到就好。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://stevehsiao.com/images/life/%E5%87%BA%E5%8E%BB%E7%8E%A9/img/2026/%E8%BC%94%E5%A4%A7%E9%81%8A%E8%A8%98%EF%BC%88%E7%B9%9E%E4%BA%86%E5%9B%9B%E5%88%86%E4%B9%8B%E4%B8%80%E6%A0%A1%E5%9C%92%EF%BC%89/IMG_20260526_183539_810.jpg&#34; alt=&#34;IMG\_20260526\_183539\_810.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/life/%E5%87%BA%E5%8E%BB%E7%8E%A9/img/2026/%E8%BC%94%E5%A4%A7%E9%81%8A%E8%A8%98%EF%BC%88%E7%B9%9E%E4%BA%86%E5%9B%9B%E5%88%86%E4%B9%8B%E4%B8%80%E6%A0%A1%E5%9C%92%EF%BC%89/IMG_20260526_183539_810.jpg&#34; alt=&#34;IMG\_20260526\_183539\_810.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;他們學校有夠大，道路走向裡面有四個圓環，又往外延伸數個分支。人行道非常寬敞且乾淨，路上都沒看到半個垃圾。&lt;/p&gt;
 &lt;p&gt;當中不乏有很多精美、有設計的石造建築。我去資工系所在的大樓，就有九層樓。仔細看地圖，居然有六十幾個建築：&lt;br&gt;
-&lt;img src=&#34;https://stevehsiao.com/images/life/%E5%87%BA%E5%8E%BB%E7%8E%A9/img/2026/%E8%BC%94%E5%A4%A7%E9%81%8A%E8%A8%98%EF%BC%88%E7%B9%9E%E4%BA%86%E5%9B%9B%E5%88%86%E4%B9%8B%E4%B8%80%E6%A0%A1%E5%9C%92%EF%BC%89/IMG_20260526_183450_447.jpg&#34; alt=&#34;IMG\_20260526\_183450\_447.jpg&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/images/life/%E5%87%BA%E5%8E%BB%E7%8E%A9/img/2026/%E8%BC%94%E5%A4%A7%E9%81%8A%E8%A8%98%EF%BC%88%E7%B9%9E%E4%BA%86%E5%9B%9B%E5%88%86%E4%B9%8B%E4%B8%80%E6%A0%A1%E5%9C%92%EF%BC%89/IMG_20260526_183450_447.jpg&#34; alt=&#34;IMG\_20260526\_183450\_447.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;我還注意到的一點：這裡九成的人都有背書包。這裡的人大多都獨自前往自己的目的地，且頭髮整齊、衣著乾淨，戴著耳機做自己的事。感覺真的很老實的在當一個大學生。&lt;/p&gt;
 &lt;p&gt;建議大家可以多到別的校園走走，入學前先找找自己心儀的學校，觀察周遭環境。有時候會有很多不同的感受！&lt;/p&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/fju-campus-visit/</guid>
+            <guid>http://localhost:1313/posts/fju-campus-visit/</guid>
         </item>
         
         <item>
             <title>銘傳電機系的課怎麼樣</title>
-            <link>https://stevehsiao.com/posts/mingchuan-ee-courses-review/</link>
+            <link>http://localhost:1313/posts/mingchuan-ee-courses-review/</link>
             <description>&lt;p&gt;以下是電機系的課，每堂都是聽了 20 分鐘後退掉，最後都沒選。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;微處理機系統&lt;/strong&gt;&lt;br&gt;
 用 Arduino 寫應用，呼叫函式庫操作感測器，不是我想學的。唯一好處是每週拍影片，可以督促我周更 YouTube。&lt;/p&gt;
@@ -378,25 +378,25 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;p&gt;還是祝電機系的同學能持續學習吧。&lt;/p&gt;
 </description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/mingchuan-ee-courses-review/</guid>
+            <guid>http://localhost:1313/posts/mingchuan-ee-courses-review/</guid>
         </item>
         
         <item>
             <title>邊緣運算</title>
-            <link>https://stevehsiao.com/posts/edge-computing-reflection/</link>
-            <description>&lt;p&gt;剛開學時正在上 jserv 的課，我很瞧不起我們學校的課。我問魏老師：「你這個課有沒有解決真實問題？」覺得我們的課強度不高，加上選這門課的人啥都不會，我就當場退選了。原因就是我好怕像&lt;a href=&#34;https://stevehsiao.com/posts/mingchuan-ee-courses-review/&#34;&gt;電機系的課&lt;/a&gt;一樣，沒學到東西。&lt;/p&gt;
+            <link>http://localhost:1313/posts/edge-computing-reflection/</link>
+            <description>&lt;p&gt;剛開學時正在上 jserv 的課，我很瞧不起我們學校的課。我問魏老師：「你這個課有沒有解決真實問題？」覺得我們的課強度不高，加上選這門課的人啥都不會，我就當場退選了。原因就是我好怕像&lt;a href=&#34;http://localhost:1313/posts/mingchuan-ee-courses-review/&#34;&gt;電機系的課&lt;/a&gt;一樣，沒學到東西。&lt;/p&gt;
 &lt;p&gt;其實當時有認識的人一起上：一個靠譜的活人同學、一個搞很多專題的學長（程設助教）。唉，後來挺後悔退選這個課的。其實課堂上學不到什麼東西，能學到東西是在於分組做事的時侯。大多數人程度怎樣不是重點，重點是能找到程度差不多、甚至更強力的隊友，就一定能學到很多東西。&lt;/p&gt;
 </description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/edge-computing-reflection/</guid>
+            <guid>http://localhost:1313/posts/edge-computing-reflection/</guid>
         </item>
         
         <item>
             <title>114-2 學期總結</title>
-            <link>https://stevehsiao.com/posts/114-2-semester-summary/</link>
+            <link>http://localhost:1313/posts/114-2-semester-summary/</link>
             <description>&lt;p&gt;以下是比較有成果的課程：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/programming-2-course-review/&#34;&gt;程式設計（二）&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/programming-2-course-review/&#34;&gt;程式設計（二）&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/5teveLAN/mqtime&#34;&gt;GitHub 專案&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -409,7 +409,7 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/li&gt;
 &lt;li&gt;醫學與健康
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/how-to-make-presentations/&#34;&gt;如何做報告&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/how-to-make-presentations/&#34;&gt;如何做報告&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;邏輯與批判思考
@@ -422,8 +422,8 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ul&gt;
 &lt;p&gt;放棄的課程：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/mingchuan-ee-courses-review/&#34;&gt;電機系的課&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/edge-computing-reflection/&#34;&gt;邊緣運算&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/mingchuan-ee-courses-review/&#34;&gt;電機系的課&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/edge-computing-reflection/&#34;&gt;邊緣運算&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Linux 核心設計
 &lt;ul&gt;
 &lt;li&gt;C 語言筆記&lt;/li&gt;
@@ -432,15 +432,15 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ul&gt;
 &lt;p&gt;活動：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/mingchuan-week-camp-experience/&#34;&gt;銘傳一週與研習營心得&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/mingchuan-week-camp-experience/&#34;&gt;銘傳一週與研習營心得&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;慘痛的教訓：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/importance-of-being-early/&#34;&gt;提早的重要性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/importance-of-being-early/&#34;&gt;提早的重要性&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <pubDate>Thu, 02 Jul 2026 00:00:00 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/114-2-semester-summary/</guid>
+            <guid>http://localhost:1313/posts/114-2-semester-summary/</guid>
         </item>
         
     </channel>
