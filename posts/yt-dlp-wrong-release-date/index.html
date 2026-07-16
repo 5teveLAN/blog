@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-tw">    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="當我輸入這串指令時，發現音檔中的年份不是音樂發行年份。">  
+  <title>
+    
+      yt-dlp 音樂發行時間不對
+    
+  </title>
+
+
+  <link rel="icon" type="image/x-icon" href="//">
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.71d855b55c4c936211cd6d1b34c95fece6e71a302f6a848754527af8c0efce77da18a07f413dbb93d7fc272181d4d32fca9874f350666cf0b7eb67d9362a3360.css" integrity="sha512-cdhVtVxMk2IRzW0bNMlf7ObnGjAvaoSHVFJ6&#43;MDvznfaGKB/QT27k9f8JyGB1NMvyph081BmbPC362fZNiozYA==">
+  
+<body a="matrix">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+    <div class="back-and-meta">
+        <a href="https://stevehsiao.com/zh-tw/"></a>
+        <div class="post-meta">
+            
+                <a href="https://stevehsiao.com/posts/yt-dlp-wrong-release-date/"></a>
+            
+        </div>
+    </div>
+
+
+    <article>
+        <h1>yt-dlp 音樂發行時間不對</h1>
+
+        
+
+        <p>當我輸入這串指令時，發現音檔中的年份不是音樂發行年份。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yt-dlp <span class="se">\ </span>
+</span></span><span class="line"><span class="cl">--output <span class="s2">&#34;%(artist,unknown_artist)s/%(album,unknown_album)s/%(playlist_index)s. %(title)s.%(ext)s&#34;</span> <span class="se">\ </span><span class="c1">#輸出檔案</span>
+</span></span><span class="line"><span class="cl">--embed-thumbnail <span class="se">\ </span><span class="c1">#內嵌圖片</span>
+</span></span><span class="line"><span class="cl">--add-metadata <span class="se">\ </span><span class="c1">#加入資訊</span>
+</span></span><span class="line"><span class="cl">--extract-audio --audio-format mp3 --audio-quality 320K <span class="se">\ </span><span class="c1">#轉成音檔 </span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;url&#34;</span>
+</span></span></code></pre></div><p>問了ChatGPT ，雖然他給的解法是唬爛的，但得知可能是加入到了<strong>影片上傳日期</strong>。上網搜到了解法<a href="https://www.reddit.com/r/youtubedl/comments/t7uolk/downloading_albums_off_youtube_music_but_the/">reddit post</a>：</p>
+<blockquote>
+<p>The way to get the proper release date is to add the following:<br>
+<code>--parse-metadata &quot;%(release_year)s0101:%(upload_date)s&quot;</code></p></blockquote>
+<p>應該是將 release_year/01/01 (YYYY/MM/DD) 填入到原本 upload_date 的位置，至於幾月幾日就不重要了就隨便填。</p>
+    </article>
+<p class="post-meta">
+        <time datetime="2026-07-02 05:55:59.392 &#43;0000 UTC">
+            07.02.2026
+        </time>
+    <p class="post-meta">
+        
+            
+        
+        
+            
+                
+                
+                
+                    <a href="/tags/yt-dlp">yt-dlp</a>
+                
+            
+        
+    </p>
+
+
+            </div>
+        </main>
+    </body></html>
