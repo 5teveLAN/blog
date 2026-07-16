@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://stevehsiao.com/en/</loc>
     <lastmod>2025-11-20T13:34:54+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/"
+                href="https://stevehsiao.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/"
+                href="https://stevehsiao.com/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
+    <loc>https://stevehsiao.com/en/posts/</loc>
     <lastmod>2025-11-20T13:34:54+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/"
+                href="https://stevehsiao.com/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/posts/"
+                href="https://stevehsiao.com/en/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/pages/</loc>
+    <loc>https://stevehsiao.com/en/pages/</loc>
     <lastmod>2024-11-01T18:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/pages/"
+                href="https://stevehsiao.com/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/pages/"
+                href="https://stevehsiao.com/en/pages/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://stevehsiao.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/categories/"
+                href="https://stevehsiao.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/categories/"
+                href="https://stevehsiao.com/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://stevehsiao.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/"
+                href="https://stevehsiao.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
+                href="https://stevehsiao.com/en/tags/"
                 />
   </url>
 </urlset>
