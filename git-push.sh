@@ -25,6 +25,7 @@ hugo
 echo ""
 echo "🌳 切換到 gh-pages 分支（public/ 內容）..."
 cd public
+git checkout gh-pages
 
 git add .
 if [[ -z $(git status --porcelain) ]]; then
@@ -43,5 +44,5 @@ git checkout main
 echo ""
 echo "✨ 完成！"
 echo "   - main 分支已更新（Hugo 原始碼）"
-echo "   - gh-pages 分支已更新（靜態網站）"
+echo   " - gh-pages 分支已更新（靜態網站）"
 echo "   查看 GitHub Pages: https://5tevelan.github.io/blog/"
