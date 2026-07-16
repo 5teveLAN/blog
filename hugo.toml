@@ -7,7 +7,7 @@ enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"]
 
 [permalinks]
-  posts = "/posts/:filename/"
+  posts = "/posts/:slug/"
 
 [markup]
   [markup.highlight]
@@ -43,3 +43,4 @@ url = "/index.xml"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+

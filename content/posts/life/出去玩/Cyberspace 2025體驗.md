@@ -1,8 +1,9 @@
 ---
 tags: []
-title: Cyberspace 2025體驗
+slug: cyberspace-2025-experience
 date: 2026-06-09
 lastmod: 2026-07-04
+title: Cyberspace 2025體驗
 ---
 此文章乃紀錄充實的一天，亦分享經驗、鼓勵大家報名參加。
 

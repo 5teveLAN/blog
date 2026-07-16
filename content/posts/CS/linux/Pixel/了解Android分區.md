@@ -1,6 +1,7 @@
 ---
 tags: []
 title: 了解Android分區
+slug: android-partitions-guide
 date: 2026-07-02T05:55:59.335Z
 lastmod: 2026-07-02T05:55:59.335Z
 ---

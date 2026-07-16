@@ -2,6 +2,7 @@
 tags:
   - yt-dlp
 title: yt-dlp 音樂發行時間不對
+slug: yt-dlp-wrong-release-date
 date: 2026-07-02T05:55:59.392Z
 lastmod: 2026-07-02T05:55:59.392Z
 ---
