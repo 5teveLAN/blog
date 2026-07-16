@@ -17,22 +17,21 @@ fi
 echo "🚀 正在 push main 到遠端..."
 git push origin main
 
-# 2️⃣ 切換到 gh-pages，讓 hugo 直接在 gh-pages 上產生檔案
-echo ""
-echo "🌳 切換到 gh-pages 分支..."
-cd public
-git checkout gh-pages
-cd ..
-
-# 3️⃣ 用 Hugo 產生靜態檔案（直接寫進 gh-pages）
+# 2️⃣ 用 Hugo 產生靜態檔案（寫入 public/，此時上層在 main）
 echo ""
 echo "🔨 正在執行 hugo 產生靜態檔案..."
 hugo
 
-# 4️⃣ commit 並 push gh-pages
+# 3️⃣ 進到 public/ 把 hugo 產生的檔案 commit 到 gh-pages
 echo ""
-echo "📦 檢查 gh-pages 是否有未 commit 的變更..."
+echo "🌳 切換到 gh-pages 分支..."
 cd public
+git checkout gh-pages
+
+# 把 main 分支的檔案內容複製過來
+echo "📋 將 hugo 新產生的檔案複製到 gh-pages..."
+git checkout main -- .
+
 git add .
 if [[ -z $(git status --porcelain) ]]; then
   echo "✅ 沒有需要 commit 的變更"
@@ -43,12 +42,14 @@ fi
 echo "🚀 正在 push gh-pages 到遠端..."
 git push origin gh-pages
 
-# 5️⃣ 切回 main
-cd ..
+# 4️⃣ 切回 main
 git checkout main
+cd ..
 
 echo ""
 echo "✨ 完成！"
 echo "   - main 分支已更新（Hugo 原始碼）"
 echo "   - gh-pages 分支已更新（靜態網站）"
 echo "   查看 GitHub Pages: https://5tevelan.github.io/blog/"
+
+
