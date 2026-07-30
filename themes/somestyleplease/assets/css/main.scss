@@ -17,7 +17,10 @@
   .site-title {
     color: $--title;
   }
-  code:not(pre > code) {
+  article h1, article h2, article h3 {
+    color: $--link-color;
+  }
+code:not(pre > code) {
     background-color: $--primary-text-color;
     color: $--bg-color;
   }
@@ -30,7 +33,33 @@
   }
   .toc {
     border: thin solid $--link-color;
-    padding: 1rem;
+  padding: 1rem;
+}
+  .post-footer-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+  }
+  a.home-button {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background-color: $--link-color;
+    color: $--bg-color;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+    &:hover {
+      opacity: 0.8;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $--bg-color;
+    }
+  }
+  .post-date {
+    color: $--primary-text-color;
+    font-size: 0.9rem;
   }
   .ascii {
     font-size: 65%;
@@ -49,7 +78,7 @@
   @include theme(#ffffff, #212121, #dfedff, #0066ff, #004dc1, #FFFF00, #212121);
 }
 @mixin matrix-appearance {
-  @include theme(#000a1a, #c4ffc6, #161616, #c0ff00, #c0ff00, #007A35, #c4ffc6);
+  @include theme(#000a1a, #ececec, #161616, #d4fb5f , #d4fb5f, #007A35, #c4ffc6);
 }
 @mixin bear-appearance {
   @include theme(#01242e, #eee, #eee, #8cc2dd, #8cc2dd, #003544, #eee);
@@ -187,3 +216,4 @@ figcaption {
     display: flex;
     gap: 0.5rem;
 }
+
