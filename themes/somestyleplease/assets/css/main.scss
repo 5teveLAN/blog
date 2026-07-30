@@ -78,7 +78,7 @@ code:not(pre > code) {
   @include theme(#ffffff, #212121, #dfedff, #0066ff, #004dc1, #FFFF00, #212121);
 }
 @mixin matrix-appearance {
-  @include theme(#000a1a, #ececec, #161616, #d4fb5f , #d4fb5f, #007A35, #c4ffc6);
+  @include theme(#000000, #ececec, #161616, #d4fb5f , #d4fb5f, #007A35, #c4ffc6);
 }
 @mixin bear-appearance {
   @include theme(#01242e, #eee, #eee, #8cc2dd, #8cc2dd, #003544, #eee);
