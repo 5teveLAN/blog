@@ -6,8 +6,19 @@ theme = "somestyleplease"
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"]
 
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.zh-tw]
+    languageCode = "zh-TW"
+    languageName = ""
+    languageDirection = "ltr"
+    title = "Ahsiao's Blog"
+    weight = 1
+
 [permalinks]
   posts = "/posts/:slug/"
+  pages = "/:slug/"
 
 [markup]
   [markup.highlight]
