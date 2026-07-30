@@ -20,10 +20,9 @@ hugo
 # 3. Enter the public directory to push the generated site
 echo "--- Pushing site to gh-pages ---"
 cd public
-git pull origin gh-pages --rebase
 git add -A
 git commit -m "Deploy site: $MSG"
-git push origin gh-pages
+git push origin gh-pages --force
 
 # 4. Return to root
 cd ..
