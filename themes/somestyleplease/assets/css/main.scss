@@ -221,3 +221,12 @@ figcaption {
     user-select: none;
 }
 
+/* Active category highlight (identical on homepage & category page) */
+.all-tags { margin: 0.5rem 0; }
+.all-tags a.active-category {
+    text-decoration: underline;
+}
+.all-tags a.active-category b {
+    font-weight: bold;
+}
+

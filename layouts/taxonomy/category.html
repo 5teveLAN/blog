@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<!-- All categories (same as homepage, above the posts list) -->
+{{ with .Site.Taxonomies.categories }}
+    <div class="all-tags">
+        {{- $currentCategory := $.Title | lower -}}
+        {{- $categories := slice -}}
+        {{- range $name, $page := . -}}
+            {{- $link := printf "%s%s" ("/categories/" | relLangURL) ($name | urlize) -}}
+            {{- $label := $name -}}
+            {{- if eq (lower $name) $currentCategory -}}
+                {{- $categories = $categories | append (printf `<a href="%s" class="active-category"><b>%s</b></a>` $link $name) -}}
+            {{- else -}}
+                {{- $categories = $categories | append (printf `<a href="%s">%s</a>` $link $name) -}}
+            {{- end -}}
+        {{- end -}}
+        {{- delimit $categories " / " | safeHTML -}}
+    </div>
+{{ end }}
+
+<!-- Posts of this category (same format as homepage) -->
+{{ $currentLang := $.Site.Language.Lang }}
+{{ $categoryPosts := where .Data.Pages "Lang" $currentLang }}
+{{ $categoryPosts = $categoryPosts.ByDate.Reverse }}
+
+<p>{{ .Title }}</p>
+<ul class="posts-list">
+    {{ range $categoryPosts }}
+        <li>
+            <span>{{ .Date.Format ($.Site.Params.theme_config.date_format | default "01.02.2006") }}</span>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+    {{ else }}
+        <li>{{ i18n "noPosts" | default "Brak postów do wyświetlenia." }}</li>
+    {{ end }}
+</ul>
+
+{{ end }}
+
