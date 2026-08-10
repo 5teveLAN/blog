@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - mcu
 slug: cyberspace-2025-experience
 date: 2026-06-09
 lastmod: 2026-07-04

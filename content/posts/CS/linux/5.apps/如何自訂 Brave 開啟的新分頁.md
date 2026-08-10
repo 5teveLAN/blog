@@ -1,12 +1,11 @@
 ---
-tags: []
+tags:
+  - 極客
 title: 如何自訂 Brave 開啟的新分頁
 slug: brave-custom-new-tab
 date: 2026-07-02T05:55:59.385Z
 lastmod: 2026-07-02T05:55:59.385Z
 ---
-<!--more-->
-
 由於Brave的 Dashboard 不能用 Vimium[^1]，這當每次按`t`開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。
 
 Brave把 homepage 設定藏很深\

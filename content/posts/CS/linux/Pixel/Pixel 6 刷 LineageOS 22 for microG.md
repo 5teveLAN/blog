@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - 極客
 title: Pixel 6 刷 LineageOS 22 for microG
 slug: pixel6-lineageos-microg
 date: 2026-07-02T05:55:59.360Z
@@ -78,5 +79,4 @@ Bootloader 就像電腦的 BIOS/UEFI，預設是鎖定的。 Pixel 系列手機�
 
 #### 開啟microG GPS定位功能
 
-打開microG app，開啟Location->勾選Request from online service（允許從網路服務抓GPS定位）,之後地圖App即可成功定位 。\
-\#blog
+打開microG app，開啟Location->勾選Request from online service（允許從網路服務抓GPS定位）,之後地圖App即可成功定位 。

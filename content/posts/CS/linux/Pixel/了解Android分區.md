@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - 極客
 title: 了解Android分區
 slug: android-partitions-guide
 date: 2026-07-02T05:55:59.335Z
