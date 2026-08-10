@@ -15,6 +15,15 @@
 
         {{ .Content }}
     </article>
+
+<div class="post-footer-bar">
+        <a href="{{ .Site.BaseURL | relLangURL }}" class="home-button">
+            ↩ 回首頁
+        </a>
+        <time class="post-date" datetime="{{ .Date }}">
+            {{ .Date | time.Format site.Params.theme_config.date_format }}
+        </time>
+    </div>
     <p class="post-meta">
         {{ if site.Params.theme_config.categories }}
             {{ with .Params.categories }}
