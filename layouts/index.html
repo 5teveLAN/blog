@@ -1,20 +1,19 @@
 {{ define "main" }}
-
 <!-- Intro -->
 <p>{{ i18n "homepage.intro" | markdownify }}</p>
             
 <!-- Description -->
 <p>{{ i18n "homepage.moreintro" | markdownify }}</p>
 
-<!-- All tags (above the posts list) -->
-{{ with .Site.Taxonomies.tags }}
+<!-- All categories (above the posts list) -->
+{{ with .Site.Taxonomies.categories }}
     <div class="all-tags">
-        {{- $tags := slice -}}
+        {{- $categories := slice -}}
         {{- range $name, $page := . -}}
-            {{- $link := printf "%s%s" ("/tags/" | relLangURL) ($name | urlize) -}}
-            {{- $tags = $tags | append (printf `<a href="%s">%s</a>` $link $name) -}}
+            {{- $link := printf "%s%s" ("/categories/" | relLangURL) ($name | urlize) -}}
+            {{- $categories = $categories | append (printf `<a href="%s">%s</a>` $link $name) -}}
         {{- end -}}
-        {{- delimit $tags " / " | safeHTML -}}
+        {{- delimit $categories " / " | safeHTML -}}
     </div>
 {{ end }}
 
@@ -59,3 +58,4 @@
 {{ end }}
 
 {{ end }}
+

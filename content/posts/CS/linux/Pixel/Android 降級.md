@@ -1,6 +1,7 @@
 ---
-tags:
-  - 極客
+categories:
+  - geek
+tags: []
 title: Android 降級
 slug: android-downgrade
 date: 2026-07-02T05:55:59.326Z
