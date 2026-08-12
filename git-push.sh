@@ -4,13 +4,13 @@
 if [ -n "$1" ]; then
   MSG="$1"
 else
-  MSG="$(date)"
+  MSG="Update blog"
 fi
 
 # 1. Commit and push your source code (main branch)
 echo "--- Pushing source code to main ---"
 git add .
-git commit -m "Update source: $MSG"
+git commit -m "$MSG"
 git push origin main
 
 # 2. Build the site
@@ -21,7 +21,7 @@ hugo
 echo "--- Pushing site to gh-pages ---"
 cd public
 git add -A
-git commit -m "Deploy site: $MSG"
+git commit -m "$MSG"
 git push origin gh-pages --force
 
 # 4. Return to root
