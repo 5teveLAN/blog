@@ -22,7 +22,7 @@ echo "--- Pushing site to gh-pages ---"
 cd public
 git add -A
 git commit -m "$MSG"
-git push origin gh-pages --force
+git push --force
 
 # 4. Return to root
 cd ..
