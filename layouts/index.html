@@ -5,10 +5,11 @@
 <!-- Description -->
 <p>{{ i18n "homepage.moreintro" | markdownify }}</p>
 
-<!-- All categories (above the posts list) -->
+{{/* All categories (above the posts list) */}}
 {{ with .Site.Taxonomies.categories }}
     <div class="all-tags">
         {{- $categories := slice -}}
+        {{- $categories = $categories | append (printf `<a href="%s" class="active-category"><b>All</b></a>` (relLangURL "/")) -}}
         {{- range $name, $page := . -}}
             {{- $link := printf "%s%s" ("/categories/" | relLangURL) ($name | urlize) -}}
             {{- $categories = $categories | append (printf `<a href="%s">%s</a>` $link $name) -}}

@@ -14,3 +14,4 @@ https://download.terasic.com/downloads/cd-rom/de10-standard/
 1. 安裝 Bottle
 2. 新增一個 Bottle
 3. 使用 kron4ek-wine (soda 會無法開啟)
+

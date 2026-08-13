@@ -1,10 +1,11 @@
 {{ define "main" }}
 
-<!-- All categories (same as homepage, above the posts list) -->
+{{/* All categories (same as homepage, above the posts list) */}}
 {{ with .Site.Taxonomies.categories }}
     <div class="all-tags">
         {{- $currentCategory := $.Title | lower -}}
         {{- $categories := slice -}}
+        {{- $categories = $categories | append (printf `<a href="%s">All</a>` (relLangURL "/")) -}}
         {{- range $name, $page := . -}}
             {{- $link := printf "%s%s" ("/categories/" | relLangURL) ($name | urlize) -}}
             {{- $label := $name -}}
