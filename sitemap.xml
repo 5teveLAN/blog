@@ -3,22 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://stevehsiao.com/</loc>
-    <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://stevehsiao.com/categories/</loc>
+    <lastmod>2026-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://stevehsiao.com/categories/geek/</loc>
+    <lastmod>2026-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://stevehsiao.com/pages/</loc>
     <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://stevehsiao.com/posts/</loc>
+    <lastmod>2026-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://stevehsiao.com/posts/z-flip-4-%E5%80%8B%E4%BA%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2026-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://stevehsiao.com/use/</loc>
     <lastmod>2026-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://stevehsiao.com/about/</loc>
     <lastmod>2026-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://stevehsiao.com/categories/</loc>
-    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://stevehsiao.com/posts/</loc>
-    <lastmod>2026-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://stevehsiao.com/categories/thinking/</loc>
     <lastmod>2026-07-16T00:00:00+00:00</lastmod>
@@ -33,9 +39,6 @@
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://stevehsiao.com/posts/android-downgrade/</loc>
-    <lastmod>2026-07-02T05:55:59+00:00</lastmod>
-  </url><url>
-    <loc>https://stevehsiao.com/categories/geek/</loc>
     <lastmod>2026-07-02T05:55:59+00:00</lastmod>
   </url><url>
     <loc>https://stevehsiao.com/posts/pixel6-lineageos-microg/</loc>
