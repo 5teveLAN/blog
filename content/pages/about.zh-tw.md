@@ -10,9 +10,11 @@ date: 2026-08-10
 
 ### 大事記
 #### 2026
-- 戒尻
+- 不看 A 片
 - 開始慢跑
 #### 2025
-- [為什麼我不用社群軟體](https://stevehsiao.com/posts/why-i-quit-social-media/?utm_source=ig&utm_medium=social&utm_content=link_in_bio)
+- 刪除社群軟體 - [為什麼我不用社群軟體](https://stevehsiao.com/posts/why-i-quit-social-media/?utm_source=ig&utm_medium=social&utm_content=link_in_bio)
 #### 2024
 - 戒菸
+#### 2023
+- 戒酒 (滴酒不沾)
