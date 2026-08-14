@@ -1,7 +1,6 @@
 ---
 tags: []
-slugs:
-  - z-flip-4
+slug: z-flip-4
 categories:
   - geek
 date: 2026-08-10
