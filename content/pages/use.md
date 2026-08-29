@@ -49,3 +49,4 @@ date: 2026-08-10
 - **lazygit** 視覺化 git
 - **tldr** 比 man 好用的指令提示器 (pipx)
 - **hugo** blog 產生器
+- **wlcopy** 複製終端機標準輸出的工具
