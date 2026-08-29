@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-TW">    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Vim
+
+~/.vimrc
+
+
+安裝vim-gtk3
+set .vimrc
+
+set tabstop=4
+set nu
+set shiftwidth=4
+set expandtab
+set clipboard=unnamedplus
+set foldmethod=indent
+set laststatus=2
+set statusline=%f
+Keyboard
+keyd
+git clone https://github.com/rvaiya/keyd
+cd keyd
+make &amp;&amp; sudo make install
+sudo systemctl enable --now keyd
+sudo vim /etc/keyd/default.conf
+[ids]
+*
+
+[main]
+# 將 Caps Lock 映射為 Escape
+capslock = esc
+
+# 將原本的 Escape 映射為 Grave (即 ` 鍵)
+esc = `  
+# 強制定義 Right Shift，防止被誤認為 Left Shift
+rightshift = rightshift
+sudo keyd reload
+Tmux
+
+.tmux.conf">  
+  <title>
+    
+      裝新系統 個人設定
+    
+  </title>
+
+
+  <link rel="icon" type="image/x-icon" href="//">
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.1d16580de1617028164ba3cb1efe2fec1e87718217c2a37779dbee48bacf1121c4ae5c965920c75eae1ed15aa110582cd2803d2b7803dfca34952a11ea5bb9a7.css" integrity="sha512-HRZYDeFhcCgWS6PLHv4v7B6HcYIXwqN3edvuSLrPESHErlyWWSDHXq4e0VqhEFgs0oA9K3gD38o0lSoR6lu5pw==">
+  
+<body a="matrix">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+    <div class="back-and-meta">
+        <a href="https://stevehsiao.com/zh-tw/"></a>
+    </div>
+
+
+    <article>
+        <h1>裝新系統 個人設定</h1>
+
+        
+
+        <h3 id="vim">Vim</h3>
+<blockquote>
+<p>~/.vimrc</p>
+</blockquote>
+<ol>
+<li>安裝vim-gtk3</li>
+<li>set .vimrc</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">set</span> <span class="nv">tabstop</span><span class="o">=</span><span class="m">4</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> nu
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> <span class="nv">shiftwidth</span><span class="o">=</span><span class="m">4</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> expandtab
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> <span class="nv">clipboard</span><span class="o">=</span>unnamedplus
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> <span class="nv">foldmethod</span><span class="o">=</span>indent
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> <span class="nv">laststatus</span><span class="o">=</span><span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> <span class="nv">statusline</span><span class="o">=</span>%f
+</span></span></code></pre></div><h3 id="keyboard">Keyboard</h3>
+<p><a href="/posts/cs/linux/keyd">keyd</a></p>
+<pre tabindex="0"><code>git clone https://github.com/rvaiya/keyd
+cd keyd
+make &amp;&amp; sudo make install
+sudo systemctl enable --now keyd
+</code></pre><p><code>sudo vim /etc/keyd/default.conf</code></p>
+<pre tabindex="0"><code>[ids]
+*
+
+[main]
+# 將 Caps Lock 映射為 Escape
+capslock = esc
+
+# 將原本的 Escape 映射為 Grave (即 ` 鍵)
+esc = `  
+# 強制定義 Right Shift，防止被誤認為 Left Shift
+rightshift = rightshift
+</code></pre><pre tabindex="0"><code>sudo keyd reload
+</code></pre><h3 id="tmux">Tmux</h3>
+<blockquote>
+<p>.tmux.conf</p>
+</blockquote>
+<ol>
+<li>C-b to C-a</li>
+<li>C-hjkl to move</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">set</span> -g prefix C-a
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g default-terminal <span class="s2">&#34;xterm-256color&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">bind</span> -n C-h <span class="k">select</span>-pane -L
+</span></span><span class="line"><span class="cl"><span class="nb">bind</span> -n C-j <span class="k">select</span>-pane -D
+</span></span><span class="line"><span class="cl"><span class="nb">bind</span> -n C-k <span class="k">select</span>-pane -U
+</span></span><span class="line"><span class="cl"><span class="nb">bind</span> -n C-l <span class="k">select</span>-pane -R
+</span></span><span class="line"><span class="cl"><span class="nb">bind</span> r source-file ~/.tmux.conf
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -sg escape-time <span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g mouse on
+</span></span><span class="line"><span class="cl"><span class="c1"># statusbar</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g status-position bottom
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g status-justify left
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g status-style <span class="s1">&#39;fg=red&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g status-left <span class="s1">&#39;&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g status-left-length <span class="m">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g status-right-style <span class="s1">&#39;fg=black bg=yellow&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g status-right <span class="s1">&#39;%Y-%m-%d %H:%M &#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">set</span> -g status-right-length <span class="m">50</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">setw -g window-status-current-style <span class="s1">&#39;fg=black bg=red&#39;</span>
+</span></span><span class="line"><span class="cl">setw -g window-status-current-format <span class="s1">&#39; #I #W #F &#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">setw -g window-status-style <span class="s1">&#39;fg=red bg=black&#39;</span>
+</span></span><span class="line"><span class="cl">setw -g window-status-format <span class="s1">&#39; #I #[fg=white]#W #[fg=yellow]#F &#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">setw -g window-status-bell-style <span class="s1">&#39;fg=yellow bg=red bold&#39;</span>
+</span></span><span class="line"><span class="cl">setw -g mode-keys vi
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">bind</span> -T copy-mode-vi c send -X copy-pipe-and-cancel <span class="s2">&#34;xclip -selection clipboard&#34;</span>
+</span></span><span class="line"><span class="cl">bind-key -T copy-mode-vi Y send -X copy-line
+</span></span><span class="line"><span class="cl"><span class="nb">bind</span> r source-file ~/.tmux.conf <span class="se">\;</span> display <span class="s2">&#34;Reloaded!&#34;</span>
+</span></span></code></pre></div><h3 id="ranger">Ranger</h3>
+<blockquote>
+<p>.config/ranger/rc.conf</p>
+</blockquote>
+<ol>
+<li>yp settings (xclip needed)</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">map yp shell <span class="nb">printf</span> %d/%f <span class="p">|</span> xclip -selection clipboard
+</span></span><span class="line"><span class="cl">map yn shell <span class="nb">printf</span> %f <span class="p">|</span> xclip -selection clipboard 
+</span></span></code></pre></div><h3 id="bashrc">bashrc</h3>
+<blockquote>
+<p>~/.bashrc<br>
+自由調整</p>
+</blockquote>
+
+    </article>
+
+<div class="post-footer-bar">
+        <a href="/" class="home-button">
+            ↩ 回首頁
+        </a>
+        <time class="post-date" datetime="1970-01-01 00:00:00 &#43;0000 UTC">
+            01.01.1970
+        </time>
+    </div>
+    <p class="post-meta">
+        
+            
+        
+        
+            
+        
+    </p>
+
+
+            </div>
+        </main>
+    </body></html>

@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/lag/Documents/blog",
+	"sourceRoot": "/home/ggd/Blog",
 	"sources": [
 		"themes/somestyleplease/assets/css/main.scss"
 	],

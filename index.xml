@@ -161,6 +161,13 @@
 &lt;p&gt;&lt;strong&gt;推動人生&lt;/strong&gt;&lt;br&gt;
 也有可能在未來繼續玩。&lt;br&gt;
 我知道我再不處理下去，我很難專心做別的事了。&lt;/p&gt;
+&lt;h3 id=&#34;看開-1&#34;&gt;看開&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;物品交換&lt;/strong&gt;：自己沒那麼喜歡的，可能是別人的寶，可以交換。&lt;br&gt;
+像我也賣過很多相機，電子產品，當作一種交換就好了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;推動人生&lt;/strong&gt;：也有可能在未來繼續玩。&lt;br&gt;
+我知道我再不處理下去，我很難專心做別的事了。&lt;/li&gt;
+&lt;/ol&gt;
 </description>
             <pubDate>Mon, 10 Aug 2026 00:00:00 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/give-my-lego/</guid>
@@ -213,7 +220,8 @@ There has an online flash tool for factory image: &lt;a href=&#34;https://develo
             <description>&lt;h3 id=&#34;前言&#34;&gt;前言&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br&gt;
-Lineage叫拎age不叫賴age&lt;/p&gt;&lt;/blockquote&gt;
+Lineage叫拎age不叫賴age&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;我原本使用原廠 Android 14~16，因為看不慣 Google 的預載軟體（Gapps）。系統內建兩個 Google 瀏覽器：一個叫 Google ，一個是 Chrome ，但我只用 Brave 瀏覽器；首頁上的搜尋欄位也關不掉，加上一堆用不到的捆綁軟體（像 Google News , Google TV等）刪不掉。加上這台手機背景運行程式就會發燙，以及不想被 Google 偷聽監控、偷耗電，所以決定來 Degoogle（只裝用得到的 App）。&lt;/p&gt;
 &lt;p&gt;而多數 App 依賴 Google Play Service 才能正常開啟或推播通知，這時可以使用一個開源的替代方案——&lt;strong&gt;microG&lt;/strong&gt;，可以維持這些 App 的正常運作。&lt;/p&gt;
 &lt;h3 id=&#34;目錄&#34;&gt;目錄&lt;/h3&gt;
@@ -295,7 +303,8 @@ Lineage叫拎age不叫賴age&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;問了ChatGPT ，雖然他給的解法是唬爛的，但得知可能是加入到了&lt;strong&gt;影片上傳日期&lt;/strong&gt;。上網搜到了解法&lt;a href=&#34;https://www.reddit.com/r/youtubedl/comments/t7uolk/downloading_albums_off_youtube_music_but_the/&#34;&gt;reddit post&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The way to get the proper release date is to add the following:&lt;br&gt;
-&lt;code&gt;--parse-metadata &#34;%(release_year)s0101:%(upload_date)s&#34;&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;code&gt;--parse-metadata &#34;%(release_year)s0101:%(upload_date)s&#34;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;應該是將 release_year/01/01 (YYYY/MM/DD) 填入到原本 upload_date 的位置，至於幾月幾日就不重要了就隨便填。&lt;/p&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/yt-dlp-wrong-release-date/</guid>
@@ -307,7 +316,8 @@ Lineage叫拎age不叫賴age&lt;/p&gt;&lt;/blockquote&gt;
             <description>&lt;h4 id=&#34;android-partitions&#34;&gt;Android Partitions&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br&gt;
-Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt;/p&gt;&lt;/blockquote&gt;
+Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://stevehsiao.com/images/CS/linux/Pixel/img/2026/%E4%BA%86%E8%A7%A3Android%E5%88%86%E5%8D%80/partitions.excalidraw.md&#34; alt=&#34;partitions.excalidraw&#34;&gt;&lt;br&gt;
 &lt;strong&gt;金字塔架構&lt;/strong&gt;&lt;/p&gt;
