@@ -40,6 +40,8 @@ date: 2026-08-10
 	- **Hugo Publish** 一鍵轉成部落格可用的 MarkDown 格式
 - **VSCode**
 	- **Continue** 可接便宜的 API 使用 AI Agent 寫程式、與電腦互動
+- **Bottle** 開 .exe 神器
+	- [如何在Linux執行Windows exe檔，用Bottles管理多版本的Wine容器 · Ivon的部落格](https://ivonblog.com/posts/setup-linux-bottles/)
 ### 軟體 - 終端機相關
 - **Ranger** 用上下左右進入目錄，告別 `ls`, `cd`
 - **Tmux** 畫面分割工具
