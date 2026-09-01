@@ -8,9 +8,176 @@
         
         
         <item>
+            <title>testgggg</title>
+            <link>https://stevehsiao.com/posts/testgggg/</link>
+            <description></description>
+            <pubDate>Tue, 01 Sep 2026 08:04:36 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/testgggg/</guid>
+        </item>
+        
+        <item>
+            <title>吃不完算浪費食物嗎</title>
+            <link>https://stevehsiao.com/posts/whats-wasting-food/</link>
+            <description>&lt;p&gt;我從小接收到的觀念就是：不要浪費食物，聽「一粒米百粒汗」、「浪費食物娶到醜老婆」、「浪費食物遭天譴，會變餓鬼」之類的詛咒長大。但是我家裡就是愛煮一堆吃不完的東西，最後都變成我要去倒掉，我被強迫浪費食物。我想過兩件事:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;勉強吃完？我的胃不好，吃太多只會造成負擔。&lt;/li&gt;
+&lt;li&gt;廚餘丟廚餘機，再拿去丟廚餘，比較環保？但是我家裡老人沒有環保概念，要他花五千買廚餘機，他還不如直接把飯菜丟垃圾桶。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我真的覺得這些事情讓我很不心安，而且也不環保。但是現在寄人籬下也不能幹嘛。我真的會遭天譴嗎？&lt;/p&gt;
+&lt;h3 id=&#34;寧願煮多也不要少&#34;&gt;寧願煮多也不要少&lt;/h3&gt;
+&lt;p&gt;拿學校營養午餐當例子。每次看到飯菜都還剩很多我很傷心，感覺學生都不珍惜食物。&lt;strong&gt;但是廚房必須確保有足夠多的食物，讓所有學生都能吃飽&lt;/strong&gt;。萬一煮少了後果可更嚴重。&lt;/p&gt;
+&lt;p&gt;外面餐廳準備不夠，會造成商譽損失；家裡客人來準備不夠，會虧待客人。跟剩菜比起來，後者的損失可承擔不起。&lt;/p&gt;
+&lt;p&gt;既然「寧願煮多也不要少」是基本原則，那剩菜就是必然結果。我們只要將剩菜拿去廚餘桶，讓這些剩的有最好的去處，這樣就好了。&lt;/p&gt;
+&lt;p&gt;剩菜不是浪費食物，真正浪費食物是一口也不吃。&lt;/p&gt;
+</description>
+            <pubDate>Sun, 30 Aug 2026 00:00:00 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/whats-wasting-food/</guid>
+        </item>
+        
+        <item>
+            <title>昂貴的藍芽耳機是智商稅</title>
+            <link>https://stevehsiao.com/posts/wireless-headphones-suck/</link>
+            <description>&lt;p&gt;純抱怨，世界上怎麼會有那麼智障的產品。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;花了大錢買一萬多塊的藍芽耳機，結果電池沒用幾年就報廢。&lt;/li&gt;
+&lt;li&gt;官方不提供原廠電池，只能去某寶買來路不明的電池。&lt;/li&gt;
+&lt;li&gt;不敢把來路不明的電池戴在頭上。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我花了一整天在網路上找電池、更換評價，發現根本沒靠譜的廠商，換電池也不流行（根本沒人在幫耳機換電池、都是壞了就丟）。索性放棄。&lt;/p&gt;
+&lt;p&gt;這些廠商大可以好好設計一個通用的電池，在每一款耳機上通用。但是他們就是不肯。&lt;/p&gt;
+&lt;p&gt;藍芽耳機就是計劃性報廢的爛產品，請選擇耐用的有線耳機，不然就用喇叭。&lt;/p&gt;
+</description>
+            <pubDate>Sun, 30 Aug 2026 00:00:00 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/wireless-headphones-suck/</guid>
+        </item>
+        
+        <item>
+            <title>裝新系統 個人設定</title>
+            <link>https://stevehsiao.com/posts/system-settings/</link>
+            <description>&lt;h3 id=&#34;vim&#34;&gt;Vim&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;~/.vimrc&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;安裝vim-gtk3&lt;/li&gt;
+&lt;li&gt;set .vimrc&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;tabstop&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; nu
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;shiftwidth&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; expandtab
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;clipboard&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;unnamedplus
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;foldmethod&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;indent
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;laststatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;statusline&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;%f
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;keyboard&#34;&gt;Keyboard&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://stevehsiao.com/posts/cs/linux/keyd&#34;&gt;keyd&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/rvaiya/keyd
+cd keyd
+make &amp;&amp; sudo make install
+sudo systemctl enable --now keyd
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;sudo vim /etc/keyd/default.conf&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[ids]
+*
+
+[main]
+# 將 Caps Lock 映射為 Escape
+capslock = esc
+
+# 將原本的 Escape 映射為 Grave (即 ` 鍵)
+esc = `  
+# 強制定義 Right Shift，防止被誤認為 Left Shift
+rightshift = rightshift
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo keyd reload
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tmux&#34;&gt;Tmux&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;.tmux.conf&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;C-b to C-a&lt;/li&gt;
+&lt;li&gt;C-hjkl to move&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g prefix C-a
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g default-terminal &lt;span class=&#34;s2&#34;&gt;&#34;xterm-256color&#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -n C-h &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;-pane -L
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -n C-j &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;-pane -D
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -n C-k &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;-pane -U
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -n C-l &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;-pane -R
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; r source-file ~/.tmux.conf
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -sg escape-time &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g mouse on
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# statusbar&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-position bottom
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-justify left
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=red&#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-left &lt;span class=&#34;s1&#34;&gt;&#39;&#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-left-length &lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-right-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=black bg=yellow&#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-right &lt;span class=&#34;s1&#34;&gt;&#39;%Y-%m-%d %H:%M &#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-right-length &lt;span class=&#34;m&#34;&gt;50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-current-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=black bg=red&#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-current-format &lt;span class=&#34;s1&#34;&gt;&#39; #I #W #F &#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=red bg=black&#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-format &lt;span class=&#34;s1&#34;&gt;&#39; #I #[fg=white]#W #[fg=yellow]#F &#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-bell-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=yellow bg=red bold&#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g mode-keys vi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -T copy-mode-vi c send -X copy-pipe-and-cancel &lt;span class=&#34;s2&#34;&gt;&#34;xclip -selection clipboard&#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bind-key -T copy-mode-vi Y send -X copy-line
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; r source-file ~/.tmux.conf &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; display &lt;span class=&#34;s2&#34;&gt;&#34;Reloaded!&#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ranger&#34;&gt;Ranger&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;.config/ranger/rc.conf&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;yp settings (xclip needed)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;map yp shell &lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; %d/%f &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xclip -selection clipboard
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;map yn shell &lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; %f &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xclip -selection clipboard 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;bashrc&#34;&gt;bashrc&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;~/.bashrc&lt;br&gt;
+自由調整&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+            <pubDate>Sat, 29 Aug 2026 00:00:00 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/system-settings/</guid>
+        </item>
+        
+        <item>
+            <title>裝新系統 設定好 Linux</title>
+            <link>https://stevehsiao.com/posts/linux-settings/</link>
+            <description>&lt;ul&gt;
+&lt;li&gt;同步瀏覽器 Brave Sync&lt;/li&gt;
+&lt;li&gt;遷移檔案 SyncThings&lt;/li&gt;
+&lt;li&gt;調整 KDE 介面&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/system-settings/&#34;&gt;裝新系統 個人設定&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;安裝中文輸入法
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ivonblog.com/posts/ubuntu-fcitx5/#2-%E5%AE%89%E8%A3%9Dfcitx5%E7%9A%84%E5%A5%97%E4%BB%B6&#34;&gt;Ubuntu繁體中文輸入法？改用Fcitx5來輸入中文吧！ · Ivon的部落格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;安裝 Line&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+            <pubDate>Sat, 29 Aug 2026 00:00:00 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/linux-settings/</guid>
+        </item>
+        
+        <item>
             <title>Meta 我跟你沒完沒了</title>
             <link>https://stevehsiao.com/posts/fuck-you-meta/</link>
-            <description>&lt;p&gt;我之前國中就刪過一次臉書帳號，大概是想切斷過去吧。做出這種決定代表我有「反叛社群軟體的基因」。&lt;/p&gt;
+            <description>&lt;p&gt;我的聯絡方式被 Meta 綁架，讓我無法完全脫離它。&lt;/p&gt;
+&lt;p&gt;我之前國中就刪過一次臉書帳號，大概是想切斷過去吧。做出這種決定代表我有「反叛社群軟體的基因」。&lt;/p&gt;
 &lt;p&gt;高中時副班長（熱音社帥潮、臉書五百朋友）要幫我加進 Messenger 班群，我跟他說「我沒 FB」、「之後再辦」，那時我真的覺得我是個不折不扣的怪人，所以我之後連 Ig 也辦起來了。&lt;/p&gt;
 &lt;p&gt;但是現在我大學快畢業了，沒什麼和別人聯絡，覺得用不用這些軟體，有差嗎？&lt;/p&gt;
 &lt;h3 id=&#34;煩惱到底要不要刪除帳號&#34;&gt;煩惱到底要不要刪除帳號&lt;/h3&gt;
@@ -384,146 +551,6 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ol&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/system-builder-linux/</guid>
-        </item>
-        
-        <item>
-            <title>如何自訂 Brave 開啟的新分頁</title>
-            <link>https://stevehsiao.com/posts/brave-custom-new-tab/</link>
-            <description>&lt;p&gt;由於Brave的 Dashboard 不能用 Vimium&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，這當每次按&lt;code&gt;t&lt;/code&gt;開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。&lt;/p&gt;
-&lt;p&gt;Brave把 homepage 設定藏很深&lt;br&gt;
-去 &lt;code&gt;brave://settings&lt;/code&gt; 找（可以用搜尋的）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;show &lt;strong&gt;home button&lt;/strong&gt; -&gt; set homepage - 設定主頁面&lt;/li&gt;
-&lt;li&gt;new &lt;strong&gt;tab&lt;/strong&gt; -&gt; homepage - 將新分頁設定開啟主頁面&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;貌似是出於安全因素，有些Extenstions會進行攻擊https://www.reddit.com/r/brave_browser/comments/igxo25/vimium_on_braves_start_page/ &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/brave-custom-new-tab/</guid>
-        </item>
-        
-        <item>
-            <title>如何做報告</title>
-            <link>https://stevehsiao.com/posts/how-to-make-presentations/</link>
-            <description>&lt;h3 id=&#34;報告&#34;&gt;報告&lt;/h3&gt;
-&lt;p&gt;有些人大一就台風穩健、口齒清晰，有些人就很讓人不想聽。可分為四種人：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://stevehsiao.com/images/study/img/2026/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/Pasted%20image%2020260610104133.png&#34; alt=&#34;Pasted image 20260610104133.png&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;記稿看人：最完美的報告。&lt;/li&gt;
-&lt;li&gt;沒稿看人：講話沒邏輯、沒重點、用語聽不懂。&lt;/li&gt;
-&lt;li&gt;看稿不看人：講的內容是 PPT 上的延伸，但是語氣平淡默默念稿。&lt;/li&gt;
-&lt;li&gt;念 PPT 不看人：一大段文字全部放 PPT 上然後照念，沒救。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;第二和第三種都不是個好的狀態，我試著分析這兩種如何轉變為第一種：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;要從 看稿不看人 到 記稿看人：
-&lt;ul&gt;
-&lt;li&gt;不能背 AI 稿（不是自己的文字，背不起來）&lt;/li&gt;
-&lt;li&gt;自己寫稿&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;要從 沒稿看人 到 記稿看人：
-&lt;ul&gt;
-&lt;li&gt;勤勞一點，寫口語稿&lt;/li&gt;
-&lt;li&gt;掌握流程後再優化速度&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;流程&#34;&gt;流程&lt;/h2&gt;
-&lt;p&gt;準備一場報告的流程：&lt;br&gt;
-&lt;img src=&#34;https://stevehsiao.com/images/study/img/2026/%E5%A6%82%E4%BD%95%E5%81%9A%E5%A0%B1%E5%91%8A/Pasted%20image%2020260610112710.png&#34; alt=&#34;Pasted image 20260610112710.png&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;讀資料：找尋&lt;strong&gt;可信來源&lt;/strong&gt;，深入研究本專題。&lt;/li&gt;
-&lt;li&gt;寫筆記：確保自己將蒐集到的資料吸收。&lt;/li&gt;
-&lt;li&gt;寫文字報告：從筆記中抓取資料，寫成&lt;strong&gt;結構化&lt;/strong&gt;的觀點。&lt;/li&gt;
-&lt;li&gt;寫口語稿：將文字報告改編成口語版本。&lt;/li&gt;
-&lt;li&gt;做簡報：僅作為口頭報告中的輔助資料。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;我該找尋什麼當作主要來源&#34;&gt;我該找尋什麼當作主要來源？&lt;/h3&gt;
-&lt;p&gt;我現在只搜政府、學術網站，甚至可以去翻書。根據不同主題有不同的來源：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;健康：醫院、基金會。&lt;/li&gt;
-&lt;li&gt;工程：官方文件、論文。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;不建議用（或僅作為參考用）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;企業宣傳網站：通常會選擇自己有利的觀點，並導向產品宣傳。&lt;/li&gt;
-&lt;li&gt;二手資訊網站：科普網站、新聞、維基百科&lt;/li&gt;
-&lt;li&gt;可信度低的來源：網路論壇&lt;br&gt;
-這些平時自己閱讀即可，做報告還是需要比較完整的資訊。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;為什麼不能用那些資料當作主要來源&#34;&gt;為什麼不能用那些資料當作主要來源？&lt;/h3&gt;
-&lt;p&gt;他們寫這些文章肯定要有憑有據，也就是說一定查得到第一手的資料。既然有第一手的資訊，為什麼要用二手、三手的？當然可信來源讀起來比較晦澀難懂，可將資料丟給 AI 協助閱讀。&lt;/p&gt;
-&lt;h3 id=&#34;其他佳句&#34;&gt;其他佳句&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;沒準備一定爛，只講（準備）精華&lt;/li&gt;
-&lt;li&gt;報告時可以提到前面的組&lt;/li&gt;
-&lt;li&gt;講得夠好就不會有人滑手機&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/how-to-make-presentations/</guid>
-        </item>
-        
-        <item>
-            <title>推坑指南：從 Ranger 到 Vim 的操作哲學</title>
-            <link>https://stevehsiao.com/posts/from-ranger-to-vim/</link>
-            <description>&lt;h3 id=&#34;序&#34;&gt;序&lt;/h3&gt;
-&lt;p&gt;剛接觸 Linux 的人， 多少都聽過 Vim —— 一個純文字介面的編輯器。他可以高效地更改一些系統設定檔，幾乎所有的 Linux 都會內建 Vim，所以想玩 Linux ，遲早得學會他。&lt;/p&gt;
-&lt;p&gt;然而，對習慣圖形介面的我們來說，沒辦法適應早期電腦的操作習慣，上面也沒有任何提示，連插入字符、離開 Vim都有困難。Vim 這個根本是地獄等級的軟體吧！於是我和大多數人一樣，開始上網查詢相關教學。&lt;/p&gt;
-&lt;p&gt;Google 查詢後，我看到的主要有兩類：鳥哥的網站，以及成大資工Wiki。鳥哥網站寫的很詳細沒有錯，但一開始就羅列一堆 Vim 的快捷鍵操作，使我沒辦法記憶，也沒辦法有效學習，況且我當下沒有使用 Vim編輯檔案的需求，根本學不進去；另外成大資工的網站，上面比較著重在 Vim 的設定檔的筆記，例如讓Vim 顯示行號、Tab寬度⋯⋯ 我覺得這些對剛開始接觸的新手不友好，也勸退了我。這些都太難了！&lt;/p&gt;
-&lt;p&gt;直到我因緣際會下接觸了 Wiwi 的網站，他推廣了 Linux、自架服務、終端機等使用，以及告訴你會什麼該這麼做、這麼做的好處，這才讓我真正體會純文字介面下的美妙。其實我一開始不是接觸 Vim，而是使用 Ranger、Vimium 這些承襲 Vim 操作方式的軟體，他們都徹底改變了我的操作習慣。&lt;/p&gt;
-&lt;p&gt;所以這系列文章並不會先馬上教你 Vim，而是先從這些好玩的工具切入，帶你漸漸習慣他的操作思維，進而對 Vim 感興趣。希望能在這個過程中，順便把你推坑進來。&lt;/p&gt;
-&lt;p&gt;ㄛ&lt;/p&gt;</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/from-ranger-to-vim/</guid>
-        </item>
-        
-        <item>
-            <title>提早的重要性</title>
-            <link>https://stevehsiao.com/posts/importance-of-being-early/</link>
-            <description>&lt;h3 id=&#34;慘痛的教訓&#34;&gt;慘痛的教訓&lt;/h3&gt;
-&lt;p&gt;我的 TCP/IP 課程的自主學習作業因上課沒好好上，讓我很不想做、一再拖延，然後：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;報告遲交十秒，系統關閉&lt;/li&gt;
-&lt;li&gt;面臨直接放棄交、還是寫信求（麻煩）老師的困境&lt;/li&gt;
-&lt;li&gt;最後決定寫信問老師，找尋機會&lt;/li&gt;
-&lt;li&gt;並且先詢問學長意見&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;結果：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;學長冷冷地回我：「自己寫信去問。」&lt;/li&gt;
-&lt;li&gt;老師沒回我信&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;就算作業寫得再好，我一夕之間從好學生(?)變成了不受人待見的壞學生。不過我也學到了教訓：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;規定就是規定，差 0.1 秒也是一樣&lt;/li&gt;
-&lt;li&gt;先交爛版本，不要等完美版本做出來再交&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/importance-of-being-early/</guid>
-        </item>
-        
-        <item>
-            <title>輔大遊記（繞了四分之一校園）</title>
-            <link>https://stevehsiao.com/posts/fju-campus-visit/</link>
-            <description>&lt;p&gt;今天去考 CPE，但是我根本沒注意到 6:00 後無法入場的規定。我真的做事太粗心了。六點過後才到，還慢慢走到教室，以為 6:40 前到就好。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://stevehsiao.com/images/life/mcu%20114-2/img/2026/%E8%BC%94%E5%A4%A7%E9%81%8A%E8%A8%98%EF%BC%88%E7%B9%9E%E4%BA%86%E5%9B%9B%E5%88%86%E4%B9%8B%E4%B8%80%E6%A0%A1%E5%9C%92%EF%BC%89/IMG_20260526_183539_810.jpg&#34; alt=&#34;IMG\_20260526\_183539\_810.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;他們學校有夠大，道路走向裡面有四個圓環，又往外延伸數個分支。人行道非常寬敞且乾淨，路上都沒看到半個垃圾。&lt;/p&gt;
-&lt;p&gt;當中不乏有很多精美、有設計的石造建築。我去資工系所在的大樓，就有九層樓。仔細看地圖，居然有六十幾個建築：&lt;br&gt;
-&lt;img src=&#34;https://stevehsiao.com/images/life/mcu%20114-2/img/2026/%E8%BC%94%E5%A4%A7%E9%81%8A%E8%A8%98%EF%BC%88%E7%B9%9E%E4%BA%86%E5%9B%9B%E5%88%86%E4%B9%8B%E4%B8%80%E6%A0%A1%E5%9C%92%EF%BC%89/IMG_20260526_183450_447.jpg&#34; alt=&#34;IMG\_20260526\_183450\_447.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;我還注意到的一點：這裡九成的人都有背書包。這裡的人大多都獨自前往自己的目的地，且頭髮整齊、衣著乾淨，戴著耳機做自己的事。感覺真的很老實的在當一個大學生。&lt;/p&gt;
-&lt;p&gt;建議大家可以多到別的校園走走，入學前先找找自己心儀的學校，觀察周遭環境。有時候會有很多不同的感受！&lt;/p&gt;</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/fju-campus-visit/</guid>
         </item>
         
     </channel>
