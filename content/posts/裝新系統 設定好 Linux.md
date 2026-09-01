@@ -2,7 +2,7 @@
 title: 裝新系統 設定好 Linux
 tags: []
 slug: linux-settings
-date: 1970-01-01
+date: 2026-08-29
 lastmod: 2026-08-29
 ---
 * 同步瀏覽器 Brave Sync
