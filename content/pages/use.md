@@ -5,15 +5,15 @@ date: 2026-08-10
 ---
 
 ### 硬體
-- **MacBook Air M1**
-  主力機，目前找不到二手萬元上下、續航佳，能夠上一整天課不插電的電腦了。
-- **ThinkPad T490** 
-- **ThinkPad X230** 
-  可裝 Linux, Win 的備用機，有 USB 3.0，已改裝 X220 鍵盤。
+- **ThinkPad T490**  主力機，鍵盤好打，零件拆裝容易，有小紅點。已升級 24G RAM (24G/1T)。冬天可以取暖。
+- **ThinkPad X230** 有 USB 3.0，已改裝 X220 鍵盤。預計用來研究開源 BIOS。
+- **桌機** 補足筆電性能不足，剪輯、編譯軟體用。
 - **Pixel 6** 顏色好看、可刷機 
+- ~~**MacBook Air M1 (8/256)**~~
+  ~~主力機，目前找不到二手萬元上下、續航佳，能夠上一整天課不插電的電腦了。~~
 - ~~**z fLIP 4** 漂亮的摺疊機~~
 ### 軟體 - 作業系統
-- **Linux** (KUbuntu, XUbuntu)
+- **Linux** (KUbuntu, XUbuntu) 我的作業系統都是使用 Linux，無一例外。
   可體驗自由作業系統的美好：沒有間諜軟體、沒有煩人的更新、沒有煩人的登入帳號、不會在背後做圖利某些公司的事、沒有型號限制，不會說太舊不能裝。
   這世界不是只有 Win/Mac 可用欸！打開電腦作業系統的選擇權！
   - 為什麼你該試試 Linux (撰寫中)
@@ -24,7 +24,7 @@ date: 2026-08-10
   - ✅ 同時又可用推播、定位、登入驗證等功能。
   - ❌ 內建 App 較陽春。
   - ❌ 台灣行動支付不能用。
-- ~~**macOS**~~ （準備換掉）
+- ~~**macOS**~~ （已拋棄）
   - ✅ 軟體相容度比較好 (Word, Line ...) It just works.
   - ❌ 介面越來越無趣
   - ❌ 有些工具只能開發 Apple 產品
@@ -38,8 +38,9 @@ date: 2026-08-10
 	擴充插件：
 	- **Excalidraw** 非常容易上手的繪圖工具
 	- **Hugo Publish** 一鍵轉成部落格可用的 MarkDown 格式
-- **VSCode**
-	- **Continue** 可接便宜的 API 使用 AI Agent 寫程式、與電腦互動
+- **~~VSCode~~** **VSCodium** 去除微軟功能的 VSCode
+	- ~~**Continue** (已停止維護) 可接便宜的 API 使用 AI Agent 寫程式、與電腦互動~~
+	- **CLine** 目前最多人使用的開源 AI Agent。
 - **Bottle** 開 .exe 神器
 	- [如何在Linux執行Windows exe檔，用Bottles管理多版本的Wine容器 · Ivon的部落格](https://ivonblog.com/posts/setup-linux-bottles/)
 ### 軟體 - 終端機相關
