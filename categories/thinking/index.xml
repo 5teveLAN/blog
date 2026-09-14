@@ -8,6 +8,145 @@
         
         
         <item>
+            <title>MacBook 與 ThinkPad 的抉擇</title>
+            <link>https://stevehsiao.com/posts/sell-macbook-or-thinkpad/</link>
+            <description>&lt;p&gt;我目前有兩台主力用筆電，MacBook Air M1 (8/256) 和 ThinkPad T490。因為每次換機都要考量到資料同步問題，很難放心無縫銜接使用，所以我習慣只用一台，另一台會注定要吃灰。目前決定放棄所有 MacBook 的好，留下信仰機 ThinkPad。以下表格說明我為什麼放棄 MacBook 的優點，以及如何克服 ThinkPad 的缺點：&lt;/p&gt;
+&lt;h3 id=&#34;1-效能&#34;&gt;1. 效能&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;MacBook&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;ThinkPad&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;評論 / 折衷辦法&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;效能 (CPU)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;👑 CPU 超快，且不插電時全速運行&lt;/td&gt;
+          &lt;td&gt;CPU 堪用，不插電時比較 Lag&lt;/td&gt;
+          &lt;td&gt;筆電文書用，需要高性能時使用桌機&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;效能 (RAM)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;只有 8G RAM，絕對不夠！&lt;/td&gt;
+          &lt;td&gt;👑 RAM 用不完&lt;/td&gt;
+          &lt;td&gt;我用的 App 都超級吃 RAM。8G 連開個小 App 都需要提心吊膽&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;硬碟&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;只有 256G，難以安裝虛擬機&lt;/td&gt;
+          &lt;td&gt;👑 有 1T，可以安裝虛擬機&lt;/td&gt;
+          &lt;td&gt;在非常時期可能會需要安裝 Windows 來用，會佔大量空間&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;電池&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;👑 續航無敵&lt;/td&gt;
+          &lt;td&gt;續航普通&lt;/td&gt;
+          &lt;td&gt;為了延長電池壽命，我大多時間都是插著電源&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;風扇&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;👑 無風扇&lt;/td&gt;
+          &lt;td&gt;有風扇&lt;/td&gt;
+          &lt;td&gt;噪音我沒差，且冬天可當暖氣&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;2-外觀與螢幕&#34;&gt;2. 外觀與螢幕&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;MacBook&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;ThinkPad&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;評論 / 折衷辦法&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;外觀、重量與耐用度&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;👑 重量輕、外觀薄、金屬抗刮&lt;/td&gt;
+          &lt;td&gt;塑膠不耐刮&lt;/td&gt;
+          &lt;td&gt;Thinkpad 當作練健身 / 反正一天也只會開兩三次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;喇叭&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;👑 超好&lt;/td&gt;
+          &lt;td&gt;超爛&lt;/td&gt;
+          &lt;td&gt;很少聽。可用外接喇叭解決, 朋友有閒置喇叭。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;螢幕&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;👑 超好&lt;/td&gt;
+          &lt;td&gt;超爛&lt;/td&gt;
+          &lt;td&gt;Thinkpad 也可以改裝便宜 LCD, CP質高。原本的螢幕 DIY 成外接螢幕。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;單手開螢幕&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;👑 可&lt;/td&gt;
+          &lt;td&gt;不可&lt;/td&gt;
+          &lt;td&gt;反正一天也只會開兩三次&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;螢幕角度&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;有限制&lt;/td&gt;
+          &lt;td&gt;👑 可 180 度翻轉，提供更多好玩角度&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;外觀&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;果粉樣&lt;/td&gt;
+          &lt;td&gt;👑 極客樣&lt;/td&gt;
+          &lt;td&gt;風格不同，我更喜歡全黑的筆電。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;3-周邊與擴充&#34;&gt;3. 周邊與擴充&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;MacBook&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;ThinkPad&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;評論 / 折衷辦法&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;插槽&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;只有兩個 USB-C，音源孔。需要透過轉接卡，破壞一體性。&lt;/td&gt;
+          &lt;td&gt;👑 擴充槽齊全，(還有 USB3, HDMI, microSD, RJ45)。&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;維修與改裝&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;零件嬌滴滴，難拆解，難以找到便宜高品質備料。&lt;/td&gt;
+          &lt;td&gt;👑 零件好更換，便宜，拆裝方便，DIY 樂趣多&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;鍵盤&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;鍵盤清脆，但是長時間比較不耐打&lt;/td&gt;
+          &lt;td&gt;👑 鍵盤比較爽&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;觸控板&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Asahi Linux 的觸控板在打字時容易誤觸，懶得調整。&lt;/td&gt;
+          &lt;td&gt;👑 因為有小紅點，所以可以關閉觸控板&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;既然 ThinkPad 的缺點全部都可以克服，且 MacBook 又有難以使用的情況，最終決定留下 ThinkPad。&lt;/p&gt;
+</description>
+            <pubDate>Mon, 14 Sep 2026 05:07:36 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/sell-macbook-or-thinkpad/</guid>
+        </item>
+        
+        <item>
             <title>吃不完算浪費食物嗎</title>
             <link>https://stevehsiao.com/posts/whats-wasting-food/</link>
             <description>&lt;p&gt;我從小接收到的觀念就是：不要浪費食物，聽「一粒米百粒汗」、「浪費食物娶到醜老婆」、「浪費食物遭天譴，會變餓鬼」之類的詛咒長大。但是我家裡就是愛煮一堆吃不完的東西，最後都變成我要去倒掉，我被強迫浪費食物。我想過兩件事:&lt;/p&gt;
@@ -551,29 +690,6 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ol&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/system-builder-linux/</guid>
-        </item>
-        
-        <item>
-            <title>如何自訂 Brave 開啟的新分頁</title>
-            <link>https://stevehsiao.com/posts/brave-custom-new-tab/</link>
-            <description>&lt;p&gt;由於Brave的 Dashboard 不能用 Vimium&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，這當每次按&lt;code&gt;t&lt;/code&gt;開啟新分頁時候，就無法享受到 Vimium 所帶來的爽感，所以想改成開啟搜尋引擎。&lt;/p&gt;
-&lt;p&gt;Brave把 homepage 設定藏很深&lt;br&gt;
-去 &lt;code&gt;brave://settings&lt;/code&gt; 找（可以用搜尋的）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;show &lt;strong&gt;home button&lt;/strong&gt; -&gt; set homepage - 設定主頁面&lt;/li&gt;
-&lt;li&gt;new &lt;strong&gt;tab&lt;/strong&gt; -&gt; homepage - 將新分頁設定開啟主頁面&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;貌似是出於安全因素，有些Extenstions會進行攻擊https://www.reddit.com/r/brave_browser/comments/igxo25/vimium_on_braves_start_page/ &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/brave-custom-new-tab/</guid>
         </item>
         
     </channel>
