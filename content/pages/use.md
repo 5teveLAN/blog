@@ -25,7 +25,8 @@ date: 2026-08-10
   - ❌ 內建 App 較陽春。
   - ❌ 台灣行動支付不能用。
 - ~~**macOS**~~ （已拋棄）
-  - ✅ 軟體相容度比較好 (Word, Line ...) It just works.
+  - ~~✅ 軟體相容度比較好 (Word, Line ...) It just works.~~
+    ❌ 閉源軟體不用也罷
   - ❌ 介面越來越無趣
   - ❌ 有些工具只能開發 Apple 產品
   - ❌ KDE connect, android transfer 總是不能用，被鎖死在 Apple 生態圈。
