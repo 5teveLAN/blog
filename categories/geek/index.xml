@@ -8,6 +8,32 @@
         
         
         <item>
+            <title>拍大象、拍蟲</title>
+            <link>https://stevehsiao.com/posts/%E6%8B%8D%E5%A4%A7%E8%B1%A1%E6%8B%8D%E8%9F%B2/</link>
+            <description>&lt;h3 id=&#34;拍大象&#34;&gt;拍大象&lt;/h3&gt;
+&lt;p&gt;銘傳一週的老師有發消息，說台北藝術節的開幕遊行「大象來了」剛好會路過基河校區，可以去那邊拍照。&lt;/p&gt;
+&lt;p&gt;我想說那麼酷的表演，拍出來的照片一定很藝術！這不就讓我離「攝影大咖」（請參閱&lt;a href=&#34;https://stevehsiao.com/posts/mingchuan-week-camp-experience/&#34;&gt;銘傳一週與研習營心得&lt;/a&gt;）更進一步了嗎？雖然在台北，又是晚上，但我還是果斷說我可以去拍。&lt;/p&gt;
+&lt;p&gt;可是到了當天，我覺得又遠，又多人，有點不想去了。&lt;/p&gt;
+&lt;p&gt;之前有在跑步的時候聽過一句話：「寧願做了後悔，也沒不要後悔沒做。」因為跑步的時候會感覺很累、很熱，但是不跑又會覺得自己很廢。這句話是用來提醒我們，不要讓自己成為後者。&lt;/p&gt;
+&lt;p&gt;我想說與其事後在後悔沒拍，不如過去看看，儘管可能會後悔也好。&lt;br&gt;
+&lt;img src=&#34;https://stevehsiao.com/images/life/mcu%20115-1/img/2026/%E6%8B%8D%E5%A4%A7%E8%B1%A1%E3%80%81%E6%8B%8D%E8%9F%B2/DSC06999.jpg&#34; alt=&#34;DSC06999.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我自己覺得這些照片蠻酷的！而且當場人很多，相機必須舉很高。這比平常的活動還難拍多了，讓我獲得在極端狀況下拍攝的經驗。&lt;/p&gt;
+&lt;p&gt;回家順便練習 Linux &#43; darktable 的修圖工作流。感覺比在家從脆之類的地方看到「這活動好像很屌。」好多了。&lt;/p&gt;
+&lt;h3 id=&#34;拍蟲&#34;&gt;拍蟲&lt;/h3&gt;
+&lt;p&gt;前天我去辦公室，老師問我說要不要拍生科系的活動。我向來沒拒絕過，我就說可以。&lt;/p&gt;
+&lt;p&gt;在活動開始前一個小時，我又不想去了。&lt;/p&gt;
+&lt;p&gt;這次感覺不同，若之前拍大象是「不去會後悔」，那這次拍蟲感覺是「不去不會後悔」。我那時不知道別人看蟲子有什麼好拍的。但沒辦法，答應人家就是要去。&lt;/p&gt;
+&lt;p&gt;結果到了現場超多人，感覺是真的有一回事。我表明我是銘傳一週的同學後，生科系的老師熱烈地邀請我參加，然後跟我閒聊。我感覺從沒被這麼禮遇過。（好像在其他活動中攝影師只能當透明人）&lt;/p&gt;
+&lt;p&gt;他問我說我是工讀生嗎？拍照有錢嗎？我說可能很微薄吧，因為我根本沒有在算。其實我應該回：我除了賺錢還有其他更想做的事（變攝影大咖！），但我當下沒想到這個回應。&lt;br&gt;
+&lt;img src=&#34;https://stevehsiao.com/images/life/mcu%20115-1/img/2026/%E6%8B%8D%E5%A4%A7%E8%B1%A1%E3%80%81%E6%8B%8D%E8%9F%B2/DSC07016.jpg&#34; alt=&#34;DSC07016.jpg&#34;&gt;&lt;br&gt;
+（這張沒拍到清楚的人臉，應該可以放上來。）&lt;/p&gt;
+&lt;p&gt;這次活動我看到了：認真帶活動的老師、對昆蟲有熱忱的同學、研究學校生態的專家。然後我自己也開闢了一些攝影題材。我感覺我的學校真的沒有想像中的糟糕。&lt;/p&gt;
+</description>
+            <pubDate>Fri, 18 Sep 2026 09:43:11 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/%E6%8B%8D%E5%A4%A7%E8%B1%A1%E6%8B%8D%E8%9F%B2/</guid>
+        </item>
+        
+        <item>
             <title>我為什麼放棄 MacBook，使用 ThinkPad？</title>
             <link>https://stevehsiao.com/posts/why-sell-macbook-and-use-thinkpad/</link>
             <description>&lt;p&gt;我目前有兩台主力用筆電，MacBook Air M1 (8/256) 和 ThinkPad T490。因為每次換機都要考量到資料同步問題，很難放心無縫銜接使用，所以我習慣只用一台，另一台會注定要吃灰。&lt;/p&gt;
@@ -682,19 +708,6 @@ Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt
 &lt;/ul&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/android-partitions-guide/</guid>
-        </item>
-        
-        <item>
-            <title>如何在 Linux 使用 System Builder</title>
-            <link>https://stevehsiao.com/posts/system-builder-linux/</link>
-            <description>&lt;p&gt;&lt;a href=&#34;https://download.terasic.com/downloads/cd-rom/de10-standard/&#34;&gt;https://download.terasic.com/downloads/cd-rom/de10-standard/&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;安裝 Bottle&lt;/li&gt;
-&lt;li&gt;新增一個 Bottle&lt;/li&gt;
-&lt;li&gt;使用 kron4ek-wine (soda 會無法開啟)&lt;/li&gt;
-&lt;/ol&gt;</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/system-builder-linux/</guid>
         </item>
         
     </channel>
