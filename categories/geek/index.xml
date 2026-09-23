@@ -22,7 +22,7 @@
 &lt;h3 id=&#34;拍蟲&#34;&gt;拍蟲&lt;/h3&gt;
 &lt;p&gt;前天我去辦公室，老師問我說要不要拍生科系的活動。我向來沒拒絕過，我就說可以。&lt;/p&gt;
 &lt;p&gt;在活動開始前一個小時，我又不想去了。&lt;/p&gt;
-&lt;p&gt;這次感覺不同，若之前拍大象是「不去會後悔」，那這次拍蟲感覺是「不去不會後悔」。我那時不知道別人看蟲子有什麼好拍的，自己對昆蟲也沒性。但沒辦法，答應人家就是要去。&lt;/p&gt;
+&lt;p&gt;這次感覺不同，若之前拍大象是「不去會後悔」，那這次拍蟲感覺是「不去不會後悔」。我那時不知道別人看蟲子有什麼好拍的，自己對昆蟲也沒興趣。但沒辦法，答應人家就是要去。&lt;/p&gt;
 &lt;p&gt;結果到了現場超多人，感覺是真的有一回事。我表明我是銘傳一週的同學後，生科系的老師熱烈地邀請我參加、跟我閒聊，還說要請我吃飯。我感覺從沒被這麼禮遇過。（好像在其他活動中攝影師只能當透明人）&lt;/p&gt;
 &lt;p&gt;他問我說我是工讀生嗎？拍照有錢嗎？我說可能很微薄吧，因為我根本沒有在算。其實我應該回：我除了賺錢還有其他更想做的事（變攝影大咖！），但我當下沒想到這個回應。&lt;br&gt;
 &lt;img src=&#34;https://stevehsiao.com/images/life/mcu%20115-1/img/2026/%E6%8B%8D%E5%A4%A7%E8%B1%A1%E3%80%81%E6%8B%8D%E8%9F%B2/DSC07016.jpg&#34; alt=&#34;DSC07016.jpg&#34;&gt;&lt;br&gt;
@@ -37,7 +37,10 @@
         <item>
             <title>我為什麼放棄 MacBook，使用 ThinkPad？</title>
             <link>https://stevehsiao.com/posts/why-sell-macbook-and-use-thinkpad/</link>
-            <description>&lt;p&gt;我目前有兩台主力用筆電，MacBook Air M1 (8/256) 和 ThinkPad T490。因為每次換機都要考量到資料同步問題，很難放心無縫銜接使用，所以我習慣只用一台，另一台會注定要吃灰。&lt;/p&gt;
+            <description>&lt;blockquote&gt;
+&lt;p&gt;長話短說：RAM 不夠和想要 Linux 的客製化&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我目前有兩台主力用筆電，MacBook Air M1 (8/256) 和 ThinkPad T490。因為每次換機都要考量到資料同步問題，很難放心無縫銜接使用，所以我習慣只用一台，另一台會注定要吃灰。&lt;/p&gt;
 &lt;p&gt;確實 MacBook 完美地完成我很多影音編輯的工作，但現在我已經不需要 macOS、Adobe、高效能硬體。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;我已經決定放棄所有 MacBook 的好，留下信仰機 ThinkPad。&lt;/strong&gt; 以下表格說明我為什麼放棄 MacBook 的高效能、做工，以及如何克服 ThinkPad 的缺點：&lt;/p&gt;
 &lt;h3 id=&#34;1-效能&#34;&gt;1. 效能&lt;/h3&gt;
@@ -464,7 +467,7 @@ rightshift = rightshift
             <title>我把我的玩具送人了</title>
             <link>https://stevehsiao.com/posts/give-my-lego/</link>
             <description>&lt;h3 id=&#34;接觸樂高的起源&#34;&gt;接觸樂高的起源&lt;/h3&gt;
-&lt;p&gt;我小學，某次出遊的時候，在火車上，我媽看到旁邊有和我年紀差不多的小朋友，把椅子轉過來一起玩牌，不太記得了，那個好像小孩叫做懿德/愛德華  後來也有約出去玩，也有去他們台北的家。&lt;/p&gt;
+&lt;p&gt;在我小學時某次出遊的時候，在火車上，我媽看到旁邊有和我年紀差不多的小朋友，把椅子轉過來一起玩牌，不太記得了，那個好像小孩叫做懿德/愛德華  後來也有約出去玩，也有去他們台北的家。&lt;/p&gt;
 &lt;p&gt;那我拜訪的時候它展示樂高積木，有卡車有小船，我們還拼了個小船放到大樓外的水池，也是載浮載沉，但還是很快樂。&lt;/p&gt;
 &lt;p&gt;回家之後我吵著和我媽說要買，他當天就冒著雨騎車到反斗城買了一組。從此之後，積木越來越多。&lt;/p&gt;
 &lt;p&gt;樂高提供了我很多想像與創作空間，只要給我幾個人偶，幾輛拼裝車子，我可以在房間的各種角落玩起玩具大戰&lt;/p&gt;
@@ -478,28 +481,22 @@ rightshift = rightshift
 &lt;p&gt;它們充分滿足我學新東西，創造力的需求，不會有零件不足的問題，現在只有腦容量不足的問題。&lt;/p&gt;
 &lt;h3 id=&#34;困擾&#34;&gt;困擾&lt;/h3&gt;
 &lt;p&gt;這些積木呢，從2016年起，已經10年沒碰了&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;佔空間&lt;/strong&gt;&lt;br&gt;
-堆在那邊是一種負擔，我的新書、新的電腦零件無法安置。這種負擔呢，是人生停滯不前的負擔。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;失去遊玩熱情&lt;/strong&gt;&lt;br&gt;
-曾經試過分類整理，放到各種盒子裡繼續收納，好像就是不愛了。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;佔空間&lt;br&gt;
+堆在那邊是一種負擔，我的新書、新的電腦零件無法安置。這種負擔呢，是人生停滯不前的負擔。&lt;/li&gt;
+&lt;li&gt;失去遊玩熱情&lt;br&gt;
+曾經試過分類整理，放到各種盒子裡繼續收納，好像就是不愛了。&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;為什麼不繼續玩了&#34;&gt;為什麼不繼續玩了&lt;/h3&gt;
 &lt;p&gt;大概是這些玩具不適齡了吧，我嘗試照著說明書組裝，但是覺得太簡單了。現在也對樂高人偶們的生活沒興趣。&lt;/p&gt;
 &lt;p&gt;我玩積木時會全部拆掉再拼，但那大人的樂高像精品似的，組好了幾乎不會拆起來玩，因為怕零件混在一起，和現成模型的差別就剩下組裝時的樂趣。那和我要拼來拼去的想法背道而馳。&lt;/p&gt;
 &lt;h3 id=&#34;掙扎&#34;&gt;掙扎&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;價值&lt;/strong&gt;&lt;br&gt;
-很多錢買的，現在不值，賤賣更不值&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;情感&lt;/strong&gt;&lt;br&gt;
-怎麼說不要就不要，怎麼連這點空間都裝不下，難到沒辦法挽留嗎？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;如何處理&lt;/strong&gt;&lt;br&gt;
-說丟掉肯定是不肯的，但那些臉書社團又只交易精品樂高。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;價值：很多錢買的，現在不值，賤賣更不值&lt;/li&gt;
+&lt;li&gt;情感：怎麼說不要就不要，怎麼連這點空間都裝不下，難到沒辦法挽留嗎？&lt;/li&gt;
+&lt;li&gt;如何處理：說丟掉肯定是不肯的，但那些臉書社團又只交易精品樂高。&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;看開&#34;&gt;看開&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;物品交換&lt;/strong&gt;&lt;br&gt;
-自己沒那麼喜歡的，可能是別人的寶，可以交換。&lt;br&gt;
-像我也賣過很多相機，電子產品，當作一種交換就好了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;推動人生&lt;/strong&gt;&lt;br&gt;
-也有可能在未來繼續玩。&lt;br&gt;
-我知道我再不處理下去，我很難專心做別的事了。&lt;/p&gt;
-&lt;h3 id=&#34;看開-1&#34;&gt;看開&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;物品交換&lt;/strong&gt;：自己沒那麼喜歡的，可能是別人的寶，可以交換。&lt;br&gt;
 像我也賣過很多相機，電子產品，當作一種交換就好了。&lt;/li&gt;
