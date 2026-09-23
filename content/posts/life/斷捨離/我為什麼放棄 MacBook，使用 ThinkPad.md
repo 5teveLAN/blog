@@ -4,6 +4,8 @@ tags: []
 slug: why-sell-macbook-and-use-thinkpad
 lastmod: 2026-09-14T05:07:36.750Z
 ---
+> 長話短說：RAM 不夠和想要 Linux 的客製化
+
 我目前有兩台主力用筆電，MacBook Air M1 (8/256) 和 ThinkPad T490。因為每次換機都要考量到資料同步問題，很難放心無縫銜接使用，所以我習慣只用一台，另一台會注定要吃灰。
 
 確實 MacBook 完美地完成我很多影音編輯的工作，但現在我已經不需要 macOS、Adobe、高效能硬體。
