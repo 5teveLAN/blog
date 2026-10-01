@@ -3,8 +3,9 @@ title: 我為什麼放棄 MacBook，使用 ThinkPad？
 tags: []
 slug: why-sell-macbook-and-use-thinkpad
 lastmod: 2026-09-14T05:07:36.750Z
+date: 2026-09-14T04:11:11.807Z
 ---
-> 長話短說：RAM 不夠和想要 Linux 的客製化
+> 長話短說：RAM 不夠和想要 Linux 的客製化 （Bottle + Line 就要 1GB!)
 
 我目前有兩台主力用筆電，MacBook Air M1 (8/256) 和 ThinkPad T490。因為每次換機都要考量到資料同步問題，很難放心無縫銜接使用，所以我習慣只用一台，另一台會注定要吃灰。
 
