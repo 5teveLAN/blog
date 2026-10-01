@@ -10,7 +10,10 @@
         <item>
             <title>拍大象、拍蟲</title>
             <link>https://stevehsiao.com/posts/elephants-and-bugs/</link>
-            <description>&lt;h3 id=&#34;拍大象&#34;&gt;拍大象&lt;/h3&gt;
+            <description>&lt;blockquote&gt;
+&lt;p&gt;TL;DR 想變攝影大咖&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;拍大象&#34;&gt;拍大象&lt;/h3&gt;
 &lt;p&gt;銘傳一週的老師有發消息，說台北藝術節的開幕遊行「大象來了」剛好會路過基河校區，可以去那邊拍照。&lt;/p&gt;
 &lt;p&gt;我想說那麼酷的表演，拍出來的照片一定很藝術！這不就讓我離「攝影大咖」（請參閱&lt;a href=&#34;https://stevehsiao.com/posts/mingchuan-week-camp-experience/&#34;&gt;銘傳一週與研習營心得&lt;/a&gt;）更進一步了嗎？雖然在台北，又是晚上，但我還是果斷說我可以去拍。&lt;/p&gt;
 &lt;p&gt;可是到了當天，我覺得又遠，又多人，有點不想去了。&lt;/p&gt;
@@ -30,7 +33,7 @@
 &lt;p&gt;這次活動我看到了：認真帶活動的老師、對昆蟲有熱忱的同學、研究學校生態的專家。然後我自己也開闢了一些攝影題材。我又感覺我的學校真的沒有想像中的糟糕。&lt;/p&gt;
 &lt;p&gt;隔天銘傳一週的老師說，永續處與生科系的老師有去到辦公室，再次感謝我幫他們拍照。我原本以為我只是在拍一些活動照片，沒啥意義。但可能我們的媒體/照片對他們來說很珍貴，可以幫助他們宣傳一些什麼。感覺自己做了一些有意義的事。&lt;/p&gt;
 </description>
-            <pubDate>Fri, 18 Sep 2026 09:43:11 UTC</pubDate>
+            <pubDate>Fri, 18 Sep 2026 09:00:06 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/elephants-and-bugs/</guid>
         </item>
         
@@ -38,7 +41,7 @@
             <title>我為什麼放棄 MacBook，使用 ThinkPad？</title>
             <link>https://stevehsiao.com/posts/why-sell-macbook-and-use-thinkpad/</link>
             <description>&lt;blockquote&gt;
-&lt;p&gt;長話短說：RAM 不夠和想要 Linux 的客製化&lt;/p&gt;
+&lt;p&gt;長話短說：RAM 不夠和想要 Linux 的客製化 （Bottle &#43; Line 就要 1GB!)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;我目前有兩台主力用筆電，MacBook Air M1 (8/256) 和 ThinkPad T490。因為每次換機都要考量到資料同步問題，很難放心無縫銜接使用，所以我習慣只用一台，另一台會注定要吃灰。&lt;/p&gt;
 &lt;p&gt;確實 MacBook 完美地完成我很多影音編輯的工作，但現在我已經不需要 macOS、Adobe、高效能硬體。&lt;/p&gt;
@@ -177,7 +180,7 @@
 &lt;/table&gt;
 &lt;p&gt;既然 ThinkPad 的缺點全部都可以克服，且 MacBook 又有難以使用的情況，最終決定留下 ThinkPad。&lt;strong&gt;這樣做也是在實踐我不追求新產品、持續使用堪用硬體的環保理念。&lt;/strong&gt;&lt;/p&gt;
 </description>
-            <pubDate>Mon, 14 Sep 2026 05:07:36 UTC</pubDate>
+            <pubDate>Mon, 14 Sep 2026 04:11:11 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/why-sell-macbook-and-use-thinkpad/</guid>
         </item>
         
@@ -223,6 +226,28 @@
 </description>
             <pubDate>Sun, 30 Aug 2026 00:00:00 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/not-recommand-wireless-headphones/</guid>
+        </item>
+        
+        <item>
+            <title>裝新系統 設定好 Linux</title>
+            <link>https://stevehsiao.com/posts/linux-settings/</link>
+            <description>&lt;ul&gt;
+&lt;li&gt;同步瀏覽器 Brave Sync&lt;/li&gt;
+&lt;li&gt;遷移檔案 SyncThings&lt;/li&gt;
+&lt;li&gt;調整 KDE 介面&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/system-settings/&#34;&gt;裝新系統 個人設定&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;安裝中文輸入法
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ivonblog.com/posts/ubuntu-fcitx5/#2-%E5%AE%89%E8%A3%9Dfcitx5%E7%9A%84%E5%A5%97%E4%BB%B6&#34;&gt;Ubuntu繁體中文輸入法？改用Fcitx5來輸入中文吧！ · Ivon的部落格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;安裝 Line&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+            <pubDate>Sat, 29 Aug 2026 00:00:00 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/linux-settings/</guid>
         </item>
         
         <item>
@@ -321,30 +346,42 @@ rightshift = rightshift
 自由調整&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-            <pubDate>Sat, 29 Aug 2026 00:00:00 UTC</pubDate>
+            <pubDate>Thu, 27 Aug 2026 15:14:40 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/system-settings/</guid>
         </item>
         
         <item>
-            <title>裝新系統 設定好 Linux</title>
-            <link>https://stevehsiao.com/posts/linux-settings/</link>
-            <description>&lt;ul&gt;
-&lt;li&gt;同步瀏覽器 Brave Sync&lt;/li&gt;
-&lt;li&gt;遷移檔案 SyncThings&lt;/li&gt;
-&lt;li&gt;調整 KDE 介面&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/system-settings/&#34;&gt;裝新系統 個人設定&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+            <title>為何要用開源軟體</title>
+            <link>https://stevehsiao.com/posts/why-use-open-source/</link>
+            <description>&lt;h3 id=&#34;為什麼我用開源軟體&#34;&gt;為什麼我用開源軟體&lt;/h3&gt;
+&lt;p&gt;開源故名思議就是開放原始碼。一開始用開源軟體只是因為他們免費，但後來發現其實他們注重的不只是免費這件事。&lt;/p&gt;
+&lt;p&gt;開源軟體最主要的優點：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;安裝中文輸入法
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ivonblog.com/posts/ubuntu-fcitx5/#2-%E5%AE%89%E8%A3%9Dfcitx5%E7%9A%84%E5%A5%97%E4%BB%B6&#34;&gt;Ubuntu繁體中文輸入法？改用Fcitx5來輸入中文吧！ · Ivon的部落格&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;安裝 Line&lt;/li&gt;
+&lt;li&gt;運作透明，可以學習軟體怎麼運作&lt;/li&gt;
+&lt;li&gt;科技自主，原始碼在你手上才是真正「擁有」這個軟體&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;那這個一定會有人問我說：你是要一行行看程式碼喔？不可能的。&lt;br&gt;
+我覺得相比一行行看完程式碼，開源與閉源在於文化問題。就算你不懂程式碼，開源軟體依舊有以下好處：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;開源不講求商業經營，無廣告，無討厭的東西&lt;/li&gt;
+&lt;li&gt;開源代表程式碼公諸於世，不會做奇奇怪怪的事情&lt;/li&gt;
+&lt;li&gt;開源社群活躍，遇到問題可直接發問，且用開源的人通常比較有除錯能力，可以幫你修好問題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我認為開源軟體就是在把科技全權開放給全部人使用。但在大多數環境下，閉源軟體仍是主流。&lt;br&gt;
+我身為資工系學生，有這些能力更應該貢獻。&lt;/p&gt;
+&lt;h3 id=&#34;我怎麼看用閉源軟體的人&#34;&gt;我怎麼看用閉源軟體的人&lt;/h3&gt;
+&lt;p&gt;開源軟體用著用著，我發現開始鄙視用閉源軟體的人。&lt;/p&gt;
+&lt;p&gt;認為用閉源就是沒技術、沒能力，任大公司宰割。況且如果說連資工系還沒辦法科技自主，那到底是會不會用電腦。&lt;/p&gt;
+&lt;p&gt;但我看很多研究 OS 的老師日常使用 macOS，把 Linux 裝在虛擬機。所以「研究 OS」 和「在生活貫徹自由軟體」是兩回事。&lt;/p&gt;
+&lt;p&gt;很多老師日常用閉源軟體，說他們笨是不可能的。他們只是利用那些工具去完成他們的志業而已。對他們來說：志業&gt;工具。&lt;br&gt;
+而對我來說，使用開源軟體就是我的志業。&lt;/p&gt;
+&lt;h3 id=&#34;參考&#34;&gt;參考&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/life/%E7%82%BA%E4%BD%95%E8%A6%81%E7%94%A8-linux&#34;&gt;為何要用 Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-            <pubDate>Sat, 29 Aug 2026 00:00:00 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/linux-settings/</guid>
+            <pubDate>Thu, 27 Aug 2026 15:14:24 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/why-use-open-source/</guid>
         </item>
         
         <item>
@@ -401,7 +438,10 @@ rightshift = rightshift
         <item>
             <title>Z Flip 4 個人使用心得</title>
             <link>https://stevehsiao.com/posts/z-flip-4/</link>
-            <description>&lt;p&gt;有朋友送我個很酷的禮物，收到手機就已經足夠驚喜了，竟然還是很特別的折疊手機。我一開始也是說收不得，加上我很喜歡我的 Pixel。但因為他這個手機是自己 DIY 修過的，不是那麼好賣，賣也賣不回本，所以直接分享給我玩。我不好意思拒絕，加上這陣子覺得我的 Pixel 指紋不能用超煩，又很想要一個酷酷的聯名手機殼（Pixel 沒有）。為此我還搜尋了 iPhone 和三星手機，現在直接天降一台，拿來玩玩看也不虧。&lt;/p&gt;
+            <description>&lt;blockquote&gt;
+&lt;p&gt;TL;DR 這台折疊機要小心呵護，還建議我不要折？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有朋友送我個很酷的禮物，收到手機就已經足夠驚喜了，竟然還是很特別的折疊手機。我一開始也是說收不得，加上我很喜歡我的 Pixel。但因為他這個手機是自己 DIY 修過的，不是那麼好賣，賣也賣不回本，所以直接分享給我玩。我不好意思拒絕，加上這陣子覺得我的 Pixel 指紋不能用超煩，又很想要一個酷酷的聯名手機殼（Pixel 沒有）。為此我還搜尋了 iPhone 和三星手機，現在直接天降一台，拿來玩玩看也不虧。&lt;/p&gt;
 &lt;p&gt;我不是很懂手機，以下是我個人使用心得：&lt;/p&gt;
 &lt;h3 id=&#34;優點&#34;&gt;優點&lt;/h3&gt;
 &lt;p&gt;對我來說最大優點即是在規格上：&lt;/p&gt;
@@ -523,7 +563,10 @@ rightshift = rightshift
         <item>
             <title>銘傳一週與研習營心得</title>
             <link>https://stevehsiao.com/posts/mingchuan-week-camp-experience/</link>
-            <description>&lt;p&gt;今年是我加入銘傳一週的第二年。因為我想變成「攝影大咖」，所以在我當初剛轉來銘傳的時候，便決定加入了。我想說的是，有些微小的念頭或決定，改變了我看事情的方式。這些改變讓我受益良多。&lt;/p&gt;
+            <description>&lt;blockquote&gt;
+&lt;p&gt;TL;DR 前兩年只看到銘傳爛的地方，這次才開始看到好的人們&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今年是我加入銘傳一週的第二年。因為我想變成「攝影大咖」，所以在我當初剛轉來銘傳的時候，便決定加入了。我想說的是，有些微小的念頭或決定，改變了我看事情的方式。這些改變讓我受益良多。&lt;/p&gt;
 &lt;p&gt;首先，在這裡可以認識到各個年級、各個科系，甚至是來自不同國家（或地區）的人。看到大家有著不同的興趣愛好、不同的工作經歷，都會讓我感到嘖嘖稱奇，大開眼界。而且不得不說，我見到的都是特別優秀、令我佩服的人。&lt;/p&gt;
 &lt;p&gt;再來，就讀資訊工程的我，參加銘傳一週的活動對我來說是個跨領域的挑戰。因為資工系的出路很明確，就是當工程師。我大可以不做大眾傳播這行，將時間 all in 至本科系的課業，也能得到普遍來說更好的收入。但是這樣的想法讓我每次拍照都是隨便拍拍，拍照技術沒什麼長進。我後來認為這種心態把我的人生侷限住了，讓我生活過得悶悶不樂的。其實對待其他事情也同樣認真，成為一個有豐富經歷的人，也是一種人生的選擇。&lt;/p&gt;
 &lt;p&gt;最後談談對自己的期許吧。我原本不知道我會這麼先入為主，也有好高騖遠的傾向。直到看到這些同學，他們似乎不是我想像的那樣不好，我的想法也才有些改變。又或者，當我看到有些人其實比我還要厲害時，我會感到有些自卑。但我發現其實不開心並不是唯一的選項，放下成見、虛心學習也是一種選項。所以我期望我能夠多發現別人的優點，並且加以學習。&lt;/p&gt;
@@ -643,69 +686,6 @@ Lineage叫拎age不叫賴age&lt;/p&gt;
 &lt;p&gt;應該是將 release_year/01/01 (YYYY/MM/DD) 填入到原本 upload_date 的位置，至於幾月幾日就不重要了就隨便填。&lt;/p&gt;</description>
             <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/yt-dlp-wrong-release-date/</guid>
-        </item>
-        
-        <item>
-            <title>了解Android分區</title>
-            <link>https://stevehsiao.com/posts/android-partitions-guide/</link>
-            <description>&lt;h4 id=&#34;android-partitions&#34;&gt;Android Partitions&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!info]&lt;br&gt;
-Android 的分區實際上超級多個，但刷機只會動到那幾個而已&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;就像電腦可以在一顆硬碟上分很多個區，Android 也有幾個刷機會接觸到的分區：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://stevehsiao.com/images/CS/linux/Pixel/img/2026/%E4%BA%86%E8%A7%A3Android%E5%88%86%E5%8D%80/partitions.excalidraw.md&#34; alt=&#34;partitions.excalidraw&#34;&gt;&lt;br&gt;
-&lt;strong&gt;金字塔架構&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Cache&lt;/strong&gt;, Dalvik/ART Cache&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Data&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Vendor/System&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Boot&lt;/strong&gt;&lt;br&gt;
-&lt;strong&gt;雙清(dual wipe):&lt;/strong&gt;&lt;br&gt;
-將Cache, Data刪掉，相當於重設出廠設置&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Recovery&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;官方recovery&lt;/strong&gt; - 功能較少。近年手機比較沒有這個分區（合併至boot裡），安裝第三方recovery卡刷變得不方便&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;第三方recovery&lt;/strong&gt; - 可以刷任何東西，刷root (Magisk)，還能備份分區救磚&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sideload&lt;/strong&gt; - flash zip via computer (rom, OTA, microG, mods.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;bootloader---biosuefi-in-android&#34;&gt;Bootloader - bios/uefi in Android&lt;/h4&gt;
-&lt;p&gt;寫死在某個地方的&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;fastboot(刷機模式)&lt;/strong&gt; - flash img via computer. (boot, recvoery )&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;取得root權限&#34;&gt;取得root權限&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;卡刷&lt;/strong&gt; - 透過twrp修改boot分區&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;線刷&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;提取boot.img&lt;/strong&gt; - 去rom包找，丟到手機裡&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;修補boot.img&lt;/strong&gt; - 先在手機安裝magisk，操作app灌進去&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;放回去boot分區&lt;/strong&gt; - 進入fastboot刷boot.img&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;參考資料&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wz-ErdDf8AM&#34;&gt;# 玩机必看！带你入坑Android刷机, 極客灣&lt;/a&gt;&lt;br&gt;
-其實我對刷機也不太熟，看這影片做的筆記&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;Pixel%206%20%E5%88%B7LineageOS%2022%20for%20microG&#34;&gt;Pixel 6 刷LineageOS 22 for microG&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;Pixel%20%E8%AE%8A%E7%A3%9A&#34;&gt;Pixel 變磚&lt;/a&gt;&lt;br&gt;
-刷舊版本ROM導致Bootloader不給你開機(防回滾)&lt;/li&gt;
-&lt;/ul&gt;</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/android-partitions-guide/</guid>
         </item>
         
     </channel>
