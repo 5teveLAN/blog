@@ -8,6 +8,23 @@
         
         
         <item>
+            <title>沉痛的 AI 時代</title>
+            <link>https://stevehsiao.com/posts/sad-ai-era/</link>
+            <description>&lt;p&gt;我們五個人的畢業專題，有個人才剛跟他說要做什麼，他馬上就弄出幾百行了。已經相處一年了，我很清楚那個人實力不怎樣，平常就看得出來在混。想也知道是用 AI 生成的。&lt;/p&gt;
+&lt;p&gt;雖然說別人放棄學習是他們的事，我自己好好學就好了。但是想到自己分到的人都無心學習，也無法藉由合作教學相長。我還是覺得很鬱卒！&lt;/p&gt;
+&lt;p&gt;哀，這些慘例數不清拉！&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;程設二：我苦口婆心和別人說「你很棒，我是在防範用 AI 看都不看就丟上來的人。」結果他自己就是這樣。還有一個人我文件都寫出來了，看都不看還能做成別的。&lt;/li&gt;
+&lt;li&gt;作業系統：我已經開會說明清楚了，需求也都打上去了。我問某人程式呢？他開 ChatGPT 的對話給我看，程式就在上面。想當然爾連測都沒測，也沒想過我的感受。我那個學期有點難過到不太想去上課。&lt;/li&gt;
+&lt;li&gt;其他分組課也差不多……&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;反正他們就是敷衍了事，我感覺完全沒有學習到團隊合作，也沒有因為同儕被推著向前。說不難過是騙人的。&lt;/p&gt;
+</description>
+            <pubDate>Tue, 13 Oct 2026 16:46:09 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/sad-ai-era/</guid>
+        </item>
+        
+        <item>
             <title>富士的底片模擬其實沒那麼神奇</title>
             <link>https://stevehsiao.com/posts/the-truth-of-fuji-film-simulation/</link>
             <description>&lt;p&gt;買富士前常常聽很多人說，富士的底片模擬調不出來，因為他是根據場景動態運算出來的……我就傻傻的以為富士相機的硬體有神奇的魔法。&lt;/p&gt;
@@ -649,18 +666,6 @@ rightshift = rightshift
 </description>
             <pubDate>Sat, 04 Jul 2026 00:00:00 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/mingchuan-week-camp-experience/</guid>
-        </item>
-        
-        <item>
-            <title>Android 降級</title>
-            <link>https://stevehsiao.com/posts/android-downgrade/</link>
-            <description>&lt;h4 id=&#34;請使用-factory-image&#34;&gt;請使用 Factory image&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Factory image&lt;/strong&gt;: 刷回原廠 非原廠rom,手機完全壞掉用&lt;br&gt;
-&lt;strong&gt;OTA image&lt;/strong&gt;: 原廠系統更新包（only升級） 資料不會不見(over the air)&lt;/p&gt;
-&lt;p&gt;OTA image and installation: &lt;a href=&#34;https://developers.google.com/android/ota&#34;&gt;https://developers.google.com/android/ota&lt;/a&gt;&lt;br&gt;
-There has an online flash tool for factory image: &lt;a href=&#34;https://developers.google.com/android/images&#34;&gt;https://developers.google.com/android/images&lt;/a&gt;&lt;/p&gt;</description>
-            <pubDate>Thu, 02 Jul 2026 05:55:59 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/android-downgrade/</guid>
         </item>
         
     </channel>
