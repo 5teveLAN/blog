@@ -69,3 +69,16 @@ date: 2026-08-10
 	- **Calcurse** 比較繁瑣
 #### 其他
 - **hugo** blog 產生器
+
+### AI
+- google ai mode
+- perplexity
+- chatgpt
+- CLine
+- Coilot
+- API: deekseek
+
+### 影像編輯
+- darktable
+- Kdenlive
+- DaVinci Resolve
