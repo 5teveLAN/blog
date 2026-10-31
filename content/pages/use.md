@@ -41,6 +41,7 @@ date: 2026-08-10
 	擴充插件：
 	- **Excalidraw** 非常容易上手的繪圖工具
 	- **Hugo Publish** 一鍵轉成部落格可用的 MarkDown 格式
+	- **Copilot** 開源 AI Agent，有 read, edit, diff 功能
 - **~~VSCode~~** **VSCodium** 去除微軟功能的 VSCode
 	- ~~**Continue** (已停止維護) 可接便宜的 API 使用 AI Agent 寫程式、與電腦互動~~
 	- **CLine** 目前最多人使用的開源 AI Agent。
@@ -70,13 +71,21 @@ date: 2026-08-10
 #### 其他
 - **hugo** blog 產生器
 
-### AI
+### AI 工具
+
+#### 蹭免費的
+查東西：
 - google ai mode
-- perplexity
+- perplexity 備用，google ai mode 亂查時可以用
+生圖片：
+- Gemini 免費版額度多
+檢討文章、給情緒價值：
 - chatgpt
+#### AI Agent - 自備 API key  按使用收費
+AI Agent: Coding、寫作、自動對電腦跑指令
 - CLine
-- Coilot
-- API: deekseek
+- Copilot
+- API: deepseek
 
 ### 影像編輯
 - darktable
