@@ -28,6 +28,8 @@
 &lt;/ul&gt;
 &lt;p&gt;確實做大事需要付出的時間和心力更多，但正所謂「生於憂患、死於安樂。」有了這些憂患才能激發更好的成果。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;同一個科目、主題下，應該直接追求並挑戰難的。&lt;/strong&gt; 和黃麒然老師說的一樣：要考研就是要考最好的學校，這樣失敗了只會掉到次好的學校；要賺錢就是要以周薪百萬作為目標。&lt;/p&gt;
+&lt;p&gt;看來我以前沒學過鋼琴就直接練〈Secret〉(不能說的祕密）加長快版、〈鏡夜〉（V.K 克）無影手尾奏、吉他彈〈Stairway to Heaven〉(Led Zeppelin&lt;br&gt;
+）Solo。真的是年少輕狂！曲子彈出來了，逼格也裝滿了。&lt;/p&gt;
 &lt;p&gt;參考：&lt;br&gt;
 &lt;a href=&#34;https://stevehsiao.com/posts/114-1-semester-review/&#34;&gt;114-1 學期回顧&lt;/a&gt;、&lt;a href=&#34;https://stevehsiao.com/posts/114-2-semester-summary/&#34;&gt;114-2 學期總結&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -73,6 +75,28 @@
 </description>
             <pubDate>Thu, 29 Oct 2026 13:34:31 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/study-for-graudated-progress/</guid>
+        </item>
+        
+        <item>
+            <title>English Corner</title>
+            <link>https://stevehsiao.com/posts/english-corner/</link>
+            <description>&lt;blockquote&gt;
+&lt;p&gt;Here’s English Corner, but no one speaks English! It’s so weird.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我打算對今天的英語角 (10/28 Wed. 12:10 @EE101 Warren 老師) 做反映。我看到教室坐滿了人，而 Warren 老師正忙著幫每一群同學分組。沒有介紹、沒有課程、也沒有引導學生做討論。並且很多同學連 “Do you have a group?” 都聽不懂。&lt;/p&gt;
+&lt;p&gt;接著老師提供一張列滿句子的講義，希望我們分組討論。由於全班人數過多，以至於難以師生交流，同學們也很少參與在其中。時間到了便可以改章。整個班上我只有聽到中文。我很納悶，英語角似乎來了一批對英語沒興趣的同學。&lt;/p&gt;
+&lt;p&gt;於是我問老師為什麼會這樣，他和我說：「英文課老師叫他們來，可以額外加分。」(For earning extra points.)&lt;/p&gt;
+&lt;p&gt;大多數同學抱持參加這個活動就能加分，來這邊混時間的心態。瓜分掉了想學習英語同學的受教權益，老師也教得很辛苦。這違背了辦英語角的目的。&lt;/p&gt;
+&lt;p&gt;我認為，除了限制報名人數，更重要的是重新確立英語角的定位與參與機制。英語角應該是一個讓對英語交流有興趣的學生練習口說、互相學習的環境，而不是為了加分而出席、卻不願意參與英語對話的地方。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這段ai寫的，我覺得很完美，是我想要的。我完全不用改，等於說加速我寫文章。&lt;br&gt;
+但我自己想不出這麼好的論述，必須警惕。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;另一方面，也請英文課老師調整加分方式，別讓參加英語角淪為簡單的加分理由。&lt;br&gt;
+如果老師說：「參加英語角可以來加分。」和「多益考到標準可以來加分。」則兩者情況完全不一樣。一個只要去指定教室坐著就好，另一個是必須付出努力。&lt;/p&gt;
+</description>
+            <pubDate>Wed, 28 Oct 2026 13:37:25 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/english-corner/</guid>
         </item>
         
         <item>
@@ -565,40 +589,6 @@ rightshift = rightshift
 </description>
             <pubDate>Thu, 27 Aug 2026 15:14:40 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/system-settings/</guid>
-        </item>
-        
-        <item>
-            <title>為何要用開源軟體</title>
-            <link>https://stevehsiao.com/posts/why-use-open-source/</link>
-            <description>&lt;h3 id=&#34;為什麼我用開源軟體&#34;&gt;為什麼我用開源軟體&lt;/h3&gt;
-&lt;p&gt;開源故名思議就是開放原始碼。一開始用開源軟體只是因為他們免費，但後來發現其實他們注重的不只是免費這件事。&lt;/p&gt;
-&lt;p&gt;開源軟體最主要的優點：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;運作透明，可以學習軟體怎麼運作&lt;/li&gt;
-&lt;li&gt;科技自主，原始碼在你手上才是真正「擁有」這個軟體&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;那這個一定會有人問我說：你是要一行行看程式碼喔？不可能的。&lt;br&gt;
-我覺得相比一行行看完程式碼，開源與閉源在於文化問題。就算你不懂程式碼，開源軟體依舊有以下好處：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;開源不講求商業經營，無廣告，無討厭的東西&lt;/li&gt;
-&lt;li&gt;開源代表程式碼公諸於世，不會做奇奇怪怪的事情&lt;/li&gt;
-&lt;li&gt;開源社群活躍，遇到問題可直接發問，且用開源的人通常比較有除錯能力，可以幫你修好問題&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我認為開源軟體就是在把科技全權開放給全部人使用。但在大多數環境下，閉源軟體仍是主流。&lt;br&gt;
-我身為資工系學生，有這些能力更應該貢獻。&lt;/p&gt;
-&lt;h3 id=&#34;我怎麼看用閉源軟體的人&#34;&gt;我怎麼看用閉源軟體的人&lt;/h3&gt;
-&lt;p&gt;開源軟體用著用著，我發現開始鄙視用閉源軟體的人。&lt;/p&gt;
-&lt;p&gt;認為用閉源就是沒技術、沒能力，任大公司宰割。況且如果說連資工系還沒辦法科技自主，那到底是會不會用電腦。&lt;/p&gt;
-&lt;p&gt;但我看很多研究 OS 的老師日常使用 macOS，把 Linux 裝在虛擬機。所以「研究 OS」 和「在生活貫徹自由軟體」是兩回事。&lt;/p&gt;
-&lt;p&gt;很多老師日常用閉源軟體，說他們笨是不可能的。他們只是利用那些工具去完成他們的志業而已。對他們來說：志業&gt;工具。&lt;br&gt;
-而對我來說，使用開源軟體就是我的志業。&lt;/p&gt;
-&lt;h3 id=&#34;參考&#34;&gt;參考&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/life/%E7%82%BA%E4%BD%95%E8%A6%81%E7%94%A8-linux&#34;&gt;為何要用 Linux&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <pubDate>Thu, 27 Aug 2026 15:14:24 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/why-use-open-source/</guid>
         </item>
         
     </channel>
