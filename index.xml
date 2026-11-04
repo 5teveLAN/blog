@@ -8,6 +8,53 @@
         
         
         <item>
+            <title>失敗日記</title>
+            <link>https://stevehsiao.com/posts/daily-fail/</link>
+            <description>&lt;p&gt;先抒情，等等再來分析。&lt;/p&gt;
+&lt;p&gt;今天感覺很糟！我們專題是做藍芽點名系統，但從來沒有到實際課堂上做測試。如今專題快要結束了，需要更有力的實驗數據，所以今天到老師的課做壓力測試。&lt;/p&gt;
+&lt;p&gt;我原本還預想，學弟妹肯安裝我們的App、幫我們做實驗，是不是離開前要特別感謝、祝福他們期中歐趴？甚至還在想要不要給他們我的聯絡方式，有問題我可以隨時提供幫助，當作還人情。&lt;/p&gt;
+&lt;p&gt;到了班上之後，老師有點不悅地說：「你們到底有沒有要測試阿？」因為昨天我的組員就丟了個 apk 檔案給老師，老師回覆說要提供實驗說明。我後來寫了一篇，但沒有回老師。&lt;/p&gt;
+&lt;p&gt;我覺得是我疏忽了，但又在想我們組內根本亂成一團，這件事情誰在處理都不清楚。&lt;/p&gt;
+&lt;p&gt;再來我們快速地安裝定位器、開啟準備好的網頁。但我看這個班上死氣沉沉的，全部人都坐後排、低頭滑手機，對我們的到來也置若罔聞。&lt;/p&gt;
+&lt;p&gt;接著老師說：「你們學長要做個實驗，請大家下載這個 app。」&lt;/p&gt;
+&lt;p&gt;結果呢，點名一直失敗、老師用別的東西點名，我們（或許只有我）灰頭苦臉、逃難似地離開。&lt;/p&gt;
+&lt;p&gt;我感覺很失落、很氣憤。但我的組員好像不以為然、想甩鍋責任到別人身上，也沒羞恥心。&lt;/p&gt;
+&lt;p&gt;我一直都是抱持者工程師的使命，要做幾千人能穩定使用的資訊系統。但他們根本就是在做 AI Slop，怎麼運作的都不知道、隨意交差了事。&lt;/p&gt;
+</description>
+            <pubDate>Wed, 04 Nov 2026 14:03:54 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/daily-fail/</guid>
+        </item>
+        
+        <item>
+            <title>我只是普通學生</title>
+            <link>https://stevehsiao.com/posts/iam-a-soso-cs-student/</link>
+            <description>&lt;p&gt;資工系精進自己的東西：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;專研(自認做的東西沒有程度）&lt;/li&gt;
+&lt;li&gt;實習&lt;/li&gt;
+&lt;li&gt;大專生計畫&lt;/li&gt;
+&lt;li&gt;系隊 / 比賽(只有一個體驗性質的活動)&lt;/li&gt;
+&lt;li&gt;成績&lt;/li&gt;
+&lt;li&gt;演討會 / 活動&lt;/li&gt;
+&lt;li&gt;Side Project 吧&lt;br&gt;
+一概沒有。而且還沒朋友&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;當同學準備推甄時，我超焦慮。但是黃麒然老師都說他大二就準備考試了，因為成績太爛。只要目標決定好就好了。&lt;/p&gt;
+&lt;p&gt;認了吧，我因為以前大一大二太混，又沒有規劃，所以只是個普通學生。現在開始嘗試就好了。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;不過依我的經驗，通常系上找個伴讀書，遇到動機不夠強烈的人只會互相妥協、互相偷懶、互相抄作業。很難有一致的想法與作息。不如自己讀！除了[[分組合作]]。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+            <pubDate>Tue, 03 Nov 2026 01:55:12 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/iam-a-soso-cs-student/</guid>
+        </item>
+        
+        <item>
             <title>選簡單的也學不起來</title>
             <link>https://stevehsiao.com/posts/try-to-pursue-hard-things/</link>
             <description>&lt;blockquote&gt;
@@ -28,10 +75,11 @@
 &lt;/ul&gt;
 &lt;p&gt;確實做大事需要付出的時間和心力更多，但正所謂「生於憂患、死於安樂。」有了這些憂患才能激發更好的成果。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;同一個科目、主題下，應該直接追求並挑戰難的。&lt;/strong&gt; 和黃麒然老師說的一樣：要考研就是要考最好的學校，這樣失敗了只會掉到次好的學校；要賺錢就是要以周薪百萬作為目標。&lt;/p&gt;
-&lt;p&gt;看來我以前沒學過鋼琴就直接練〈Secret〉(不能說的祕密，周杰倫）加長快版、〈鏡夜〉（V.K 克）無影手尾奏、吉他彈〈Stairway to Heaven〉(Led Zeppelin&lt;br&gt;
-）Solo。真是藝低人膽大、年少輕狂！曲子彈出來了，逼格也裝滿了。&lt;/p&gt;
 &lt;p&gt;參考：&lt;br&gt;
 &lt;a href=&#34;https://stevehsiao.com/posts/114-1-semester-review/&#34;&gt;114-1 學期回顧&lt;/a&gt;、&lt;a href=&#34;https://stevehsiao.com/posts/114-2-semester-summary/&#34;&gt;114-2 學期總結&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;看來我以前沒學過鋼琴就直接練〈Secret〉(不能說的祕密，周杰倫）加長快版、〈鏡夜〉（V.K 克）無影手尾奏、吉他彈〈Stairway to Heaven〉(Led Zeppelin&lt;br&gt;
+）Solo。真是藝低人膽大、年少輕狂！曲子彈出來了，逼格也裝滿了。&lt;/p&gt;
 </description>
             <pubDate>Fri, 30 Oct 2026 06:34:20 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/try-to-pursue-hard-things/</guid>
@@ -467,128 +515,6 @@
 </description>
             <pubDate>Sun, 30 Aug 2026 00:00:00 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/not-recommand-wireless-headphones/</guid>
-        </item>
-        
-        <item>
-            <title>裝新系統 設定好 Linux</title>
-            <link>https://stevehsiao.com/posts/linux-settings/</link>
-            <description>&lt;ul&gt;
-&lt;li&gt;同步瀏覽器 Brave Sync&lt;/li&gt;
-&lt;li&gt;遷移檔案 SyncThings&lt;/li&gt;
-&lt;li&gt;調整 KDE 介面&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stevehsiao.com/posts/system-settings/&#34;&gt;裝新系統 個人設定&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;安裝中文輸入法
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ivonblog.com/posts/ubuntu-fcitx5/#2-%E5%AE%89%E8%A3%9Dfcitx5%E7%9A%84%E5%A5%97%E4%BB%B6&#34;&gt;Ubuntu繁體中文輸入法？改用Fcitx5來輸入中文吧！ · Ivon的部落格&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;安裝 Line&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-            <pubDate>Sat, 29 Aug 2026 00:00:00 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/linux-settings/</guid>
-        </item>
-        
-        <item>
-            <title>裝新系統 個人設定</title>
-            <link>https://stevehsiao.com/posts/system-settings/</link>
-            <description>&lt;h3 id=&#34;vim&#34;&gt;Vim&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;~/.vimrc&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;安裝vim-gtk3&lt;/li&gt;
-&lt;li&gt;set .vimrc&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;tabstop&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; nu
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;shiftwidth&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; expandtab
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;clipboard&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;unnamedplus
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;foldmethod&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;indent
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;laststatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;statusline&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;%f
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;keyboard&#34;&gt;Keyboard&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://stevehsiao.com/posts/cs/linux/keyd&#34;&gt;keyd&lt;/a&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/rvaiya/keyd
-cd keyd
-make &amp;&amp; sudo make install
-sudo systemctl enable --now keyd
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;sudo vim /etc/keyd/default.conf&lt;/code&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[ids]
-*
-
-[main]
-# 將 Caps Lock 映射為 Escape
-capslock = esc
-
-# 將原本的 Escape 映射為 Grave (即 ` 鍵)
-esc = `  
-# 強制定義 Right Shift，防止被誤認為 Left Shift
-rightshift = rightshift
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo keyd reload
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tmux&#34;&gt;Tmux&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;.tmux.conf&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;C-b to C-a&lt;/li&gt;
-&lt;li&gt;C-hjkl to move&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g prefix C-a
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g default-terminal &lt;span class=&#34;s2&#34;&gt;&#34;xterm-256color&#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -n C-h &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;-pane -L
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -n C-j &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;-pane -D
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -n C-k &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;-pane -U
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -n C-l &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt;-pane -R
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; r source-file ~/.tmux.conf
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -sg escape-time &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g mouse on
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# statusbar&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-position bottom
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-justify left
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=red&#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-left &lt;span class=&#34;s1&#34;&gt;&#39;&#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-left-length &lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-right-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=black bg=yellow&#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-right &lt;span class=&#34;s1&#34;&gt;&#39;%Y-%m-%d %H:%M &#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -g status-right-length &lt;span class=&#34;m&#34;&gt;50&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-current-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=black bg=red&#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-current-format &lt;span class=&#34;s1&#34;&gt;&#39; #I #W #F &#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=red bg=black&#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-format &lt;span class=&#34;s1&#34;&gt;&#39; #I #[fg=white]#W #[fg=yellow]#F &#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g window-status-bell-style &lt;span class=&#34;s1&#34;&gt;&#39;fg=yellow bg=red bold&#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;setw -g mode-keys vi
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; -T copy-mode-vi c send -X copy-pipe-and-cancel &lt;span class=&#34;s2&#34;&gt;&#34;xclip -selection clipboard&#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bind-key -T copy-mode-vi Y send -X copy-line
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bind&lt;/span&gt; r source-file ~/.tmux.conf &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; display &lt;span class=&#34;s2&#34;&gt;&#34;Reloaded!&#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ranger&#34;&gt;Ranger&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;.config/ranger/rc.conf&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;yp settings (xclip needed)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;map yp shell &lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; %d/%f &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xclip -selection clipboard
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;map yn shell &lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; %f &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xclip -selection clipboard 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;bashrc&#34;&gt;bashrc&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;~/.bashrc&lt;br&gt;
-自由調整&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-            <pubDate>Thu, 27 Aug 2026 15:14:40 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/system-settings/</guid>
         </item>
         
     </channel>
