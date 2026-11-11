@@ -21,6 +21,9 @@ date: 2026-08-10
   - 為什麼你該試試 Linux (撰寫中)
   - 讓 Linux 日常使用需要的步驟 [[裝新系統 設定好 Linux]]
   - 這是我常用的設定 [[裝新系統 個人設定]]
+	- 自行弄右鍵選單：
+		- .desktop  /.local/share/kio/servicemenus
+		- .sh /.local/bin
 - **GrapheneOS** 
   - ✅ 可把 Google play service 從系統程式降級成普通 app
   - ✅ 同時又可用推播、定位、登入驗證等功能。
