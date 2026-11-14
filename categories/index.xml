@@ -8,6 +8,26 @@
         
         
         <item>
+            <title>專題成果展日記</title>
+            <link>https://stevehsiao.com/posts/graduate-project-festival/</link>
+            <description>&lt;h3 id=&#34;不情不願的組&#34;&gt;不情不願的組&lt;/h3&gt;
+&lt;p&gt;別的組都在和自己組員聊天，但我覺得我和他們沒什麼好聊的。&lt;a href=&#34;https://stevehsiao.com/posts/still-feel-lonely/&#34;&gt;還是會孤單&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;好相處的同學&#34;&gt;好相處的同學&lt;/h3&gt;
+&lt;p&gt;我之前找不到組的時候，班長說他們五個人已達上限，今天發現他們加了另一個同學，變成六個人，不知是如何拜託系辦的。但我必須承認，&lt;strong&gt;他比我好相處太多了&lt;/strong&gt;，又會搞很多 AI 工具。我自己都發現我不太合群。&lt;/p&gt;
+&lt;h3 id=&#34;拍照&#34;&gt;拍照&lt;/h3&gt;
+&lt;p&gt;雖然看別的組都比我們厲害，而且有點難過，但我覺得拍照還是我的使命，必須拍。後來和同學聊天時，他說「&lt;strong&gt;我完全沒有發現你在拍。&lt;/strong&gt;」對我來說是我莫大肯定。因為想成為一個紀實攝影師，最重要的就是要讓自己隱形。&lt;/p&gt;
+&lt;h3 id=&#34;徐熊健老師的感想&#34;&gt;徐熊健老師的感想&lt;/h3&gt;
+&lt;p&gt;「我看了八個組，每個都不知道自己在做什麼，還要當場翻 Source Code，原理還是我幫他們找出來的。你們做的東西阿貓阿狗都會做。天啊，這些人要怎麼找工作。」&lt;/p&gt;
+&lt;p&gt;哀，我覺得我自己也算阿貓阿狗吧。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://stevehsiao.com/images/life/mcu%20115-1/img/2026/%E5%B0%88%E9%A1%8C%E6%88%90%E6%9E%9C%E5%B1%95%E6%97%A5%E8%A8%98/DSCF3518.jpg&#34; alt=&#34;DSCF3518.jpg&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stevehsiao.com/images/life/mcu%20115-1/img/2026/%E5%B0%88%E9%A1%8C%E6%88%90%E6%9E%9C%E5%B1%95%E6%97%A5%E8%A8%98/DSCF3576.jpg&#34; alt=&#34;DSCF3576.jpg&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://stevehsiao.com/images/life/mcu%20115-1/img/2026/%E5%B0%88%E9%A1%8C%E6%88%90%E6%9E%9C%E5%B1%95%E6%97%A5%E8%A8%98/DSCF3574.jpg&#34; alt=&#34;DSCF3574.jpg&#34;&gt;&lt;/p&gt;
+</description>
+            <pubDate>Fri, 13 Nov 2026 23:30:08 UTC</pubDate>
+            <guid>https://stevehsiao.com/posts/graduate-project-festival/</guid>
+        </item>
+        
+        <item>
             <title>還是會孤單</title>
             <link>https://stevehsiao.com/posts/still-feel-lonely/</link>
             <description>&lt;p&gt;我讀比較爛的大學，每天都覺得受夠了。&lt;/p&gt;
@@ -27,7 +47,7 @@
 &lt;li&gt;
 &lt;p&gt;機密分享&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;我跟老師說我用 Linux 後，他開放我用其他軟體做。他給了我這個大的彈性，那我就要好好做。&lt;/li&gt;
+&lt;li&gt;我跟老師說我用 Linux 後，開放我用其他軟體做。他給了我這個大的彈性，那我就要好好做。&lt;/li&gt;
 &lt;li&gt;復仇計畫：我以前上他的課都不認真，害我錯過了很多重要知識。我現在要非常認真上這門課。&lt;/li&gt;
 &lt;li&gt;目前大家下課都是鳥獸散。啊，我就是不喜歡那種冷漠的感覺拉！都是資工系，那就是要互相支援、互相交流啊。&lt;/li&gt;
 &lt;li&gt;我有時候會在社群發筆記，老師給我肯定。讓我覺得&lt;a href=&#34;https://stevehsiao.com/posts/iam-a-soso-cs-student/&#34;&gt;只是普通學生&lt;/a&gt;的我還有點用。&lt;/li&gt;
@@ -379,153 +399,6 @@
 </description>
             <pubDate>Fri, 18 Sep 2026 09:00:06 UTC</pubDate>
             <guid>https://stevehsiao.com/posts/elephants-and-bugs/</guid>
-        </item>
-        
-        <item>
-            <title>我為什麼放棄 MacBook，使用 ThinkPad？</title>
-            <link>https://stevehsiao.com/posts/why-sell-macbook-and-use-thinkpad/</link>
-            <description>&lt;blockquote&gt;
-&lt;p&gt;長話短說：RAM 不夠和想要 Linux 的客製化 （Bottle &#43; Line 就要 1GB!)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我目前有兩台主力用筆電，MacBook Air M1 (8/256) 和 ThinkPad T490。因為每次換機都要考量到資料同步問題，很難放心無縫銜接使用，所以我習慣只用一台，另一台會注定要吃灰。&lt;/p&gt;
-&lt;p&gt;確實 MacBook 完美地完成我很多影音編輯的工作，但現在我已經不需要 macOS、Adobe、高效能硬體。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;我已經決定放棄所有 MacBook 的好，留下信仰機 ThinkPad。&lt;/strong&gt; 以下表格說明我為什麼放棄 MacBook 的高效能、做工，以及如何克服 ThinkPad 的缺點：&lt;/p&gt;
-&lt;h3 id=&#34;1-效能&#34;&gt;1. 效能&lt;/h3&gt;
-&lt;p&gt;這方面 MacBook 部分大贏，但是以我的使用情境，MacBook 的優勢不明顯，某些方面甚至 ThinkPad 勝出。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;MacBook&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;ThinkPad&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;評論 / 折衷辦法&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;效能 (CPU)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;👑 CPU 超快，且不插電時全速運行&lt;/td&gt;
-          &lt;td&gt;CPU 堪用，不插電時比較 Lag&lt;/td&gt;
-          &lt;td&gt;筆電文書用，需要高性能時使用桌機&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;效能 (RAM)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;只有 8G RAM，絕對不夠！&lt;/td&gt;
-          &lt;td&gt;👑 RAM 用不完&lt;/td&gt;
-          &lt;td&gt;我用的 App 都超級吃 RAM。8G 連開個小 App 都需要提心吊膽&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;硬碟&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;只有 256G，難以安裝虛擬機&lt;/td&gt;
-          &lt;td&gt;👑 有 1T，可以安裝虛擬機&lt;/td&gt;
-          &lt;td&gt;在非常時期可能會需要安裝 Windows 來用，會佔大量空間&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;電池&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;👑 續航無敵&lt;/td&gt;
-          &lt;td&gt;續航普通&lt;/td&gt;
-          &lt;td&gt;為了延長電池壽命，我大多時間都是插著電源&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;風扇&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;👑 無風扇&lt;/td&gt;
-          &lt;td&gt;有風扇&lt;/td&gt;
-          &lt;td&gt;噪音我沒差，且冬天可當暖氣&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;2-質感&#34;&gt;2. 質感&lt;/h3&gt;
-&lt;p&gt;這方面 MacBook 穩贏，但是 ThinkPad 有辦法克服。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;MacBook&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;ThinkPad&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;評論 / 折衷辦法&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;外觀、重量與耐用度&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;👑 重量輕、外觀薄、金屬抗刮&lt;/td&gt;
-          &lt;td&gt;塑膠不耐刮&lt;/td&gt;
-          &lt;td&gt;Thinkpad 當作練健身&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;喇叭&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;👑 超好&lt;/td&gt;
-          &lt;td&gt;超爛&lt;/td&gt;
-          &lt;td&gt;很少聽。可用外接喇叭解決, 朋友有閒置喇叭。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;螢幕&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;👑 超好&lt;/td&gt;
-          &lt;td&gt;超爛&lt;/td&gt;
-          &lt;td&gt;Thinkpad 也可以改裝便宜 LCD, CP質高。原本的螢幕 DIY 成外接螢幕。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;單手開螢幕&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;👑 可&lt;/td&gt;
-          &lt;td&gt;不可&lt;/td&gt;
-          &lt;td&gt;反正一天也只會開兩三次&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;螢幕角度&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;有限制&lt;/td&gt;
-          &lt;td&gt;👑 可 180 度翻轉，提供更多好玩角度&lt;/td&gt;
-          &lt;td&gt;例如放在譜架上 - &lt;a href=&#34;https://revolc.blog/posts/read-sheet-with-linux/&#34;&gt;用 Linux 筆電看譜&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;外觀&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;果粉樣&lt;/td&gt;
-          &lt;td&gt;👑 極客樣&lt;/td&gt;
-          &lt;td&gt;風格不同，我更喜歡全黑的筆電。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;3-周邊與擴充&#34;&gt;3. 周邊與擴充&lt;/h3&gt;
-&lt;p&gt;這方面 ThinkPad 大勝。正是用 ThinkPad 爽的地方。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;MacBook&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;ThinkPad&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;評論 / 折衷辦法&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;插槽&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;只有兩個 USB-C，音源孔。需要透過轉接卡，破壞一體性。&lt;/td&gt;
-          &lt;td&gt;👑 擴充槽齊全，(還有 USB3, HDMI, microSD, RJ45)。&lt;/td&gt;
-          &lt;td&gt;-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;維修與改裝&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;零件嬌滴滴，難拆解，難以找到便宜高品質備料。&lt;/td&gt;
-          &lt;td&gt;👑 零件好更換，便宜，拆裝方便，DIY 樂趣多&lt;/td&gt;
-          &lt;td&gt;-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;鍵盤&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;鍵盤清脆，但是長時間比較不耐打&lt;/td&gt;
-          &lt;td&gt;👑 鍵盤比較爽&lt;/td&gt;
-          &lt;td&gt;-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;觸控板&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;Asahi Linux 的觸控板在打字時容易誤觸，懶得調整。&lt;/td&gt;
-          &lt;td&gt;👑 因為有小紅點，所以可以關閉觸控板&lt;/td&gt;
-          &lt;td&gt;-&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;既然 ThinkPad 的缺點全部都可以克服，且 MacBook 又有難以使用的情況，最終決定留下 ThinkPad。&lt;strong&gt;這樣做也是在實踐我不追求新產品、持續使用堪用硬體的環保理念。&lt;/strong&gt;&lt;/p&gt;
-</description>
-            <pubDate>Mon, 14 Sep 2026 04:11:11 UTC</pubDate>
-            <guid>https://stevehsiao.com/posts/why-sell-macbook-and-use-thinkpad/</guid>
         </item>
         
     </channel>
